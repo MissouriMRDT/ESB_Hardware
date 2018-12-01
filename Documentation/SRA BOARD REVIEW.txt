@@ -1,21 +1,21 @@
 SRA BOARD REVIEW
 File Managment
-	SRASensorBoard_Hardware
+	X SRASensorBoard_Hardware
 	X move documetaion folder to root
 	X add library folder for all libraries
 Schematic
-	wireing for AP1509
+	X wireing for AP1509
 	X Rename inductor from h to l
 	X 500 ohm resistors for leds
 	X Change the LED to D1
 	X led to 3.3V, 5V,
 	X Led for soil data, mq4 data, atm out, toggle
-	software defined led
+	X software defined led
 		X 1 for error
 		X 2 for other software flags
 	X move labels by sensors
 	push sensor software to new branch
-	upload sht10 documentation, am2302 documentation
+	X upload sht10 documentation, am2302 documentation
 	X analog in should be analog out , fix that flag
 	X toggle to uv toggle, signal goes through 500 ohm resistor
 	X PIN D2_3 should be output flag
