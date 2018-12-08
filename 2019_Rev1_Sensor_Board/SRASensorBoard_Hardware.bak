@@ -315,12 +315,8 @@ Text GLabel 7700 4650 2    50   Input ~ 0
 Atm_Dout
 Wire Wire Line
 	7650 4650 7700 4650
-Wire Notes Line
-	8300 4300 11200 4300
 Text Notes 8550 850  0    118  ~ 24
 Sensors
-Wire Notes Line
-	4100 3350 8300 3350
 Text Notes 600  1000 0    118  ~ 24
 Power 
 Text Notes 9100 4000 0    50   ~ 0
@@ -390,8 +386,6 @@ Text Notes 4500 1150 0    79   ~ 0
 Charged Coupled Device
 Text Notes 6750 1650 0    79   ~ 0
 UV LED
-Wire Notes Line
-	4100 500  4100 7800
 Text GLabel 4850 4150 0    50   Input ~ 0
 Methane_Vout
 Wire Wire Line
@@ -885,20 +879,10 @@ Text Notes 9350 2250 0    50   ~ 0
 AM2302 Sensor
 Text Notes 9350 3400 0    50   ~ 0
 MQ-4 Sensor
-Wire Notes Line
-	8300 6500 11200 6500
-Wire Notes Line
-	11200 6500 11200 500 
-Wire Notes Line
-	8300 500  8300 6500
 Text Notes 8300 4500 0    118  ~ 24
 LEDS 
 Wire Notes Line
-	500  500  500  7800
-Wire Notes Line
 	500  7800 4100 7800
-Wire Notes Line
-	500  500  11200 500 
 NoConn ~ 5800 3950
 NoConn ~ 5800 5500
 NoConn ~ 7650 4350
@@ -1465,4 +1449,24 @@ Wire Wire Line
 	4850 6200 4900 6200
 Text GLabel 4850 6200 0    50   Input ~ 0
 Soft_Flag2
+Wire Notes Line
+	8190 6535 8190 470 
+Wire Notes Line
+	11220 470  11220 6535
+Wire Notes Line
+	8190 4330 11225 4330
+Wire Notes Line
+	6970 6535 6970 7795
+Wire Notes Line
+	6970 7795 4095 7795
+Wire Notes Line
+	6970 6535 11220 6535
+Wire Notes Line
+	4095 470  4095 7795
+Wire Notes Line
+	470  3405 470  470 
+Wire Notes Line
+	470  3405 8190 3405
+Wire Notes Line
+	470  470  11220 470 
 $EndSCHEMATC
