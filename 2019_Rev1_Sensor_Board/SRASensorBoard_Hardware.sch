@@ -43,17 +43,6 @@ $EndComp
 Wire Wire Line
 	8450 5850 8450 5900
 $Comp
-L power:GND #PWR0101
-U 1 1 5BCB97F5
-P 3250 2750
-F 0 "#PWR0101" H 3250 2500 50  0001 C CNN
-F 1 "GND" H 3255 2577 50  0000 C CNN
-F 2 "" H 3250 2750 50  0001 C CNN
-F 3 "" H 3250 2750 50  0001 C CNN
-	1    3250 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 5BCB925B
 P 8450 5900
@@ -78,24 +67,13 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5BCC6BDC
-P 1450 950
-F 0 "Conn1" H 1550 900 60  0000 C CNN
-F 1 "AndersonPP" H 1500 1550 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1300 400 60  0001 C CNN
-F 3 "" H 1300 400 60  0001 C CNN
-	1    1450 950 
-	1    0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn1
-U 2 1 5BCC6C75
-P 1450 1200
-F 0 "Conn1" H 1550 1450 60  0000 C CNN
-F 1 "AndersonPP" H 900 1300 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1300 650 60  0001 C CNN
-F 3 "" H 1300 650 60  0001 C CNN
-	2    1450 1200
-	1    0    0    1   
+P 1500 2650
+F 0 "Conn1" H 1600 2600 60  0000 C CNN
+F 1 "AndersonPP" H 1550 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1350 2100 60  0001 C CNN
+F 3 "" H 1350 2100 60  0001 C CNN
+	1    1500 2650
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0108
@@ -382,9 +360,9 @@ Text GLabel 6600 2000 0    50   Input ~ 0
 UV_TOGGLE
 Text GLabel 7700 5700 2    50   Output ~ 0
 UV_TOGGLE
-Text Notes 4500 1150 0    79   ~ 16
+Text Notes 4400 1200 0    79   ~ 16
 Charged Coupled Device
-Text Notes 6750 1800 0    79   ~ 16
+Text Notes 6600 1800 0    79   ~ 16
 UV LED
 Text GLabel 4850 4150 0    50   Input ~ 0
 Methane_Vout
@@ -495,135 +473,36 @@ F 3 "" H 7800 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D1
-U 1 1 5BE495C1
-P 2150 1750
-F 0 "D1" V 2150 1850 50  0000 C CNN
-F 1 "D_Schottky" V 2050 1950 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 1750 50  0001 C CNN
-F 3 "~" H 2150 1750 50  0001 C CNN
-	1    2150 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pspice:INDUCTOR L1
-U 1 1 5BE5EBE3
-P 2500 1900
-F 0 "L1" H 2500 2000 50  0000 C CNN
-F 1 "47u" H 2500 1850 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 1900 50  0001 C CNN
-F 3 "" H 2500 1900 50  0001 C CNN
-	1    2500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5BE81B23
-P 3100 1900
-F 0 "#PWR01" H 3100 1750 50  0001 C CNN
-F 1 "+3.3V" H 3100 1850 50  0000 C CNN
-F 2 "" H 3100 1900 50  0001 C CNN
-F 3 "" H 3100 1900 50  0001 C CNN
-	1    3100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_ICs:AP1059 U2
-U 1 1 5BDE791C
-P 2600 1500
-F 0 "U2" H 2650 1400 60  0000 C CNN
-F 1 "AP1059" H 2750 2000 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2350 1400 60  0001 C CNN
-F 3 "" H 2350 1400 60  0001 C CNN
-	1    2600 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_ICs:AP1059 U4
-U 1 1 5BE9B5F0
-P 2600 2600
-F 0 "U4" H 2650 2500 60  0000 C CNN
-F 1 "AP1059" H 1850 3100 60  0001 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2350 2500 60  0001 C CNN
-F 3 "" H 2350 2500 60  0001 C CNN
-	1    2600 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 5BEAF8B9
-P 2150 2800
-F 0 "D2" V 2150 2900 50  0000 C CNN
-F 1 "D_Schottky" V 2000 3050 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2800 50  0001 C CNN
-F 3 "~" H 2150 2800 50  0001 C CNN
-	1    2150 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pspice:INDUCTOR L2
-U 1 1 5BEAF924
-P 2550 2950
-F 0 "L2" H 2550 3050 50  0000 C CNN
-F 1 "47u" H 2550 2900 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2550 2950 50  0001 C CNN
-F 3 "" H 2550 2950 50  0001 C CNN
-	1    2550 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR02
-U 1 1 5BED3911
-P 3100 2950
-F 0 "#PWR02" H 3100 2800 50  0001 C CNN
-F 1 "+5V" H 3100 2900 50  0000 C CNN
-F 2 "" H 3100 2950 50  0001 C CNN
-F 3 "" H 3100 2950 50  0001 C CNN
-	1    3100 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C3
 U 1 1 5BF3ACAB
-P 2900 1700
-F 0 "C3" H 2950 1600 50  0000 L CNN
-F 1 "10u" H 2750 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 1700 50  0001 C CNN
-F 3 "~" H 2900 1700 50  0001 C CNN
-	1    2900 1700
+P 2150 2400
+F 0 "C3" H 2200 2450 50  0000 L CNN
+F 1 "10u" H 2200 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2400 50  0001 C CNN
+F 3 "~" H 2150 2400 50  0001 C CNN
+	1    2150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 5BF44706
-P 2950 2800
-F 0 "C4" H 2800 2850 50  0000 L CNN
-F 1 "10u" H 2800 2750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2950 2800 50  0001 C CNN
-F 3 "~" H 2950 2800 50  0001 C CNN
-	1    2950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5BF4E0B2
-P 2150 2350
-F 0 "C2" H 1950 2400 50  0000 L CNN
-F 1 "10u" H 1950 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2350 50  0001 C CNN
-F 3 "~" H 2150 2350 50  0001 C CNN
-	1    2150 2350
+P 3000 2400
+F 0 "C4" H 2850 2450 50  0000 L CNN
+F 1 "10u" H 2850 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 2400 50  0001 C CNN
+F 3 "~" H 3000 2400 50  0001 C CNN
+	1    3000 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 5BF4E13F
-P 2150 1400
-F 0 "C1" H 1950 1450 50  0000 L CNN
-F 1 "10u" H 1950 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 1400 50  0001 C CNN
-F 3 "~" H 2150 1400 50  0001 C CNN
-	1    2150 1400
+P 2150 1800
+F 0 "C1" H 2200 1900 50  0000 L CNN
+F 1 "10u" H 2200 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 1800 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
+	1    2150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -648,9 +527,9 @@ F 3 "" H 7200 3650 60  0001 C CNN
 	1    7200 3350
 	1    0    0    -1  
 $EndComp
-Text Notes 4550 2450 0    79   ~ 16
+Text Notes 4400 2500 0    79   ~ 16
 CCD Ouput Byte1
-Text Notes 6400 2450 0    79   ~ 16
+Text Notes 6600 2500 0    79   ~ 16
 CCD Output Byte2
 Text GLabel 5050 2600 0    50   Output ~ 0
 Bit7
@@ -1146,7 +1025,7 @@ F 3 "" H 8750 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9050 5100 1    50   Input ~ 0
-UV-TOGGLE
+UV_TOGGLE
 Text GLabel 9350 5100 1    50   Input ~ 0
 Soil_Data
 Text GLabel 9650 5100 1    50   Input ~ 0
@@ -1304,135 +1183,8 @@ F 3 "" H 6900 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 1400 7000 1400
-Text Notes 6700 950  0    79   ~ 16
-CCD STUFF\n
-Wire Wire Line
-	3250 1050 3250 1150
-Connection ~ 3250 1150
-Wire Wire Line
-	3250 1150 3250 1250
-Connection ~ 3250 1250
-Wire Wire Line
-	3250 1250 3250 1350
-Connection ~ 3250 1350
-Wire Wire Line
-	3250 1350 3250 1450
-Connection ~ 3250 1450
-Wire Wire Line
-	3250 1450 3250 1550
-Wire Wire Line
-	2400 1150 2150 1150
-Wire Wire Line
-	2150 1150 2150 1300
-Connection ~ 2150 1300
-Wire Wire Line
-	2150 1500 2150 1550
-Wire Wire Line
-	2150 1550 2350 1550
-Connection ~ 2150 1550
-Wire Wire Line
-	2150 1550 2150 1600
-Connection ~ 3250 1550
-Wire Wire Line
-	2400 1450 2350 1450
-Wire Wire Line
-	2350 1450 2350 1550
-Connection ~ 2350 1550
-Wire Wire Line
-	2350 1550 2900 1550
-Wire Wire Line
-	2150 1900 2250 1900
-Wire Wire Line
-	2400 1250 2250 1250
-Wire Wire Line
-	2250 1250 2250 1900
-Connection ~ 2250 1900
-Wire Wire Line
-	2750 1900 2900 1900
-Wire Wire Line
-	2900 1550 2900 1600
-Connection ~ 2900 1550
-Wire Wire Line
-	2900 1550 3250 1550
-Wire Wire Line
-	2900 1800 2900 1900
-Connection ~ 2900 1900
-Wire Wire Line
-	3250 1550 3250 2250
-Connection ~ 3250 2250
-Wire Wire Line
-	3250 2250 3250 2350
-Connection ~ 3250 2350
-Wire Wire Line
-	3250 2350 3250 2450
-Connection ~ 3250 2450
-Wire Wire Line
-	3250 2450 3250 2550
-Connection ~ 3250 2550
-Wire Wire Line
-	3250 2550 3250 2650
-Wire Wire Line
-	2150 2250 2400 2250
-Wire Wire Line
-	1850 1050 3250 1050
-Wire Wire Line
-	1850 1300 1950 1300
-Wire Wire Line
-	1950 1300 1950 2250
-Wire Wire Line
-	1950 2250 2150 2250
-Connection ~ 1950 1300
-Wire Wire Line
-	1950 1300 2150 1300
-Connection ~ 2150 2250
-Wire Wire Line
-	2150 2450 2150 2650
-Wire Wire Line
-	3250 2650 2950 2650
-Connection ~ 3250 2650
-Connection ~ 2150 2650
-Wire Wire Line
-	2150 2950 2250 2950
-Wire Wire Line
-	2400 2350 2250 2350
-Wire Wire Line
-	2250 2350 2250 2950
-Connection ~ 2250 2950
-Wire Wire Line
-	2250 2950 2300 2950
-Wire Wire Line
-	2800 2950 2950 2950
-Wire Wire Line
-	2950 2650 2950 2700
-Connection ~ 2950 2650
-Wire Wire Line
-	2950 2900 2950 2950
-Connection ~ 2950 2950
-Wire Wire Line
-	2400 2450 2300 2450
-Wire Wire Line
-	2300 2450 2300 2850
-Wire Wire Line
-	2300 2850 2800 2850
-Wire Wire Line
-	2800 2850 2800 2950
-Connection ~ 2800 2950
-Wire Wire Line
-	2400 2550 2400 2650
-Wire Wire Line
-	2400 2650 2150 2650
-Wire Wire Line
-	2950 2650 2400 2650
-Connection ~ 2400 2650
-Wire Wire Line
-	2400 1350 2300 1350
-Wire Wire Line
-	2300 1350 2300 1750
-Wire Wire Line
-	2300 1750 2750 1750
-Wire Wire Line
-	2750 1750 2750 1900
-Connection ~ 2750 1900
+Text Notes 6550 950  0    79   ~ 16
+CCD Breakout\n
 Wire Wire Line
 	4850 6400 4900 6400
 Text GLabel 4850 6400 0    50   Output ~ 0
@@ -1504,16 +1256,146 @@ Wire Wire Line
 Connection ~ 10850 5900
 Wire Wire Line
 	10850 5900 10850 5950
-Wire Wire Line
-	2900 1900 3100 1900
-Wire Wire Line
-	3250 2750 3250 2650
-Wire Wire Line
-	2950 2950 3100 2950
 Text Notes 8140 7645 0    59   ~ 0
 12/19/18
 Text Notes 7350 7510 0    79   ~ 0
 SRA Sensor Board Hardware
 Text Notes 10580 7645 0    59   ~ 0
 Number 1
+$Comp
+L MRDT_Devices:OKI U2
+U 1 1 5C18C3BC
+P 2400 1750
+F 0 "U2" H 2450 1700 60  0001 C CNN
+F 1 "OKI" H 2600 2000 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2200 1650 60  0001 C CNN
+F 3 "" H 2200 1650 60  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U3
+U 1 1 5C18C438
+P 2400 2350
+F 0 "U3" H 2450 2300 60  0001 C CNN
+F 1 "OKI" H 2600 2600 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2200 2250 60  0001 C CNN
+F 3 "" H 2200 2250 60  0001 C CNN
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5C28B373
+P 3000 1600
+F 0 "#PWR0101" H 3000 1450 50  0001 C CNN
+F 1 "+5V" H 2950 1750 50  0000 C CNN
+F 2 "" H 3000 1600 50  0001 C CNN
+F 3 "" H 3000 1600 50  0001 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2550 3000 2500
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5C309CE1
+P 3000 2200
+F 0 "#PWR0105" H 3000 2050 50  0001 C CNN
+F 1 "+3.3V" H 2900 2350 50  0000 C CNN
+F 2 "" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 2250
+Connection ~ 2600 2550
+Wire Wire Line
+	3000 2250 3000 2300
+Wire Wire Line
+	3000 2200 3000 2250
+Wire Wire Line
+	2600 2550 3000 2550
+Wire Wire Line
+	3000 1600 3000 1650
+Connection ~ 3000 1650
+Connection ~ 2600 1950
+Wire Wire Line
+	2600 1950 3000 1950
+Wire Wire Line
+	3000 1700 3000 1650
+Wire Wire Line
+	3000 1900 3000 1950
+$Comp
+L Device:C_Small C2
+U 1 1 5BF4E0B2
+P 3000 1800
+F 0 "C2" H 3100 1850 50  0000 L CNN
+F 1 "10u" H 3100 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 1800 50  0001 C CNN
+F 3 "~" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2250 2150 2250
+Wire Wire Line
+	2150 2250 2150 2300
+Wire Wire Line
+	2150 2500 2150 2550
+Wire Wire Line
+	2600 2550 2150 2550
+Wire Wire Line
+	2150 1650 2150 1700
+Wire Wire Line
+	2150 1650 2200 1650
+Wire Wire Line
+	2150 1900 2150 1950
+Wire Wire Line
+	2150 1950 2600 1950
+Wire Wire Line
+	2150 1650 2000 1650
+Connection ~ 2150 1650
+Connection ~ 2150 2250
+Wire Wire Line
+	3000 1950 3100 1950
+Connection ~ 3000 1950
+Connection ~ 3000 2550
+Wire Wire Line
+	2150 2550 1900 2550
+Connection ~ 2150 2550
+$Comp
+L power:GND #PWR0107
+U 1 1 5C5BBE3B
+P 3100 2550
+F 0 "#PWR0107" H 3100 2300 50  0001 C CNN
+F 1 "GND" H 3105 2377 50  0000 C CNN
+F 2 "" H 3100 2550 50  0001 C CNN
+F 3 "" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1950 3100 2550
+Connection ~ 3100 2550
+Wire Wire Line
+	3100 2550 3000 2550
+Wire Wire Line
+	2150 2250 2000 2250
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 2 1 5BCC6C75
+P 1500 1750
+F 0 "Conn1" H 1600 2000 60  0000 C CNN
+F 1 "AndersonPP" H 950 1850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1350 1200 60  0001 C CNN
+F 3 "" H 1350 1200 60  0001 C CNN
+	2    1500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1650 2000 1650
+Connection ~ 2000 1650
+Wire Wire Line
+	2000 1650 2000 2250
 $EndSCHEMATC
