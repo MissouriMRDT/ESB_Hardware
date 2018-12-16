@@ -18,8 +18,10 @@ Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost 
 17,"D5,D6,D7,D8",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,LED YELLOW CLEAR SMD,160-1448-1-ND,,,Digikey,4,0.31,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838,
 18,D9,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,LED RED CLEAR SMD,160-1447-1-ND,,,Digikey,1,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836,
 19,"D10,D11",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,LED BLUE CLEAR SMD,160-1647-1-ND,,,Digikey,2,0.53,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191TBKT/160-1647-1-ND/573587,
+,,,,,,,,,,,,,,,
 20,N/A,N/A,SHT10,,Mesh-protected Weather-proof Temperature/Humidity Sensor - SHT10,"1298
-",,,Adafruit,1,49.95,,,,
-21,N/A,N/A,AM2302,, SENSOR HUMID/TEMP 5V DTL 2% MOD, 1528-1229-ND,,,,,,,,,
+","1298
+",,Adafruit,1,49.95,,,https://www.adafruit.com/product/1298,
+21,N/A,N/A,AM2302,, SENSOR HUMID/TEMP 5V DTL 2% MOD, 1528-1229-ND,,,Digikey,1,15,,,https://www.digikey.com/products/en?mpart=393&v=1528,
 22,N/A,N/A,MQ-4,,METHANE CNG GAS SENSOR - MQ-4,1568-1412-ND,,,Digikey,1,4.95,,,https://www.digikey.com/products/en?mpart=SEN-09404&v=1568,
 23,N/A,N/A,CCD,,Image Sensors CCD Linear Sensor 3648 8x20 54mm,757-TCD1304DG8ZAW,,,Mosuer Electronics,1,24.78,,,https://www.mouser.com/ProductDetail/Toshiba/TCD1304DG8ZAW?qs=sGAEpiMZZMvhQj7WZhFIANEd5JRqj0F27xtKidskitrbkI%2fmvu68ig%3d%3d,
