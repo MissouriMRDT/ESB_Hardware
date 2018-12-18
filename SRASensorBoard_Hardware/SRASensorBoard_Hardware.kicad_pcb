@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerbs/"))
   )
 
   (net 0 "")
@@ -9536,7 +9536,7 @@
   (segment (start 142.748 89.408) (end 143.7386 88.4174) (width 0.381) (layer F.Cu) (net 25))
   (segment (start 150.1114 88.4174) (end 152.2476 88.4174) (width 0.381) (layer F.Cu) (net 26))
 
-  (zone (net 3) (net_name +3V3) (layer B.Cu) (tstamp 5C16D7E9) (hatch edge 0.508)
+  (zone (net 3) (net_name +3V3) (layer B.Cu) (tstamp 5C1990A3) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -9837,7 +9837,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C16D7E6) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C1990A0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
