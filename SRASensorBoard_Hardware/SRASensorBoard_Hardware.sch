@@ -1385,7 +1385,7 @@ Wire Notes Line
 Wire Notes Line
 	4150 2800 450  2800
 Wire Notes Line
-	8200 4550 11250 4550
+	8200 4500 11250 4500
 Wire Notes Line
 	4150 3400 8200 3400
 Wire Notes Line
