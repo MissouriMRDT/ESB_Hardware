@@ -1,0 +1,61 @@
+Tiva Pinout for SRA
+-----X9:A1-----
+A1_1:+3.3V:+3.3V
+A1_2:PE4  :Methane_Vout:Analog Read
+
+-----X9:B1-----
+B1_1:+5V:+5V
+B1_1:GND:GND
+B1_3:PE0:Methane_Vin :AR
+
+-----X9:C1-----
+C1_3:PF3:Soil_Sck    :DIO
+
+-----X9:D1-----
+D1_1:GND:GND
+D1_7:PD0:Soil_Data   :AR
+D1_8:PN2:Atm_Dout    :DIO
+
+-----X7:A2-----
+A2_3:PP0:TOGGLE      :DIO
+A2_7:PQ0:Master_CLOCK:SPI_CLK(5)
+
+-----X7:B2-----
+B2_2:GND:GND
+
+-----X7:C2-----
+C2_1:PG1:ICG         :SDA(1)
+C2_7:PHO:Shift_Gate  :DIO
+
+-----X7:D2-----
+D2_6:PQ2:SDATA       :MOSI(5)
+D2_7:PQ3:SCLK        :MISO(5)
+D2_9:PQ1:CS          :CS(5)
+
+//CCD Pinout/////////////////////////////////////
+//These are high priority traces
+PE_0:Master Clock-SPI_Clk
+PE_3:SH (Shift Gate)
+PE_4:ICG(integrateion Clear Gate)
+
+
+//CCD Output Byte1
+Molex 08:PK(0-7)
+PK_0:CCD_Bit7
+PK_1:CCD_Bit8
+PK_2:CCD_Bit9
+PK_3:CCD_Bit10
+PK_4:CCD_Bit11
+PK_5:CCD_Bit12
+PK_6:CCD_Bit13
+PK_7:CCD_Bit14
+//CCD Output Byte2
+Molex 08:
+PM_0:CCD_Bit0
+PM_1:CCD_Bit1
+PM_2:CCD_Bit2
+PM_3:CCD_Bit3
+PM_4:CCD_Bit4
+PM_5:CCD_Bit5
+PM_6:CCD_Bit6
+PA_7:AnalogIn
