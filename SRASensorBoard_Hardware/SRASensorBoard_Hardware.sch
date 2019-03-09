@@ -360,7 +360,7 @@ Text GLabel 6600 2000 0    50   Input ~ 0
 UV_TOGGLE
 Text GLabel 7700 5700 2    50   Output ~ 0
 UV_TOGGLE
-Text Notes 5250 1800 0    79   ~ 16
+Text Notes 5250 1700 0    79   ~ 16
 CCD_TIVA
 Text Notes 6600 1800 0    79   ~ 16
 UV LED
@@ -368,17 +368,6 @@ Text GLabel 5850 4350 2    50   Input ~ 0
 Methane_Vout
 Wire Wire Line
 	5850 4350 5800 4350
-$Comp
-L power:+3.3V #PWR0116
-U 1 1 5BCFBAC2
-P 5050 1850
-F 0 "#PWR0116" H 5050 1700 50  0001 C CNN
-F 1 "+3.3V" H 5065 2023 50  0000 C CNN
-F 2 "" H 5050 1850 50  0001 C CNN
-F 3 "" H 5050 1850 50  0001 C CNN
-	1    5050 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5BCFBBAE
@@ -488,20 +477,16 @@ $EndComp
 Text GLabel 7700 4450 2    50   Input ~ 0
 AnalogOut
 $Comp
-L MRDT_Connectors:Molex_SL_04 Conn5
+L MRDT_Connectors:Molex_SL_05 Conn5
 U 1 1 5BF11252
 P 5300 2250
 F 0 "Conn5" H 5427 2558 60  0000 L CNN
-F 1 "Molex_SL_04" H 5427 2452 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 5300 2250 60  0001 C CNN
+F 1 "Molex_SL_05" H 5427 2452 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 5300 2250 60  0001 C CNN
 F 3 "" H 5300 2250 60  0001 C CNN
 	1    5300 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 1900 5100 1900
-Wire Wire Line
-	5050 1900 5050 1850
 Wire Wire Line
 	5050 2250 5050 2200
 Wire Wire Line
@@ -1141,12 +1126,12 @@ Text Notes 7950 4400 2    50   ~ 0
 A14
 Text Notes 6500 4400 2    50   ~ 0
 A1
-Text GLabel 5050 2100 0    50   Output ~ 0
-CCD_INT
+Text GLabel 5050 2000 0    50   Output ~ 0
+CCD_INT1
 Wire Wire Line
 	5100 2100 5050 2100
 Text GLabel 5850 4150 2    50   Input ~ 0
-CCD_INT
+CCD_INT1
 Wire Wire Line
 	5850 4150 5800 4150
 Text GLabel 10150 5100 1    50   Input ~ 0
@@ -1192,7 +1177,7 @@ Text Notes 10100 6300 0    50   ~ 0
 YELO
 Wire Wire Line
 	10150 5100 10150 5150
-Text GLabel 5050 2000 0    50   Output ~ 0
+Text GLabel 5050 2100 0    50   Output ~ 0
 CCD_OS
 Wire Wire Line
 	5100 2000 5050 2000
@@ -1202,4 +1187,27 @@ Wire Wire Line
 	5800 6200 5850 6200
 Text Notes 6200 6250 0    50   ~ 0
 A10
+Text GLabel 5050 1900 0    50   Output ~ 0
+CCD_INT2
+Wire Wire Line
+	5100 1900 5050 1900
+Text GLabel 5850 4250 2    50   Input ~ 0
+CCD_INT2
+Wire Wire Line
+	5800 4250 5850 4250
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C84A937
+P 5050 1750
+F 0 "#PWR?" H 5050 1600 50  0001 C CNN
+F 1 "+3.3V" H 5065 1923 50  0000 C CNN
+F 2 "" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0001 C CNN
+	1    5050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1800 5050 1800
+Wire Wire Line
+	5050 1800 5050 1750
 $EndSCHEMATC
