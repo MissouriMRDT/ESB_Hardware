@@ -360,7 +360,7 @@ Text GLabel 6600 2000 0    50   Input ~ 0
 UV_TOGGLE
 Text GLabel 7700 5700 2    50   Output ~ 0
 UV_TOGGLE
-Text Notes 5250 1800 0    79   ~ 16
+Text Notes 5250 1700 0    79   ~ 16
 CCD_TIVA
 Text Notes 6600 1800 0    79   ~ 16
 UV LED
@@ -477,12 +477,12 @@ $EndComp
 Text GLabel 7700 4450 2    50   Input ~ 0
 AnalogOut
 $Comp
-L MRDT_Connectors:Molex_SL_04 Conn5
+L MRDT_Connectors:Molex_SL_05 Conn5
 U 1 1 5BF11252
 P 5300 2250
 F 0 "Conn5" H 5427 2558 60  0000 L CNN
-F 1 "Molex_SL_04" H 5427 2452 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 5300 2250 60  0001 C CNN
+F 1 "Molex_SL_05" H 5427 2452 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 5300 2250 60  0001 C CNN
 F 3 "" H 5300 2250 60  0001 C CNN
 	1    5300 2250
 	1    0    0    -1  
@@ -1195,4 +1195,19 @@ Text GLabel 5850 4250 2    50   Input ~ 0
 CCD_INT2
 Wire Wire Line
 	5800 4250 5850 4250
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C84A937
+P 5050 1750
+F 0 "#PWR?" H 5050 1600 50  0001 C CNN
+F 1 "+3.3V" H 5065 1923 50  0000 C CNN
+F 2 "" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0001 C CNN
+	1    5050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1800 5050 1800
+Wire Wire Line
+	5050 1800 5050 1750
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\andre\OneDrive\Documents\Rover\GitHub\Hardware\SRASensors_Hardware\SRASensorBoard_Hardware\SRASensorBoard_Hardware.sch)
-    (date "3/9/2019 10:57:10 AM")
+    (date "3/9/2019 3:14:01 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
