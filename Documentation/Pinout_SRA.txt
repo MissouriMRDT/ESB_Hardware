@@ -1,16 +1,15 @@
 Tiva Pinout for SRA
 -----X9:A1-----
 A1_1:+3.3V:+3.3V
-A1_2:PE4  :ICG
-A1_3:PC4  :Methane_Vout:Analog Read
+A1_6:PE5:Soil_Data
 
 -----X9:B1-----
-B1_1 :+5V:+5V
-B1_1 :GND:GND
-B1_3 :PE0:Master_CLOCK:DIO
-B1_6 :PE3:Shift_Gate
-B1_9 :PM4:Bit4
-b1_10:PM5:Bit5
+B1_1:+5V:+5V
+B1_1:GND:GND
+B1_3:PE0:CCD_INT1
+B1_4:PE1:CCD_INT2
+B1_5:PE2:Methane_Vout:A1
+
 
 -----X9:C1-----
 C1_1:PF1:SDATA       :MOSI(3)
@@ -19,58 +18,18 @@ C1_3:PF3:CS	     :CS(3)
 
 -----X9:D1-----
 D1_1:GND:GND
-D1_2:PM3:Bit3        :DIO
-D1_7:PD0:Soil_Data   :AR
 D1_8:PN2:Atm_Dout    :DIO
 
 -----X7:A2-----
+A2_8:PP4:SW_Flag 1
+A2_9:PN5:SW_Flag 2
+A2_10:PN4:SW_Error
 
 -----X7:B2-----
 B2_2:GND:GND	     :
 B2_4:PB5:Soil_Sck    :
-B2_5:PK0:Bit7	     :
-B2_6:PK1:Bit8	     :
-B2_7:PK2:Bit9	     :
-B2_8:PK3:Bit10	     :
------X7:C2-----
-C2_2 :PK4:Bit11
-C2_3 :PK5:Bit12
-C2_4 :PM0:Bit0
-C2_5 :PM1:Bit1
-C2_6 :PM2:Bit2
-C2_9 :PK6:Bit13
-C2_10:PK7:Bit14
+B2_4:PK3:CCD_OS	     : A19
 
 -----X7:D2-----
 D2_1 :GND:GND
 D2_3 :PP5:TOGGLE
-D2_4 :PA7:AnalogOut
-D2_10:PM6:Bit6 
-
-//CCD Pinout/////////////////////////////////////
-//These are high priority traces
-PE_0:Master Clock-SPI_Clk
-PE_3:SH (Shift Gate)
-PE_4:ICG(integrateion Clear Gate)
-
-
-//CCD Output Byte1
-Molex 08:PK(0-7)
-PK_0:CCD_Bit7
-PK_1:CCD_Bit8
-PK_2:CCD_Bit9
-PK_3:CCD_Bit10
-PK_4:CCD_Bit11
-PK_5:CCD_Bit12
-PK_6:CCD_Bit13
-PK_7:CCD_Bit14
-//CCD Output Byte2
-Molex 08:
-PM_0:CCD_Bit0
-PM_1:CCD_Bit1
-PM_2:CCD_Bit2
-PM_3:CCD_Bit3
-PM_4:CCD_Bit4
-PM_5:CCD_Bit5
-PM_6:CCD_Bit6
-PA_7:AnalogIn
