@@ -209,11 +209,11 @@ X 3 Vin -100 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Shields_TM4C129E_Launchpad
+# SRA_Sensor_Board-rescue_TM4C129E_Launchpad-MRDT_Shields
 #
-DEF MRDT_Shields_TM4C129E_Launchpad U 0 20 Y Y 8 L N
+DEF SRA_Sensor_Board-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "MRDT_Shields_TM4C129E_Launchpad" 100 1150 60 H V C CNN
+F1 "SRA_Sensor_Board-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
