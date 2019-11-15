@@ -1,4 +1,4 @@
-16543354770991194
+16551224379071637
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50321,7 +50321,7 @@ TM4C129E_Launchpad_FULL_THT_TOP
 
 0
 80
-77
+75
 MRDT_Shields
 TM4C129E_Launchpad_X7_SMD_BOTTOM
 
@@ -73954,6 +73954,41 @@ varistor SIOV
 0
 2
 2
+custom
+Austin_Christman_Sig_22mmx6.3mm
+
+
+0
+0
+0
+custom
+Austin_Christman_Sig_22mmx8.3mm
+
+
+0
+0
+0
+custom
+Austin_Hill_Sig_22mmx9.3mm
+
+
+0
+0
+0
+custom
+Donald_Shaw_SRP1270
+
+
+0
+2
+2
+custom
+LM3478MMX&slash_NOPB
+
+
+0
+8
+8
 footprints
 IRF7821PBF
 
