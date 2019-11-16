@@ -947,8 +947,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 9350 6100 9350
 Wire Wire Line
-	6100 9350 6100 9700
-Wire Wire Line
 	2550 10050 2250 10050
 Wire Wire Line
 	2250 10050 2250 10250
@@ -998,22 +996,6 @@ Wire Wire Line
 	1200 11000 1550 11000
 Connection ~ 1550 11000
 $Comp
-L Device:D_Schottky D1
-U 1 1 5DAA886E
-P 6350 9700
-F 0 "D1" H 6350 9500 50  0000 C CNN
-F 1 "950mV 10A" H 6350 9600 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp" H 6350 9700 50  0001 C CNN
-F 3 "~" H 6350 9700 50  0001 C CNN
-	1    6350 9700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 9700 6100 9700
-Connection ~ 6100 9700
-Wire Wire Line
-	6100 9700 6100 9950
-$Comp
 L Device:CP1 C10
 U 1 1 5DAAF9F5
 P 6550 10550
@@ -1036,12 +1018,7 @@ F 3 "~" H 6700 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 10650 6700 10400
-Wire Wire Line
 	6700 10400 6550 10400
-Wire Wire Line
-	6700 10400 6700 9700
-Connection ~ 6700 10400
 Wire Wire Line
 	6550 10700 6550 11000
 Wire Wire Line
@@ -1064,12 +1041,6 @@ Wire Wire Line
 	2850 9100 2850 10150
 Wire Wire Line
 	2850 10150 2950 10150
-Wire Wire Line
-	6700 9100 6700 9700
-Wire Wire Line
-	6700 9700 6500 9700
-Wire Wire Line
-	4400 9100 6700 9100
 $Comp
 L Device:R R1
 U 1 1 5DAEF196
@@ -1125,7 +1096,6 @@ $EndComp
 Connection ~ 4200 11000
 Wire Wire Line
 	4200 11000 5700 11000
-Connection ~ 6700 9700
 Wire Wire Line
 	6100 11000 6550 11000
 Connection ~ 6100 11000
@@ -1134,15 +1104,14 @@ Wire Wire Line
 $Comp
 L power:+24V #PWR0106
 U 1 1 5DBA47BF
-P 6700 9100
-F 0 "#PWR0106" H 6700 8950 50  0001 C CNN
-F 1 "+24V" H 6715 9273 50  0000 C CNN
-F 2 "" H 6700 9100 50  0001 C CNN
-F 3 "" H 6700 9100 50  0001 C CNN
-	1    6700 9100
+P 7950 9050
+F 0 "#PWR0106" H 7950 8900 50  0001 C CNN
+F 1 "+24V" H 7965 9223 50  0000 C CNN
+F 2 "" H 7950 9050 50  0001 C CNN
+F 3 "" H 7950 9050 50  0001 C CNN
+	1    7950 9050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 9100
 $Comp
 L power:GND #PWR0107
 U 1 1 5DBAC2C8
@@ -1337,7 +1306,7 @@ F 3 "" H 9650 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 7 1 5DD2C269
 P 14550 3600
 F 0 "U4" H 14450 3450 60  0000 L CNN
@@ -1348,7 +1317,7 @@ F 3 "" H 14550 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 8 1 5DD2FD4D
 P 15050 3600
 F 0 "U4" H 15050 3450 60  0000 C CNN
@@ -1976,7 +1945,7 @@ Wire Wire Line
 NoConn ~ 13450 1550
 NoConn ~ 12550 1650
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 4 1 5DD10D78
 P 15050 2100
 F 0 "U4" H 15050 1950 60  0000 C CNN
@@ -1987,7 +1956,7 @@ F 3 "" H 15050 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 3 1 5DD0DE2F
 P 14550 2100
 F 0 "U4" H 14450 1950 60  0000 L CNN
@@ -1998,7 +1967,7 @@ F 3 "" H 14550 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 2 1 5DCDED37
 P 13250 2100
 F 0 "U4" H 13250 1950 60  0000 C CNN
@@ -2009,7 +1978,7 @@ F 3 "" H 13250 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 1 1 5DCDAD76
 P 12750 2100
 F 0 "U4" H 12650 1950 60  0000 L CNN
@@ -2020,7 +1989,7 @@ F 3 "" H 12750 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 5 1 5DD95673
 P 12750 3600
 F 0 "U4" H 12650 3450 60  0000 L CNN
@@ -2031,7 +2000,7 @@ F 3 "" H 12750 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 6 1 5DD9982E
 P 13250 3600
 F 0 "U4" H 13250 3450 60  0000 C CNN
@@ -2052,4 +2021,54 @@ F 3 "" H 2950 9950 60  0000 C CNN
 	1    2950 9950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7950 9050 7950 9100
+Wire Wire Line
+	7850 9450 7950 9450
+Connection ~ 7950 9450
+$Comp
+L SBRD10200TR:SBRD10200TR D1
+U 1 1 5DDAAED7
+P 6150 9450
+F 0 "D1" H 7000 9715 50  0000 C CNN
+F 1 "SBRD10200TR" H 7000 9624 50  0000 C CNN
+F 2 "MRDT_ICs:SMC_DPAK" H 7700 9550 50  0001 L CNN
+F 3 "http://www.smc-diodes.com/propdf/SBRD10200%20N1314%20REV.A.pdf" H 7700 9450 50  0001 L CNN
+F 4 "SCHOTTKY RECTIFIER" H 7700 9350 50  0001 L CNN "Description"
+F 5 "" H 7700 9250 50  0001 L CNN "Height"
+F 6 "SMC Diode Solutions" H 7700 9150 50  0001 L CNN "Manufacturer_Name"
+F 7 "SBRD10200TR" H 7700 9050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7700 8950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 7700 8850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7700 8750 50  0001 L CNN "RS Part Number"
+F 11 "" H 7700 8650 50  0001 L CNN "RS Price/Stock"
+	1    6150 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 9350 6100 9450
+Wire Wire Line
+	6150 9450 6100 9450
+Connection ~ 6100 9450
+Wire Wire Line
+	6100 9450 6100 9550
+Wire Wire Line
+	6150 9550 6100 9550
+Connection ~ 6100 9550
+Wire Wire Line
+	6100 9550 6100 9950
+Wire Wire Line
+	7950 10400 6700 10400
+Wire Wire Line
+	7950 9450 7950 10400
+Connection ~ 6700 10400
+Wire Wire Line
+	6700 10450 6700 10400
+Wire Wire Line
+	6700 10400 6700 10650
+Wire Wire Line
+	4400 9100 7950 9100
+Connection ~ 7950 9100
+Wire Wire Line
+	7950 9100 7950 9450
 $EndSCHEMATC
