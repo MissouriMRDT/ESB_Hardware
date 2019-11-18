@@ -602,26 +602,20 @@ L power:GND #PWR025
 U 1 1 5DA65A03
 P 15450 2650
 F 0 "#PWR025" H 15450 2400 50  0001 C CNN
-F 1 "GND" H 15455 2477 50  0000 C CNN
+F 1 "GND" H 15600 2600 50  0000 C CNN
 F 2 "" H 15450 2650 50  0001 C CNN
 F 3 "" H 15450 2650 50  0001 C CNN
 	1    15450 2650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13600 3350 13450 3350
 Text GLabel 13600 3350 2    50   Input ~ 0
 CCD_OS
-Wire Wire Line
-	12450 3550 12550 3550
 Text GLabel 12450 3550 0    50   Output ~ 0
 SW_ERROR
-Wire Wire Line
-	12450 3450 12550 3450
 Text GLabel 12450 3450 0    50   Output ~ 0
 SW_Flag2
-Wire Wire Line
-	12450 3350 12550 3350
 Text GLabel 12450 3350 0    50   Output ~ 0
 SW_Flag1
 Wire Wire Line
@@ -660,20 +654,16 @@ Wire Wire Line
 	13600 1350 13450 1350
 Text GLabel 13600 1350 2    50   Input ~ 0
 CCD_INT1
-Wire Wire Line
-	13550 1250 13450 1250
-Wire Wire Line
-	13550 1250 13550 1200
 $Comp
 L power:GND #PWR021
 U 1 1 5DA35372
-P 13550 1200
-F 0 "#PWR021" H 13550 950 50  0001 C CNN
-F 1 "GND" H 13555 1027 50  0000 C CNN
-F 2 "" H 13550 1200 50  0001 C CNN
-F 3 "" H 13550 1200 50  0001 C CNN
-	1    13550 1200
-	-1   0    0    1   
+P 14100 1250
+F 0 "#PWR021" H 14100 1000 50  0001 C CNN
+F 1 "GND" H 14105 1077 50  0000 C CNN
+F 2 "" H 14100 1250 50  0001 C CNN
+F 3 "" H 14100 1250 50  0001 C CNN
+	1    14100 1250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12450 1150 12550 1150
@@ -692,7 +682,6 @@ F 3 "" H 12450 1050 50  0001 C CNN
 $EndComp
 Text Notes 10850 7850 0    98   ~ 20
 Indicators
-NoConn ~ 12550 2750
 $Comp
 L power:+24V #PWR016
 U 1 1 5DB298C0
@@ -704,9 +693,6 @@ F 3 "" H 10000 8550 50  0001 C CNN
 	1    10000 8550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12550 3250
-NoConn ~ 12550 3150
-NoConn ~ 12550 3050
 NoConn ~ 13450 2850
 NoConn ~ 13450 2950
 NoConn ~ 13450 3250
@@ -771,34 +757,6 @@ F 3 "" H 12450 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12450 2600 12450 2650
-Wire Wire Line
-	12450 2650 12550 2650
-$Comp
-L power:+5V #PWR022
-U 1 1 5DC1A2BD
-P 13550 2600
-F 0 "#PWR022" H 13550 2450 50  0001 C CNN
-F 1 "+5V" H 13565 2773 50  0000 C CNN
-F 2 "" H 13550 2600 50  0001 C CNN
-F 3 "" H 13550 2600 50  0001 C CNN
-	1    13550 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13550 2600 13550 2650
-Wire Wire Line
-	13550 2650 13450 2650
-$Comp
-L SRA_Sensor_Board-rescue:LM3478MMX_NOPB-2019-10-10_22-50-45 U1
-U 1 1 5DA0E4B1
-P 2950 9950
-F 0 "U1" H 4250 10337 60  0000 C CNN
-F 1 "LM3478MMX_NOPB" H 4250 10231 60  0000 C CNN
-F 2 "custom:LM3478MMX&slash_NOPB" H 4250 10190 60  0001 C CNN
-F 3 "" H 2950 9950 60  0000 C CNN
-	1    2950 9950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C9
 U 1 1 5DA108B7
@@ -958,8 +916,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 9350 6100 9350
 Wire Wire Line
-	6100 9350 6100 9700
-Wire Wire Line
 	2550 10050 2250 10050
 Wire Wire Line
 	2250 10050 2250 10250
@@ -1009,22 +965,6 @@ Wire Wire Line
 	1200 11000 1550 11000
 Connection ~ 1550 11000
 $Comp
-L Device:D_Schottky D1
-U 1 1 5DAA886E
-P 6350 9700
-F 0 "D1" H 6350 9500 50  0000 C CNN
-F 1 "950mV 10A" H 6350 9600 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp" H 6350 9700 50  0001 C CNN
-F 3 "~" H 6350 9700 50  0001 C CNN
-	1    6350 9700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 9700 6100 9700
-Connection ~ 6100 9700
-Wire Wire Line
-	6100 9700 6100 9950
-$Comp
 L Device:CP1 C10
 U 1 1 5DAAF9F5
 P 6550 10550
@@ -1047,12 +987,7 @@ F 3 "~" H 6700 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 10650 6700 10400
-Wire Wire Line
 	6700 10400 6550 10400
-Wire Wire Line
-	6700 10400 6700 9700
-Connection ~ 6700 10400
 Wire Wire Line
 	6550 10700 6550 11000
 Wire Wire Line
@@ -1075,12 +1010,6 @@ Wire Wire Line
 	2850 9100 2850 10150
 Wire Wire Line
 	2850 10150 2950 10150
-Wire Wire Line
-	6700 9100 6700 9700
-Wire Wire Line
-	6700 9700 6500 9700
-Wire Wire Line
-	4400 9100 6700 9100
 $Comp
 L Device:R R1
 U 1 1 5DAEF196
@@ -1136,7 +1065,6 @@ $EndComp
 Connection ~ 4200 11000
 Wire Wire Line
 	4200 11000 5700 11000
-Connection ~ 6700 9700
 Wire Wire Line
 	6100 11000 6550 11000
 Connection ~ 6100 11000
@@ -1145,15 +1073,14 @@ Wire Wire Line
 $Comp
 L power:+24V #PWR0106
 U 1 1 5DBA47BF
-P 6700 9100
-F 0 "#PWR0106" H 6700 8950 50  0001 C CNN
-F 1 "+24V" H 6715 9273 50  0000 C CNN
-F 2 "" H 6700 9100 50  0001 C CNN
-F 3 "" H 6700 9100 50  0001 C CNN
-	1    6700 9100
+P 7950 9050
+F 0 "#PWR0106" H 7950 8900 50  0001 C CNN
+F 1 "+24V" H 7965 9223 50  0000 C CNN
+F 2 "" H 7950 9050 50  0001 C CNN
+F 3 "" H 7950 9050 50  0001 C CNN
+	1    7950 9050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 9100
 $Comp
 L power:GND #PWR0107
 U 1 1 5DBAC2C8
@@ -1348,7 +1275,7 @@ F 3 "" H 9650 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 7 1 5DD2C269
 P 14550 3600
 F 0 "U4" H 14450 3450 60  0000 L CNN
@@ -1359,7 +1286,7 @@ F 3 "" H 14550 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 8 1 5DD2FD4D
 P 15050 3600
 F 0 "U4" H 15050 3450 60  0000 C CNN
@@ -1837,10 +1764,6 @@ Text GLabel 12450 2850 0    50   Input ~ 0
 USB_TIVA_2
 Text GLabel 12450 2950 0    50   Output ~ 0
 USB_TIVA_2
-Wire Wire Line
-	12450 2850 12550 2850
-Wire Wire Line
-	12450 2950 12550 2950
 Text GLabel 13600 3050 2    50   Input ~ 0
 Flow_Receive
 Wire Wire Line
@@ -1987,7 +1910,7 @@ Wire Wire Line
 NoConn ~ 13450 1550
 NoConn ~ 12550 1650
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 4 1 5DD10D78
 P 15050 2100
 F 0 "U4" H 15050 1950 60  0000 C CNN
@@ -1998,7 +1921,7 @@ F 3 "" H 15050 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 3 1 5DD0DE2F
 P 14550 2100
 F 0 "U4" H 14450 1950 60  0000 L CNN
@@ -2009,7 +1932,7 @@ F 3 "" H 14550 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 2 1 5DCDED37
 P 13250 2100
 F 0 "U4" H 13250 1950 60  0000 C CNN
@@ -2020,7 +1943,7 @@ F 3 "" H 13250 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 1 1 5DCDAD76
 P 12750 2100
 F 0 "U4" H 12650 1950 60  0000 L CNN
@@ -2031,25 +1954,134 @@ F 3 "" H 12750 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L SRA_Sensor_Board-rescue:LM3478MMX_NOPB-2019-10-10_22-50-45 U1
+U 1 1 5DA0E4B1
+P 2950 9950
+F 0 "U1" H 4250 10337 60  0000 C CNN
+F 1 "LM3478MMX_NOPB" H 4250 10231 60  0000 C CNN
+F 2 "custom:LM3478MMX&slash_NOPB" H 4250 10190 60  0001 C CNN
+F 3 "" H 2950 9950 60  0000 C CNN
+	1    2950 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 9050 7950 9100
+Wire Wire Line
+	7850 9450 7950 9450
+Connection ~ 7950 9450
+$Comp
+L SBRD10200TR:SBRD10200TR D1
+U 1 1 5DDAAED7
+P 6150 9450
+F 0 "D1" H 7000 9715 50  0000 C CNN
+F 1 "SBRD10200TR" H 7000 9624 50  0000 C CNN
+F 2 "MRDT_ICs:SMC_DPAK" H 7700 9550 50  0001 L CNN
+F 3 "http://www.smc-diodes.com/propdf/SBRD10200%20N1314%20REV.A.pdf" H 7700 9450 50  0001 L CNN
+F 4 "SCHOTTKY RECTIFIER" H 7700 9350 50  0001 L CNN "Description"
+F 5 "" H 7700 9250 50  0001 L CNN "Height"
+F 6 "SMC Diode Solutions" H 7700 9150 50  0001 L CNN "Manufacturer_Name"
+F 7 "SBRD10200TR" H 7700 9050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7700 8950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 7700 8850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7700 8750 50  0001 L CNN "RS Part Number"
+F 11 "" H 7700 8650 50  0001 L CNN "RS Price/Stock"
+	1    6150 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 9350 6100 9450
+Wire Wire Line
+	6150 9450 6100 9450
+Connection ~ 6100 9450
+Wire Wire Line
+	6100 9450 6100 9550
+Wire Wire Line
+	6150 9550 6100 9550
+Connection ~ 6100 9550
+Wire Wire Line
+	6100 9550 6100 9950
+Wire Wire Line
+	7950 10400 6700 10400
+Wire Wire Line
+	7950 9450 7950 10400
+Connection ~ 6700 10400
+Wire Wire Line
+	6700 10450 6700 10400
+Wire Wire Line
+	6700 10400 6700 10650
+Wire Wire Line
+	4400 9100 7950 9100
+Connection ~ 7950 9100
+Wire Wire Line
+	7950 9100 7950 9450
+NoConn ~ 12550 3250
+Wire Wire Line
+	12450 3350 12550 3350
+Wire Wire Line
+	12450 2950 12550 2950
+Wire Wire Line
+	12450 2850 12550 2850
+Wire Wire Line
+	12450 3450 12550 3450
+Wire Wire Line
+	12450 3550 12550 3550
+NoConn ~ 12550 3150
+NoConn ~ 12550 3050
+NoConn ~ 12550 2750
+Wire Wire Line
+	12450 2650 12550 2650
+$Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
-U 5 1 5DD95673
+U 5 1 5DD6BB3C
 P 12750 3600
-F 0 "U4" H 12650 3450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 12500 3550 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 12750 3600 60  0001 C CNN
+F 0 "U4" H 12750 3450 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 12550 3550 60  0000 L CNN
+F 2 "" H 12750 3600 60  0001 C CNN
 F 3 "" H 12750 3600 60  0001 C CNN
 	5    12750 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
-U 6 1 5DD9982E
+U 6 1 5DD2931F
 P 13250 3600
-F 0 "U4" H 13250 3450 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 13500 3550 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 13250 3600 60  0001 C CNN
+F 0 "U4" H 13350 3450 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 13450 3550 60  0000 C CNN
+F 2 "" H 13250 3600 60  0001 C CNN
 F 3 "" H 13250 3600 60  0001 C CNN
 	6    13250 3600
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	13550 2650 13450 2650
+Wire Wire Line
+	13550 2600 13550 2650
+$Comp
+L power:+5V #PWR022
+U 1 1 5DC1A2BD
+P 13550 2600
+F 0 "#PWR022" H 13550 2450 50  0001 C CNN
+F 1 "+5V" H 13565 2773 50  0000 C CNN
+F 2 "" H 13550 2600 50  0001 C CNN
+F 3 "" H 13550 2600 50  0001 C CNN
+	1    13550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 1150 13450 1150
+Wire Wire Line
+	13550 1100 13550 1150
+$Comp
+L power:+5V #PWR0135
+U 1 1 5DD8CC54
+P 13550 1100
+F 0 "#PWR0135" H 13550 950 50  0001 C CNN
+F 1 "+5V" H 13565 1273 50  0000 C CNN
+F 2 "" H 13550 1100 50  0001 C CNN
+F 3 "" H 13550 1100 50  0001 C CNN
+	1    13550 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 1250 14100 1250
 $EndSCHEMATC
