@@ -1,0 +1,34 @@
+Format Pin Name: Pin Designation: Pin Function: Pin Purpose
+
+PC4: A1_3: RX: CO2_In
+
+PC5: A1_4: TX: CO2_Out
+
+PC6: A1_5: Digital In: USB_TIVA_1
+
+PC7: A1_8: Digital Out: USB_TIVA_1
+
+PE0: B1_3: Digital In: CCD_INT1
+
+PE1: B1_4: Digital In: CCD_INT2 
+
+
+PP0: A2_3: Digital In: USB_TIVA_2
+
+PP1: A2_4: Digital Out: USB_TIVA_2	
+
+PP4: A2_8: Digital Out: SW_Flag1
+
+PN5: A2_9: Digital Out: SW_Flag2
+
+PN4: A2_10: Digital Out: SW_Error
+
+PK0: B2_5: Analog In: Flow_Receive
+
+PK1: B2_6: Digital Out: Flow_Output
+
+PK3: B2_8: Digital In: CCD_OS
+
+
+PP5: D2_3: Digital Out: LED_Enable
+

@@ -1,0 +1,33 @@
+Format Connector Name: Pin Number: Pin Function: 
+
+Flow_Sensor: Pin1: Power 5V
+Flow_Sensor: Pin2: GND
+Flow_Sensor: Pin3: Flow_Receive
+Flow_Sensor: Pin4: Flow_Output
+
+CO2_Sensor: Pin1: CO2_In
+CO2_Sensor: Pin2: CO2_Out
+CO2_Sensor: Pin3: Power 5V
+CO2_Sensor: Pin4: GND
+
+CCD_TIVA: Pin1: Power 3.3V
+CCD_TIVA: Pin2: CCD_INT2
+CCD_TIVA: Pin3: CCD_INT1
+CCD_TIVA: Pin4: CCD_OS
+CCD_TIVA: Pin5: GND
+
+UV_LED: Pin1: Power at 24V
+UV_LED: Pin2: GND
+
+USB_B_Micro: Pin1: Power at 5V
+USB_B_Micro: Pin2: USB_DATA_2
+USB_B_Micro: Pin3: USB_DATA_1
+USB_B_Micro: Pin4: NC
+USB_B_Micro: Pin5: GND
+USB_B_Micro: Pin6: GND
+
+NGM_1
+
+IRF7821
+
+LM3478
