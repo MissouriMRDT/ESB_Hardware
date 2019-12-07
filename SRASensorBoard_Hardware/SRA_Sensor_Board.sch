@@ -1017,7 +1017,7 @@ F 3 "" H 2400 3800 60  0001 C CNN
 $EndComp
 Wire Notes Line
 	16100 750  450  750 
-Text Notes 3750 1000 0    98   ~ 20
+Text Notes 5700 1000 0    98   ~ 20
 NGM_1
 Wire Notes Line
 	3600 2600 3600 450 
@@ -1060,8 +1060,8 @@ F 3 "" H 1800 4350 50  0001 C CNN
 	1    1800 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 950  4100 0    98   ~ 20
-Flow_Sensor
+Text Notes 650  4300 0    98   ~ 20
+Flow Sensor
 $Comp
 L MRDT_Connectors:Molex_SL_04 Conn3
 U 1 1 5DEFD765
@@ -1073,8 +1073,8 @@ F 3 "" H 2450 5450 60  0001 C CNN
 	1    2450 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 900  4850 0    98   ~ 20
-T6613_CO2_Sensor\n
+Text Notes 550  5350 0    98   ~ 20
+Telaire T6613
 Text GLabel 2200 5300 0    50   Output ~ 0
 C02_TX
 Text GLabel 2200 5400 0    50   Input ~ 0
@@ -2187,4 +2187,8 @@ Wire Wire Line
 	1450 8000 1500 8000
 NoConn ~ 9250 2950
 NoConn ~ 9250 2850
+Text Notes 600  5150 0    98   ~ 20
+CO2_Sensor\n
+Text Notes 3750 950  0    98   ~ 20
+Methane Sensor
 $EndSCHEMATC
