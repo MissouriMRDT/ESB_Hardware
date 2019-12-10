@@ -1975,7 +1975,7 @@ L MRDT_Connectors:AndersonPP Conn5
 U 2 1 5E105269
 P 1650 6400
 F 0 "Conn5" H 1858 6787 60  0000 C CNN
-F 1 "12v Boost" H 1858 6681 60  0000 C CNN
+F 1 "BoostA" H 1858 6681 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1500 5850 60  0001 C CNN
 F 3 "" H 1500 5850 60  0001 C CNN
 	2    1650 6400
@@ -1986,18 +1986,18 @@ L MRDT_Connectors:AndersonPP Conn6
 U 2 1 5E1058D4
 P 1650 6850
 F 0 "Conn6" H 1858 7237 60  0000 C CNN
-F 1 "24v Boost" H 1858 7131 60  0000 C CNN
+F 1 "BoostB" H 1858 7131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1500 6300 60  0001 C CNN
 F 3 "" H 1500 6300 60  0001 C CNN
 	2    1650 6850
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L MRDT_Connectors:AndersonPP Conn5
 U 1 1 5E1070D1
 P 2500 6400
-F 0 "Conn7" H 2708 6787 60  0000 C CNN
-F 1 "12v Boost GND" H 2708 6681 60  0000 C CNN
+F 0 "Conn5" H 2708 6787 60  0000 C CNN
+F 1 "BoostA" H 2708 6681 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2350 5850 60  0001 C CNN
 F 3 "" H 2350 5850 60  0001 C CNN
 	1    2500 6400
@@ -2006,11 +2006,11 @@ $EndComp
 Wire Wire Line
 	3050 6300 2900 6300
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L MRDT_Connectors:AndersonPP Conn6
 U 1 1 5E112038
 P 2500 6850
-F 0 "Conn8" H 2708 7237 60  0000 C CNN
-F 1 "24v Boost GND" H 2708 7131 60  0000 C CNN
+F 0 "Conn6" H 2708 7237 60  0000 C CNN
+F 1 "BoostB" H 2708 7131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2350 6300 60  0001 C CNN
 F 3 "" H 2350 6300 60  0001 C CNN
 	1    2500 6850

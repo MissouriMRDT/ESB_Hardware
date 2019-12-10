@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -797,12 +797,12 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5C22EE21) (tstamp 5DEEF133)
-    (at 273.05 118.872)
+    (at 293.878 112.268)
     (path /5E1070D1)
     (fp_text reference Conn7 (at -5.461 4.826) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Boost GND" (at -15.621 -4.699) (layer F.Fab)
+    (fp_text value "12v Boost GND" (at -15.621 -4.699) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -20.447 4.064) (end -28.194 4.064) (layer F.SilkS) (width 0.15))
@@ -832,12 +832,12 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5C22EE21) (tstamp 5DEEF149)
-    (at 167.894 167.132)
+    (at 293.878 101.854)
     (path /5E112038)
     (fp_text reference Conn8 (at -5.461 4.826) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Boost GND" (at -15.621 -4.699) (layer F.Fab)
+    (fp_text value "24v Boost GND" (at -15.621 -4.699) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start -18.161 -3.81) (end -18.161 -2.667) (angle 90) (layer F.SilkS) (width 0.15))
@@ -867,7 +867,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5C22EE21) (tstamp 5DEEF15F)
-    (at 235.458 128.524)
+    (at 274.828 143.764)
     (path /5E06AAF7)
     (fp_text reference Conn9 (at -5.461 4.826) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -901,7 +901,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5C22EE21) (tstamp 5DEEF175)
-    (at 300.99 104.902)
+    (at 273.558 132.08)
     (path /5E06CBB0)
     (fp_text reference Conn10 (at -5.461 4.826) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -935,7 +935,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5C22EE21) (tstamp 5DEEF18B)
-    (at 168.148 156.464)
+    (at 273.558 157.734)
     (path /5E0678B6)
     (fp_text reference Conn11 (at -5.461 4.826) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
