@@ -1,33 +1,114 @@
 Format Connector Name: Pin Number: Pin Function: 
 
-Flow_Sensor: Pin1: Power 5V
-Flow_Sensor: Pin2: GND
-Flow_Sensor: Pin3: Flow_Receive
-Flow_Sensor: Pin4: Flow_Output
+Molex Connections
+Conn1: Pin1: Power 5V
+Conn1: Pin2: GND
+Conn1: Pin3: O2_TX
+Conn1: Pin4: O2_RX
 
-CO2_Sensor: Pin1: CO2_In
-CO2_Sensor: Pin2: CO2_Out
-CO2_Sensor: Pin3: Power 5V
-CO2_Sensor: Pin4: GND
+Conn3: Pin1: Power 5V
+Conn3: Pin2: GND
+Conn3: Pin3: CO2_TX
+Conn3: Pin4: CO2_RX
 
-CCD_TIVA: Pin1: Power 3.3V
-CCD_TIVA: Pin2: CCD_INT2
-CCD_TIVA: Pin3: CCD_INT1
-CCD_TIVA: Pin4: CCD_OS
-CCD_TIVA: Pin5: GND
+Conn2: Pin1: Power 3.3V
+Conn2: Pin2: GND
+Conn2: Pin3: CCD_INT2
+Conn2: Pin4: CCD_INT1
+Conn2: Pin5: CCD_OS
 
-UV_LED: Pin1: Power at 24V
-UV_LED: Pin2: GND
+USB A Connector
+USB_A: Pin1: Power at 5V
+USB_A: Pin2: USB_DATA_-
+USB_A: Pin3: USB_DATA_+
+USB_A: Pin4: GND
+USB_A: Pin5: GND
 
-USB_B_Micro: Pin1: Power at 5V
-USB_B_Micro: Pin2: USB_DATA_2
-USB_B_Micro: Pin3: USB_DATA_1
-USB_B_Micro: Pin4: NC
-USB_B_Micro: Pin5: GND
-USB_B_Micro: Pin6: GND
+Power Connections
+AndersonPP: Conn2A: GND
+AndersonPP: Conn2B: +12V
 
-NGM_1
+Boost 12V: Conn5A: GND
+Boost 12V: Conn2B: +12V
+
+Boost 24V: Conn6A: GND
+Boost 24V: Conn6B: +24V
+
+UV_led: Conn7A: GND
+UV_led: Conn7B: V+Log
+UV_led: Conn7C: V+Act
+
+FT232RL
+U6: Pin 1: TIVA_USB_RX
+U6: Pin 2: Reset
+U6: Pin 3: NC
+U6: Pin 4: 3.3V
+U6: Pin 5: TIVA_USB_TX
+U6: Pin 6: NC
+U6: Pin 7: GND
+U6: Pin 8: NC
+U6: Pin 9: NC
+U6: Pin 10: NC
+U6: Pin 11: NC
+U6: Pin 12: NC
+U6: Pin 13: NC
+U6: Pin 14: NC
+U6: Pin 15: USB_Data_+
+U6: Pin 16: USB_Data_-
+U6: Pin 17: GND
+U6: Pin 18: GND
+U6: Pin 19: 3.3V
+U6: Pin 20: 3.3V
+U6: Pin 21: GND
+U6: Pin 22: USB_TX
+U6: Pin 23: USB_RX
+U6: Pin 25: GND
+U6: Pin 26: GND
+U6: Pin 27: NC
+U6: Pin 28: NC
 
 IRF7821
+U5: Pin 1: UV Power
+U5: Pin 2: UV Power
+U5: Pin 3: UV Power
+U5: Pin 4: Gate
+U5: Pin 5: 24V
+U5: Pin 6: 24V
+U5: Pin 7: 24V
+U5: Pin 8: 24V
 
-LM3478
+LT1910
+U1: Pin 1: GND
+U1: Pin 2: NC
+U1: Pin 3: NC
+U1: Pin 4: LED_Enable
+U1: Pin 5: Gate
+U1: Pin 6: 24V
+U1: Pin 8: 24V
+
+OKI 5V
+U2: Pin 1: 12V
+U2: Pin 2: GND
+U2: Pin 3: 5V
+
+OKI 3.3V
+U3: Pin 1: 12V
+U3: Pin 2: GND
+U3: Pin 3: 3.3V
+
+BSS138
+Q1: Pin 1: 3.3V
+Q1: Pin 2: TIVA_O2_TX
+Q1: Pin 3: O2_RX
+
+Q2: Pin 1: 3.3V
+Q2: Pin 2: TIVA_CO2_TX
+Q2: Pin 3: CO2_RX
+
+Q3: Pin 1: 3.3V
+Q3: Pin 2: TIVA_CO2_TX
+Q3: Pin 3: CO2_RX
+
+Q4: Pin 1: 3.3V
+Q4: Pin 2: TIVA_CO2_RX
+Q4: Pin 3: CO2_TX

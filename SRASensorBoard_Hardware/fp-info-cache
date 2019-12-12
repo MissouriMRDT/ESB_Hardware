@@ -1,4 +1,4 @@
-16563823166861126
+16587840881007627
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50148,6 +50148,13 @@ TMP36
 3
 3
 MRDT_Shields
+Arduino_Micro_THT_Top
+
+ARDUINO, MICRO
+0
+34
+31
+MRDT_Shields
 ESP_8266_Breakout_Small
 
 
@@ -50295,6 +50302,13 @@ TM4C123G_Booster
 40
 39
 MRDT_Shields
+TM4C129Breakout_THT
+
+
+0
+56
+52
+MRDT_Shields
 TM4C129E_Launchpad_FULL_SMD_BOTTOM
 
 
@@ -50321,7 +50335,7 @@ TM4C129E_Launchpad_FULL_THT_TOP
 
 0
 80
-75
+77
 MRDT_Shields
 TM4C129E_Launchpad_X7_SMD_BOTTOM
 
@@ -74047,6 +74061,97 @@ YangSignature
 0
 custom
 tetris
+
+
+0
+0
+0
+custom
+tetris_silkscreen
+
+
+0
+0
+0
+footprints
+DonSignature
+
+
+0
+0
+0
+footprints
+Donald_Shaw_Signature_Small
+
+
+0
+0
+0
+footprints
+IRF7821PBF
+
+
+0
+8
+8
+footprints
+JacobSignature
+
+
+0
+0
+0
+footprints
+MAX232DR
+
+
+0
+16
+16
+footprints
+SOIC127P599X175-8N
+S8(SOIC)
+Integrated Circuit
+0
+8
+8
+footprints
+ToniSignature
+
+
+0
+0
+0
+footprints
+ToniSignature_Medium
+
+
+0
+0
+0
+footprints
+Toni_Signature_Medium
+
+
+0
+0
+0
+footprints
+Toni_Signature_Rev3
+
+
+0
+0
+0
+footprints
+Toni_Signature_Rev4
+
+
+0
+0
+0
+footprints
+YangSignature
 
 
 0
