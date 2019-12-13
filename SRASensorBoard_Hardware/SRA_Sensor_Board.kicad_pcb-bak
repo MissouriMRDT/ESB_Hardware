@@ -5674,7 +5674,7 @@
     (fp_text reference Conn4 (at 5.08 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Molex_SL_05 (at 5.08 -5.08) (layer F.SilkS)
+    (fp_text value CCD (at 5.08 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer F.SilkS) (width 0.15))
@@ -5707,7 +5707,7 @@
     (fp_text reference Conn3 (at 3.81 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Molex_SL_04 (at 3.81 -5.08) (layer F.SilkS)
+    (fp_text value CO2 (at 3.81 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer F.SilkS) (width 0.15))
@@ -5784,7 +5784,7 @@
     (fp_text reference Conn1 (at 3.81 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Molex_SL_04 (at 3.556 -5.08) (layer F.SilkS)
+    (fp_text value O2 (at 3.556 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer F.SilkS) (width 0.15))
