@@ -1,32 +1,29 @@
 Id,Designator,Package,Quantity,Designation,Item Name,Part Number,Vendor,Cost per Item,Cost,URL
-1,"R4,R3",R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,2,4,UB5C-4RF1,"	696-1082-ND",Digikey,$0.88 ,,https://www.digikey.com/product-detail/en/riedon/UB5C-4RF1/696-1082-ND/2176630
-2,U2,OKI_Horizontal,1,OKI,OKI-78SR-5,"	58T9851",Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-5-1-5-w36h-c/dc-dc-converter-5v-1-5a/dp/58T9851?ost=OKI-78SR-5%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
-3,U3,OKI_Horizontal,1,OKI,OKI-78SR-3.3,"	58T9850",Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-3-3-1-5-w36h-c/dc-dc-converter-3-3v-1-5a/dp/58T9850?ost=OKI-78SR-3.3%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
-4,"R2,R27,R26,R25,R21,R6,R5,R1",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,8,10K,ESR03EZPF1002 ,"	59AC6935",Newark,$0.12 ,,https://www.newark.com/rohm/esr03ezpf1002/res-10k-1-0603-thick-film/dp/59AC6935?st=ESR03EZPF1002
-5,"Q2,Q4,Q3,Q1",SOT-23,4,BSS138,BSS138,"	BSS138CT-ND",Digikey,$0.27 ,,https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294
-6,U5,IRF7821PBF,1,IRF7821PbF,IRF7821TRPBF,"	IRF7821PBFCT-ND",Digikey,$0.87 ,,https://www.digikey.com/product-detail/en/infineon-technologies/IRF7821TRPBF/IRF7821PBFCT-ND/812543
-7,U1,SOIC127P599X175-8N,1,LT1910,LT1910IS8#TRPBF,LT1910IS8#TRPBFCT-ND,Digikey,$5.75 ,,https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1910IS8-TRPBF/LT1910IS8-TRPBFCT-ND/7806939
-8,Conn7,Anderson_3_Horizontal_Side_by_Side,1,UV_led,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
-9,U6,SSOP-28_5.3x10.2mm_P0.65mm,1,FT232RL,FT232RL-REEL,"	768-1007-1-ND",Digikey,$4.50 ,,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
-10,U4,TM4C129E_Launchpad_FULL_THT_BOTTOM,1,TM4C129E_Launchpad,,,,,,
-11,"R24,R23,R20,R19,R18,R17,R16,R15,R14,R13,R12,R11,R10,R7",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,14,510,CRCW0603510RJNEA,"	59M6823",Newark,$0.10 ,,https://www.newark.com/vishay/crcw0603510rjnea/res-thick-film-510r-5-0-1w-0603/dp/59M6823?st=RES%20SMD%20510%20OHM%205%25%201/4W%200603
-12,R22,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,1000,ESR03EZPJ102 ,"	59AC6943",Newark,$0.10 ,,https://www.newark.com/rohm/esr03ezpj102/res-1k-5-0603-thick-film/dp/59AC6943?ost=ESR03EZPJ102&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
-13,R9,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,330,CRCW0603330RJNEA,"	59M6805",Newark,$0.10 ,,https://www.newark.com/vishay/crcw0603330rjnea/res-thick-film-330r-5-0-1w-0603/dp/59M6805
-14,R8,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,2500,ERJ-3EKF2491V,"	65T8395",Newark,$0.20 ,,https://www.newark.com/panasonic/erj-3ekf2491v/res-thick-film-2k49-1-0-1w-0603/dp/65T8395
-15,J1,USB3_A_Molex_48393-001,1,USB_A,292303-1,A31726-ND,Digikey,$1.31 ,,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-1/A31726-ND/773786
-16,"D15,D4,D3,D2",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,LED,SML-LX0603GW-TR,"	75K1440",Newark,$0.24 ,,"https://www.newark.com/lumex/sml-lx0603gw-tr/led-green-0-8mm-x-1mm-18mcd-565nm/dp/75K1440?st=LED,%20QuasarBrite,%20Green,%20SMD,%200603,%2020%20mA,%202%20V"
-17,"D6,D5",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,LED,SML-LX0603USBW-TR,"	70M9169",Newark,$2.17 ,,"https://www.newark.com/lumex/sml-lx0603usbw-tr/led-blue-0-8mm-x-1mm-20mcd-470nm/dp/70M9169?st=LED,%20%20Blue,%20SMD,%200603,%2020%20mA,%203.5%20V"
-18,D7,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,LED,SML-LX0603SIW-TR,"	09J9435",Newark,$0.62 ,,https://www.newark.com/lumex/sml-lx0603siw-tr/led-red-0-8mm-x-1mm-60mcd-636nm/dp/09J9435?ost=160-1447-1-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
-19,"D18,D17,D16,D14,D13,D12,D11,D10,D9,D8",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,10,LED,SML-LX0603SYW-TR,"	28M9280",Newark,$0.51 ,,https://www.newark.com/lumex/sml-lx0603syw-tr/led-yellow-0-8mm-x-1mm-60mcd-590nm/dp/28M9280?MER=sy-me-pd-mi-alte
-20,Conn6,Anderson_2_Horizontal_Side_by_Side,1,Boost 24V,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
-21,Conn5,Anderson_2_Horizontal_Side_by_Side,1,Boost 12V,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
-22,Conn4,MOLEX_SL_05_Vertical,1,Molex_SL_05,70543-0004,"	59H2646",Newark,$1.10 ,,https://www.newark.com/molex/70543-0004/connector-header-5pos-1row-2-54mm/dp/59H2646
-23,"Conn3,Conn1",MOLEX_SL_04_Vertical,2,Molex_SL_04,70543-0003 ,"	85C0279",Newark,$0.84 ,,https://www.newark.com/molex/70543-0003/connector-header-4pos-1row-2-54mm/dp/85C0279
-24,Conn2,Anderson_2_Horizontal_Side_by_Side,1,AndersonPP,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
-25,"C7,C6,C5,C4",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,10uF,0603J0160104KXT,"	1608-1357-1-ND",Digikey,$0.68 ,,https://www.digikey.com/product-detail/en/knowles-syfer/0603J0160104KXT/1608-1357-1-ND/7644459
-26,C2,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,.1 uF,CL10B104KO8NNNC,"	82AC9325",Newark,$0.09 ,,https://www.newark.com/samsung-electro-mechanics/cl10b104ko8nnnc/cap-0-1uf-16v-mlcc-0603/dp/82AC9325?st=CL10B104KO8NNNC
-27,C1,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,0.1 uF,CL21B103KDCNNNC,"	82AC9422",Newark,$0.02 ,,https://www.newark.com/samsung-electro-mechanics/cl21b103kdcnnnc/cap-0-01uf-200v-mlcc-0805/dp/82AC9422
-28,,,1,Boost Converter 12v to 24v,B07XBWHR56,B07XBWHR56,Amazon,$13.90 ,,https://www.amazon.com/24V-Boost-Converter-Regulator-Waterproof-Transformer/dp/B07XBWHR56/ref=sr_1_4?keywords=12V%2Bto%2B24V%2Bboost%2Bconverter%2B3A&qid=1574373748&sr=8-4&th=1
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
+1,"R4,R3",R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,2,4,UB5C-4RF1,	696-1082-ND,Digikey,$0.88 ,,https://www.digikey.com/product-detail/en/riedon/UB5C-4RF1/696-1082-ND/2176630
+2,U2,OKI_Horizontal,1,OKI,OKI-78SR-5,	58T9851,Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-5-1-5-w36h-c/dc-dc-converter-5v-1-5a/dp/58T9851?ost=OKI-78SR-5%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+3,U3,OKI_Horizontal,1,OKI,OKI-78SR-3.3,	58T9850,Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-3-3-1-5-w36h-c/dc-dc-converter-3-3v-1-5a/dp/58T9850?ost=OKI-78SR-3.3%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+4,"R2,R27,R26,R25,R21,R6,R5,R1",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,8,10K,ESR03EZPF1002 ,	59AC6935,Newark,$0.12 ,,https://www.newark.com/rohm/esr03ezpf1002/res-10k-1-0603-thick-film/dp/59AC6935?st=ESR03EZPF1002
+5,"Q2,Q4,Q3,Q1",SOT-23,4,BSS138,BSS138,	BSS138CT-ND,Digikey,$0.27 ,,https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294
+6,Conn7,Anderson_3_Horizontal_Side_by_Side,1,UV_led,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
+7,U6,SSOP-28_5.3x10.2mm_P0.65mm,1,FT232RL,FT232RL-REEL,	768-1007-1-ND,Digikey,$4.50 ,,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
+8,U4,TM4C129E_Launchpad_FULL_THT_BOTTOM,1,TM4C129E_Launchpad,,,,,,
+9,"R24,R23,R20,R19,R18,R17,R16,R15,R14,R13,R12,R11,R10,R7",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,14,510,CRCW0603510RJNEA,	59M6823,Newark,$0.10 ,,https://www.newark.com/vishay/crcw0603510rjnea/res-thick-film-510r-5-0-1w-0603/dp/59M6823?st=RES%20SMD%20510%20OHM%205%25%201/4W%200603
+10,R22,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,1000,ESR03EZPJ102 ,	59AC6943,Newark,$0.10 ,,https://www.newark.com/rohm/esr03ezpj102/res-1k-5-0603-thick-film/dp/59AC6943?ost=ESR03EZPJ102&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+11,R9,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,330,CRCW0603330RJNEA,	59M6805,Newark,$0.10 ,,https://www.newark.com/vishay/crcw0603330rjnea/res-thick-film-330r-5-0-1w-0603/dp/59M6805
+12,R8,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,2500,ERJ-3EKF2491V,	65T8395,Newark,$0.20 ,,https://www.newark.com/panasonic/erj-3ekf2491v/res-thick-film-2k49-1-0-1w-0603/dp/65T8395
+13,J1,USB3_A_Molex_48393-001,1,USB_A,292303-1,A31726-ND,Digikey,$1.31 ,,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-1/A31726-ND/773786
+14,"D15,D4,D3,D2",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,LED,SML-LX0603GW-TR,	75K1440,Newark,$0.24 ,,"https://www.newark.com/lumex/sml-lx0603gw-tr/led-green-0-8mm-x-1mm-18mcd-565nm/dp/75K1440?st=LED,%20QuasarBrite,%20Green,%20SMD,%200603,%2020%20mA,%202%20V"
+15,"D6,D5",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,LED,SML-LX0603USBW-TR,	70M9169,Newark,$2.17 ,,"https://www.newark.com/lumex/sml-lx0603usbw-tr/led-blue-0-8mm-x-1mm-20mcd-470nm/dp/70M9169?st=LED,%20%20Blue,%20SMD,%200603,%2020%20mA,%203.5%20V"
+16,D7,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,LED,SML-LX0603SIW-TR,	09J9435,Newark,$0.62 ,,https://www.newark.com/lumex/sml-lx0603siw-tr/led-red-0-8mm-x-1mm-60mcd-636nm/dp/09J9435?ost=160-1447-1-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+17,"D18,D17,D16,D14,D13,D12,D11,D10,D9,D8",D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,10,LED,SML-LX0603SYW-TR,	28M9280,Newark,$0.51 ,,https://www.newark.com/lumex/sml-lx0603syw-tr/led-yellow-0-8mm-x-1mm-60mcd-590nm/dp/28M9280?MER=sy-me-pd-mi-alte
+18,Conn6,Anderson_2_Horizontal_Side_by_Side,1,Boost 24V,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
+19,Conn5,Anderson_2_Horizontal_Side_by_Side,1,Boost 12V,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
+20,Conn4,MOLEX_SL_05_Vertical,1,Molex_SL_05,70543-0004,	59H2646,Newark,$1.10 ,,https://www.newark.com/molex/70543-0004/connector-header-5pos-1row-2-54mm/dp/59H2646
+21,"Conn3,Conn1",MOLEX_SL_04_Vertical,2,Molex_SL_04,70543-0003 ,	85C0279,Newark,$0.84 ,,https://www.newark.com/molex/70543-0003/connector-header-4pos-1row-2-54mm/dp/85C0279
+22,Conn2,Anderson_2_Horizontal_Side_by_Side,1,AndersonPP,Anderson Power 1337G1 Printed Circuit Board High Power 45 Amp Horizontal Top Contact,1337G1,Powerwex,$0.56 ,,https://powerwerx.com/anderson-1337g1-printed-circuit-board-horizontal
+23,"C7,C6,C5,C4",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,10uF,0603J0160104KXT,	1608-1357-1-ND,Digikey,$0.68 ,,https://www.digikey.com/product-detail/en/knowles-syfer/0603J0160104KXT/1608-1357-1-ND/7644459
+24,C2,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,.1 uF,CL10B104KO8NNNC,	82AC9325,Newark,$0.09 ,,https://www.newark.com/samsung-electro-mechanics/cl10b104ko8nnnc/cap-0-1uf-16v-mlcc-0603/dp/82AC9325?st=CL10B104KO8NNNC
+25,C1,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,0.1 uF,CL21B103KDCNNNC,	82AC9422,Newark,$0.02 ,,https://www.newark.com/samsung-electro-mechanics/cl21b103kdcnnnc/cap-0-01uf-200v-mlcc-0805/dp/82AC9422
+26,,,1,Boost Converter 12v to 24v,B07XBWHR56,B07XBWHR56,Amazon,$13.90 ,,https://www.amazon.com/24V-Boost-Converter-Regulator-Waterproof-Transformer/dp/B07XBWHR56/ref=sr_1_4?keywords=12V%2Bto%2B24V%2Bboost%2Bconverter%2B3A&qid=1574373748&sr=8-4&th=1
+27,Q5,,1,Nmos,AOD4189,AOD4189,Digikey,,,https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AOD4189/785-1351-1-ND/3060933
+28,Q6,,1,Pmos,BSS138,BSS138,Digikey,0.27,,https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294
