@@ -192,96 +192,6 @@ F 3 "" H 1650 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D14
-U 1 1 5D9D3949
-P 14850 5550
-F 0 "D14" V 14889 5433 50  0000 R CNN
-F 1 "LED" V 14798 5433 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14850 5550 50  0001 C CNN
-F 3 "~" H 14850 5550 50  0001 C CNN
-	1    14850 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R20
-U 1 1 5D9E97B4
-P 14850 5150
-F 0 "R20" H 14920 5196 50  0000 L CNN
-F 1 "330" H 14920 5105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14780 5150 50  0001 C CNN
-F 3 "~" H 14850 5150 50  0001 C CNN
-	1    14850 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 14850 4850 1    50   Input ~ 0
-CCD_INT1
-Text Notes 14800 6000 0    50   ~ 0
-YELLO
-Wire Wire Line
-	14850 5400 14850 5300
-Wire Wire Line
-	14850 5000 14850 4850
-$Comp
-L Device:LED D13
-U 1 1 5DA228AC
-P 14500 5550
-F 0 "D13" V 14539 5433 50  0000 R CNN
-F 1 "LED" V 14448 5433 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14500 5550 50  0001 C CNN
-F 3 "~" H 14500 5550 50  0001 C CNN
-	1    14500 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 5DA228B2
-P 14500 5150
-F 0 "R19" H 14570 5196 50  0000 L CNN
-F 1 "330" H 14570 5105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14430 5150 50  0001 C CNN
-F 3 "~" H 14500 5150 50  0001 C CNN
-	1    14500 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 14500 4850 1    50   Input ~ 0
-CCD_INT2
-Text Notes 14450 6000 0    50   ~ 0
-YELLO\n
-Wire Wire Line
-	14500 5400 14500 5300
-Wire Wire Line
-	14500 5000 14500 4850
-$Comp
-L Device:LED D12
-U 1 1 5DA27B75
-P 14150 5550
-F 0 "D12" V 14189 5433 50  0000 R CNN
-F 1 "LED" V 14098 5433 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14150 5550 50  0001 C CNN
-F 3 "~" H 14150 5550 50  0001 C CNN
-	1    14150 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 5DA27B7B
-P 14150 5150
-F 0 "R18" H 14220 5196 50  0000 L CNN
-F 1 "330" H 14220 5105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14080 5150 50  0001 C CNN
-F 3 "~" H 14150 5150 50  0001 C CNN
-	1    14150 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 14150 4850 1    50   Input ~ 0
-CCD_OS
-Text Notes 14100 6000 0    50   ~ 0
-YELLO\n
-Wire Wire Line
-	14150 5400 14150 5300
-Wire Wire Line
-	14150 5000 14150 4850
-$Comp
 L Device:LED D11
 U 1 1 5DA27B85
 P 13800 5550
@@ -578,10 +488,6 @@ Text GLabel 12000 2850 2    50   Output ~ 0
 LED_Enable
 Text Notes 8750 700  0    98   ~ 20
 TIVA
-Wire Wire Line
-	10300 3350 10150 3350
-Text GLabel 10300 3350 2    50   Input ~ 0
-CCD_OS
 Text GLabel 9150 3550 0    50   Output ~ 0
 SW_ERROR
 Text GLabel 9150 3450 0    50   Output ~ 0
@@ -616,14 +522,6 @@ F 3 "" H 12050 1050 50  0001 C CNN
 	1    12050 1050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10300 1450 10150 1450
-Text GLabel 10300 1450 2    50   Input ~ 0
-CCD_INT2
-Wire Wire Line
-	10300 1350 10150 1350
-Text GLabel 10300 1350 2    50   Input ~ 0
-CCD_INT1
 $Comp
 L power:GND #PWR021
 U 1 1 5DA35372
@@ -712,39 +610,6 @@ Wire Wire Line
 	9150 2600 9150 2650
 Wire Notes Line
 	450  2600 3600 2600
-$Comp
-L power:GND #PWR0107
-U 1 1 5DBAC2C8
-P 14850 5750
-F 0 "#PWR0107" H 14850 5500 50  0001 C CNN
-F 1 "GND" H 14950 5650 50  0000 C CNN
-F 2 "" H 14850 5750 50  0001 C CNN
-F 3 "" H 14850 5750 50  0001 C CNN
-	1    14850 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5DBAC3CD
-P 14500 5750
-F 0 "#PWR0108" H 14500 5500 50  0001 C CNN
-F 1 "GND" H 14600 5650 50  0000 C CNN
-F 2 "" H 14500 5750 50  0001 C CNN
-F 3 "" H 14500 5750 50  0001 C CNN
-	1    14500 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5DBACBBE
-P 14150 5750
-F 0 "#PWR0109" H 14150 5500 50  0001 C CNN
-F 1 "GND" H 14250 5650 50  0000 C CNN
-F 2 "" H 14150 5750 50  0001 C CNN
-F 3 "" H 14150 5750 50  0001 C CNN
-	1    14150 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5DBACBC4
@@ -907,47 +772,6 @@ F 3 "" H 9350 4850 50  0001 C CNN
 $EndComp
 Text Notes 550  6450 0    98   ~ 20
 UV_LED
-Text Notes 650  3150 0    98   ~ 20
-CCD_TIVA
-$Comp
-L power:GND #PWR015
-U 1 1 5D9CEA40
-P 1550 3450
-F 0 "#PWR015" H 1550 3200 50  0001 C CNN
-F 1 "GND" H 1555 3277 50  0000 C CNN
-F 2 "" H 1550 3450 50  0001 C CNN
-F 3 "" H 1550 3450 50  0001 C CNN
-	1    1550 3450
-	1    0    0    -1  
-$EndComp
-Text GLabel 2150 3750 0    50   Output ~ 0
-CCD_OS
-Text GLabel 2150 3650 0    50   Output ~ 0
-CCD_INT1
-Text GLabel 2150 3550 0    50   Output ~ 0
-CCD_INT2
-$Comp
-L power:+3.3V #PWR014
-U 1 1 5D9B210E
-P 2100 3350
-F 0 "#PWR014" H 2100 3200 50  0001 C CNN
-F 1 "+3.3V" H 2115 3523 50  0000 C CNN
-F 2 "" H 2100 3350 50  0001 C CNN
-F 3 "" H 2100 3350 50  0001 C CNN
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn4
-U 1 1 5D9B0CF4
-P 2400 3800
-F 0 "Conn4" H 2528 4108 60  0000 L CNN
-F 1 "Molex_SL_05" H 2528 4002 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 2400 3800 60  0001 C CNN
-F 3 "" H 2400 3800 60  0001 C CNN
-	1    2400 3800
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	16100 750  450  750 
 Text Notes 5700 950  0    98   ~ 20
@@ -1644,17 +1468,7 @@ Connection ~ 6250 5400
 Wire Wire Line
 	6250 5400 6300 5400
 Wire Wire Line
-	2150 3550 2200 3550
-Wire Wire Line
-	2150 3650 2200 3650
-Wire Wire Line
-	2150 3750 2200 3750
-Wire Wire Line
-	2200 3450 1550 3450
-Wire Wire Line
 	2250 5100 2150 5100
-Wire Wire Line
-	2200 3350 2100 3350
 $Comp
 L Connector:USB_A J1
 U 1 1 5E01A36B
@@ -1703,42 +1517,29 @@ Wire Wire Line
 $Comp
 L Device:R R3
 U 1 1 5E06E706
-P 3200 6850
-F 0 "R3" V 3100 6850 50  0000 C CNN
-F 1 "4" V 3200 6850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 3130 6850 50  0001 C CNN
-F 3 "~" H 3200 6850 50  0001 C CNN
-	1    3200 6850
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5E0700DB
-P 3200 7300
-F 0 "R4" V 3100 7300 50  0000 C CNN
-F 1 "4" V 3200 7300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 3130 7300 50  0001 C CNN
-F 3 "~" H 3200 7300 50  0001 C CNN
-	1    3200 7300
+P 3200 7050
+F 0 "R3" V 3100 7050 50  0000 C CNN
+F 1 "4" V 3200 7050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 3130 7050 50  0001 C CNN
+F 3 "~" H 3200 7050 50  0001 C CNN
+	1    3200 7050
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3350 7300 3450 7300
-Wire Wire Line
-	3350 6850 3450 6850
+	3350 7050 3450 7050
 $Comp
 L power:GND #PWR0138
 U 1 1 5E0AF9EB
-P 3300 7750
-F 0 "#PWR0138" H 3300 7500 50  0001 C CNN
-F 1 "GND" H 3305 7577 50  0000 C CNN
-F 2 "" H 3300 7750 50  0001 C CNN
-F 3 "" H 3300 7750 50  0001 C CNN
-	1    3300 7750
+P 3300 7350
+F 0 "#PWR0138" H 3300 7100 50  0001 C CNN
+F 1 "GND" H 3305 7177 50  0000 C CNN
+F 2 "" H 3300 7350 50  0001 C CNN
+F 3 "" H 3300 7350 50  0001 C CNN
+	1    3300 7350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 7750 3450 7750
+	3300 7350 3450 7350
 Wire Wire Line
 	7150 7250 7000 7250
 Wire Wire Line
@@ -1785,10 +1586,6 @@ Wire Wire Line
 	6300 7700 6150 7700
 Text Notes 5350 6500 0    98   ~ 20
 Off Board Boost Converter
-Wire Wire Line
-	3050 7300 3000 7300
-Wire Wire Line
-	3000 6850 3050 6850
 Text GLabel 2200 7850 0    50   Input ~ 0
 LED_Enable
 NoConn ~ 9250 2950
@@ -1874,34 +1671,23 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
 U 2 1 5DF2AC04
-P 3850 6750
-F 0 "Conn7" H 3822 6797 60  0000 R CNN
-F 1 "UV_led" H 3822 6903 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3700 6200 60  0001 C CNN
-F 3 "" H 3700 6200 60  0001 C CNN
-	2    3850 6750
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn7
-U 3 1 5DF2D162
-P 3850 7200
-F 0 "Conn7" H 3822 7247 60  0000 R CNN
-F 1 "UV_led" H 3822 7353 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3700 6650 60  0001 C CNN
-F 3 "" H 3700 6650 60  0001 C CNN
-	3    3850 7200
+P 3850 6950
+F 0 "Conn7" H 3822 6997 60  0000 R CNN
+F 1 "UV_led" H 3822 7103 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3700 6400 60  0001 C CNN
+F 3 "" H 3700 6400 60  0001 C CNN
+	2    3850 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
 U 1 1 5DF2E03B
-P 3850 7650
-F 0 "Conn7" H 3822 7697 60  0000 R CNN
-F 1 "UV_led" H 3822 7803 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3700 7100 60  0001 C CNN
-F 3 "" H 3700 7100 60  0001 C CNN
-	1    3850 7650
+P 3850 7250
+F 0 "Conn7" H 3822 7297 60  0000 R CNN
+F 1 "UV_led" H 3822 7403 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3700 6700 60  0001 C CNN
+F 3 "" H 3700 6700 60  0001 C CNN
+	1    3850 7250
 	-1   0    0    1   
 $EndComp
 Text GLabel 12000 1250 2    50   Output ~ 0
@@ -1980,12 +1766,6 @@ Wire Wire Line
 	13450 5750 13450 5700
 Wire Wire Line
 	13800 5750 13800 5700
-Wire Wire Line
-	14150 5750 14150 5700
-Wire Wire Line
-	14500 5750 14500 5700
-Wire Wire Line
-	14850 5750 14850 5700
 $Comp
 L Device:Q_PMOS_GDS Q5
 U 1 1 5E06CCD8
@@ -2038,8 +1818,6 @@ Wire Wire Line
 	1700 7500 1650 7500
 Connection ~ 1650 7500
 Wire Wire Line
-	3000 6850 3000 7050
-Wire Wire Line
 	2100 7500 2000 7500
 $Comp
 L power:GND #PWR0142
@@ -2083,11 +1861,6 @@ Wire Notes Line
 	8500 500  8500 8250
 Wire Notes Line
 	400  8250 8500 8250
-Wire Wire Line
-	1850 7050 3000 7050
-Connection ~ 3000 7050
-Wire Wire Line
-	3000 7050 3000 7300
 $Comp
 L power:+24V #PWR0143
 U 1 1 5E2680DD
@@ -2320,4 +2093,9 @@ Wire Wire Line
 	6550 1500 6350 1500
 Wire Wire Line
 	6600 2650 5750 2650
+NoConn ~ 10150 1350
+NoConn ~ 10150 1450
+NoConn ~ 10150 3350
+Wire Wire Line
+	1850 7050 3050 7050
 $EndSCHEMATC
