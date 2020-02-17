@@ -1,5 +1,5 @@
 Id,Designator,Package,Quantity,Designation,Item Name,Part Number,Vendor,Cost per Item,Cost,URL
-1,"R4,R3",R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,2,4,UB5C-4RF1,"	696-1082-ND",Digikey,$0.88 ,,https://www.digikey.com/product-detail/en/riedon/UB5C-4RF1/696-1082-ND/2176630
+1,R3,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,1,2,UB5C-10RF1,UB5C-10RF1,Digikey,$0.88 ,,https://www.digikey.com/product-detail/en/riedon/UB5C-10RF1/696-1063-ND/2176635
 2,U2,OKI_Horizontal,1,OKI,OKI-78SR-5,"	58T9851",Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-5-1-5-w36h-c/dc-dc-converter-5v-1-5a/dp/58T9851?ost=OKI-78SR-5%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
 3,U3,OKI_Horizontal,1,OKI,OKI-78SR-3.3,"	58T9850",Newark,$4.57 ,,https://www.newark.com/murata-power-solutions/oki-78sr-3-3-1-5-w36h-c/dc-dc-converter-3-3v-1-5a/dp/58T9850?ost=OKI-78SR-3.3%2F1.5-W36H-C&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
 4,"R2,R27,R26,R25,R21,R6,R5,R1",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,8,10K,ESR03EZPF1002 ,"	59AC6935",Newark,$0.12 ,,https://www.newark.com/rohm/esr03ezpf1002/res-10k-1-0603-thick-film/dp/59AC6935?st=ESR03EZPF1002
@@ -27,3 +27,4 @@ Id,Designator,Package,Quantity,Designation,Item Name,Part Number,Vendor,Cost per
 26,,,1,Boost Converter 12v to 24v,B07XBWHR56,B07XBWHR56,Amazon,$13.90 ,,https://www.amazon.com/24V-Boost-Converter-Regulator-Waterproof-Transformer/dp/B07XBWHR56/ref=sr_1_4?keywords=12V%2Bto%2B24V%2Bboost%2Bconverter%2B3A&qid=1574373748&sr=8-4&th=1
 27,Q5,,1,Nmos,AOD4189,AOD4189,Digikey,,,https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AOD4189/785-1351-1-ND/3060933
 28,Q6,,1,Pmos,BSS138,BSS138,Digikey,0.27,,https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294
+29,R31,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,27,RMCF0603JT27R0CT-ND,RMCF0603JT27R0CT-ND,Digikey,$0.10 ,,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT27R0/RMCF0603JT27R0CT-ND/2418191
