@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F7FD5A8
+P 4750 2250
+AR Path="/5F7D791F/5F7FD5A8" Ref="Conn?"  Part="2" 
+AR Path="/5F841BF9/5F7FD5A8" Ref="Conn?"  Part="2" 
+AR Path="/5F8CBD9C/5F7FD5A8" Ref="Conn?"  Part="2" 
+F 0 "Conn?" H 4958 2637 60  0000 C CNN
+F 1 "AndersonPP" H 4958 2531 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4600 1700 60  0001 C CNN
+F 3 "" H 4600 1700 60  0001 C CNN
+	2    4750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F7FD5AE
+P 4750 3450
+AR Path="/5F7D791F/5F7FD5AE" Ref="Conn?"  Part="1" 
+AR Path="/5F841BF9/5F7FD5AE" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F7FD5AE" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 4958 3837 60  0000 C CNN
+F 1 "AndersonPP" H 4958 3731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4600 2900 60  0001 C CNN
+F 3 "" H 4600 2900 60  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 1700 0    98   ~ 20
+Power\n
+Wire Wire Line
+	6750 5400 6600 5400
+Wire Wire Line
+	6750 5400 6750 5850
+Wire Wire Line
+	6750 5850 6600 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5F80E633
+P 6750 5850
+AR Path="/5F80E633" Ref="#PWR?"  Part="1" 
+AR Path="/5F7D791F/5F80E633" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/5F80E633" Ref="#PWR?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E633" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 5600 50  0001 C CNN
+F 1 "GND" H 6755 5677 50  0000 C CNN
+F 2 "" H 6750 5850 50  0001 C CNN
+F 3 "" H 6750 5850 50  0001 C CNN
+	1    6750 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 5850
+$Comp
+L power:+12V #PWR?
+U 1 1 5F80E63A
+P 5900 5400
+AR Path="/5F80E63A" Ref="#PWR?"  Part="1" 
+AR Path="/5F7D791F/5F80E63A" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/5F80E63A" Ref="#PWR?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E63A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5250 50  0001 C CNN
+F 1 "+12V" H 5915 5573 50  0000 C CNN
+F 2 "" H 5900 5400 50  0001 C CNN
+F 3 "" H 5900 5400 50  0001 C CNN
+	1    5900 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5400 5750 5400
+$Comp
+L power:+24V #PWR?
+U 1 1 5F80E641
+P 5900 5850
+AR Path="/5F80E641" Ref="#PWR?"  Part="1" 
+AR Path="/5F7D791F/5F80E641" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/5F80E641" Ref="#PWR?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E641" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5700 50  0001 C CNN
+F 1 "+24V" H 5915 6023 50  0000 C CNN
+F 2 "" H 5900 5850 50  0001 C CNN
+F 3 "" H 5900 5850 50  0001 C CNN
+	1    5900 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5850 5750 5850
+Text Notes 4950 4650 0    98   ~ 20
+Off Board Boost Converter
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F80E649
+P 6200 5500
+AR Path="/5F80E649" Ref="Conn?"  Part="1" 
+AR Path="/5F7D791F/5F80E649" Ref="Conn?"  Part="1" 
+AR Path="/5F841BF9/5F80E649" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E649" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 6300 5850 60  0000 C CNN
+F 1 "Boost 12V" H 6300 5750 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6050 4950 60  0001 C CNN
+F 3 "" H 6050 4950 60  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F80E64F
+P 5350 5500
+AR Path="/5F80E64F" Ref="Conn?"  Part="2" 
+AR Path="/5F7D791F/5F80E64F" Ref="Conn?"  Part="2" 
+AR Path="/5F841BF9/5F80E64F" Ref="Conn?"  Part="2" 
+AR Path="/5F8CBD9C/5F80E64F" Ref="Conn?"  Part="2" 
+F 0 "Conn?" H 5450 5850 60  0000 C CNN
+F 1 "Boost 12V" H 5450 5750 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5200 4950 60  0001 C CNN
+F 3 "" H 5200 4950 60  0001 C CNN
+	2    5350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F80E655
+P 6200 5950
+AR Path="/5F80E655" Ref="Conn?"  Part="1" 
+AR Path="/5F7D791F/5F80E655" Ref="Conn?"  Part="1" 
+AR Path="/5F841BF9/5F80E655" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E655" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 6300 6300 60  0000 C CNN
+F 1 "Boost 24V" H 6300 6200 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6050 5400 60  0001 C CNN
+F 3 "" H 6050 5400 60  0001 C CNN
+	1    6200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F80E65B
+P 5350 5950
+AR Path="/5F80E65B" Ref="Conn?"  Part="2" 
+AR Path="/5F7D791F/5F80E65B" Ref="Conn?"  Part="2" 
+AR Path="/5F841BF9/5F80E65B" Ref="Conn?"  Part="2" 
+AR Path="/5F8CBD9C/5F80E65B" Ref="Conn?"  Part="2" 
+F 0 "Conn?" H 5450 6300 60  0000 C CNN
+F 1 "Boost 24V" H 5450 6200 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5200 5400 60  0001 C CNN
+F 3 "" H 5200 5400 60  0001 C CNN
+	2    5350 5950
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 5450 0    50   ~ 0
+INPUT
+Text Notes 5000 5900 0    50   ~ 0
+OUTPUT
+Text Notes 8400 7000 0    276  ~ 55
+POWER
+$EndSCHEMATC
