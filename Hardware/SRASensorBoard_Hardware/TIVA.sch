@@ -19,11 +19,11 @@ Wire Wire Line
 	7150 4100 7100 4100
 Text GLabel 7150 4100 2    50   Output ~ 0
 LED_Enable
-Text GLabel 4300 4800 0    50   Output ~ 0
+Text GLabel 4225 5275 0    50   Output ~ 0
 SW_ERROR
-Text GLabel 4300 4700 0    50   Output ~ 0
+Text GLabel 4200 4900 0    50   Output ~ 0
 SW_Flag2
-Text GLabel 4300 4600 0    50   Output ~ 0
+Text GLabel 4200 4500 0    50   Output ~ 0
 SW_Flag1
 Wire Wire Line
 	5300 4000 5450 4000
@@ -82,8 +82,6 @@ $EndComp
 NoConn ~ 5300 4100
 NoConn ~ 5300 4200
 NoConn ~ 5300 4500
-NoConn ~ 5300 4700
-NoConn ~ 5300 4800
 NoConn ~ 6200 4800
 NoConn ~ 6200 4700
 NoConn ~ 6200 4600
@@ -116,8 +114,6 @@ NoConn ~ 6200 3000
 NoConn ~ 6200 3100
 NoConn ~ 6200 3200
 NoConn ~ 6200 3300
-NoConn ~ 4400 3300
-NoConn ~ 4400 3200
 NoConn ~ 4400 3000
 NoConn ~ 4400 2500
 NoConn ~ 5300 2900
@@ -213,12 +209,9 @@ NoConn ~ 4400 4500
 Wire Wire Line
 	4300 4600 4400 4600
 Wire Wire Line
-	4300 4700 4400 4700
-Wire Wire Line
 	4300 4800 4400 4800
 NoConn ~ 4400 4400
 NoConn ~ 4400 4300
-NoConn ~ 4400 4000
 Wire Wire Line
 	4300 3900 4400 3900
 $Comp
@@ -275,8 +268,6 @@ F 3 "" H 5400 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 2500 5950 2500
-NoConn ~ 4400 4200
-NoConn ~ 4400 4100
 Text GLabel 7150 2500 2    50   Output ~ 0
 Reset
 Wire Wire Line
@@ -328,4 +319,212 @@ Serial 4
 NoConn ~ 5300 2600
 NoConn ~ 5300 2700
 NoConn ~ 5300 4600
+Text GLabel 4175 3325 0    50   Input ~ 0
+NO_SCL
+Text Notes 3775 3325 0    50   ~ 0
+SDA/SCL 0\n\n
+Text GLabel 4175 3425 0    50   Input ~ 0
+NO_SDA
+NoConn ~ 4400 4000
+Wire Wire Line
+	4400 4100 4150 4100
+Text GLabel 4150 4100 0    50   Input ~ 0
+N2O_RX
+Wire Wire Line
+	4400 4200 4150 4200
+Text GLabel 4150 4200 0    50   Output ~ 0
+N2O_TX
+Text Notes 3825 4000 0    50   ~ 0
+Serial 6\n
+Wire Wire Line
+	4400 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 3325
+Wire Wire Line
+	4250 3325 4175 3325
+Wire Wire Line
+	4400 3300 4300 3300
+Wire Wire Line
+	4300 3300 4300 3425
+Wire Wire Line
+	4300 3425 4175 3425
+Text GLabel 5475 4700 2    50   Input ~ 0
+NO2_RX
+Text GLabel 5475 4800 2    50   Output ~ 0
+NO2_TX
+Wire Wire Line
+	5300 4700 5475 4700
+Wire Wire Line
+	5300 4800 5475 4800
+Text Notes 5500 4625 0    50   ~ 0
+Serial 3\n
+$Comp
+L Device:LED D?
+U 1 1 605279AE
+P 3300 5050
+AR Path="/605279AE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279AE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279AE" Ref="D?"  Part="1" 
+F 0 "D?" V 3339 4933 50  0000 R CNN
+F 1 "LED" V 3248 4933 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 5050 50  0001 C CNN
+F 3 "~" H 3300 5050 50  0001 C CNN
+	1    3300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279B4
+P 3700 5050
+AR Path="/605279B4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279B4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279B4" Ref="R?"  Part="1" 
+F 0 "R?" H 3770 5096 50  0000 L CNN
+F 1 "330" H 3770 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 5050 50  0001 C CNN
+F 3 "~" H 3700 5050 50  0001 C CNN
+	1    3700 5050
+	0    1    1    0   
+$EndComp
+Text Notes 2900 5000 3    50   ~ 0
+RED\n
+Wire Wire Line
+	3450 5050 3550 5050
+$Comp
+L Device:LED D?
+U 1 1 605279BE
+P 3300 4350
+AR Path="/605279BE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279BE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279BE" Ref="D?"  Part="1" 
+F 0 "D?" V 3339 4233 50  0000 R CNN
+F 1 "LED" V 3248 4233 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 4350 50  0001 C CNN
+F 3 "~" H 3300 4350 50  0001 C CNN
+	1    3300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279C4
+P 3700 4350
+AR Path="/605279C4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279C4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279C4" Ref="R?"  Part="1" 
+F 0 "R?" H 3770 4396 50  0000 L CNN
+F 1 "330" H 3770 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4350 50  0001 C CNN
+F 3 "~" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	0    1    1    0   
+$EndComp
+Text Notes 2900 4300 3    50   ~ 0
+BLU
+Wire Wire Line
+	3450 4350 3550 4350
+$Comp
+L Device:LED D?
+U 1 1 605279CE
+P 3300 4700
+AR Path="/605279CE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279CE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279CE" Ref="D?"  Part="1" 
+F 0 "D?" V 3339 4583 50  0000 R CNN
+F 1 "LED" V 3248 4583 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 4700 50  0001 C CNN
+F 3 "~" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279D4
+P 3700 4700
+AR Path="/605279D4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279D4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279D4" Ref="R?"  Part="1" 
+F 0 "R?" H 3770 4746 50  0000 L CNN
+F 1 "330" H 3770 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4700 50  0001 C CNN
+F 3 "~" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	0    1    1    0   
+$EndComp
+Text Notes 2900 4650 3    50   ~ 0
+BLU
+Wire Wire Line
+	3450 4700 3550 4700
+$Comp
+L power:GND #PWR?
+U 1 1 60527A35
+P 3100 5050
+AR Path="/60527A35" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A35" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A35" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 4800 50  0001 C CNN
+F 1 "GND" H 3200 4950 50  0000 C CNN
+F 2 "" H 3100 5050 50  0001 C CNN
+F 3 "" H 3100 5050 50  0001 C CNN
+	1    3100 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60527A3B
+P 3100 4350
+AR Path="/60527A3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A3B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 4100 50  0001 C CNN
+F 1 "GND" H 3200 4250 50  0000 C CNN
+F 2 "" H 3100 4350 50  0001 C CNN
+F 3 "" H 3100 4350 50  0001 C CNN
+	1    3100 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60527A41
+P 3100 4700
+AR Path="/60527A41" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A41" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A41" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 4450 50  0001 C CNN
+F 1 "GND" H 3200 4600 50  0000 C CNN
+F 2 "" H 3100 4700 50  0001 C CNN
+F 3 "" H 3100 4700 50  0001 C CNN
+	1    3100 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 4350 3150 4350
+Wire Wire Line
+	3100 4700 3150 4700
+Wire Wire Line
+	3100 5050 3150 5050
+Wire Wire Line
+	4300 4350 4300 4500
+Wire Wire Line
+	3850 4350 4300 4350
+Wire Wire Line
+	3850 4700 4200 4700
+Wire Wire Line
+	4300 5050 4300 4800
+Wire Wire Line
+	3850 5050 4225 5050
+Wire Wire Line
+	4200 4500 4300 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	4300 4500 4300 4600
+Wire Wire Line
+	4200 4900 4200 4700
+Connection ~ 4200 4700
+Wire Wire Line
+	4200 4700 4400 4700
+Wire Wire Line
+	4225 5275 4225 5050
+Connection ~ 4225 5050
+Wire Wire Line
+	4225 5050 4300 5050
 $EndSCHEMATC

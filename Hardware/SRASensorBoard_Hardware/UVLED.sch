@@ -47,7 +47,7 @@ F 3 "" H 6350 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 3350 6500 3350
-Text GLabel 5250 3850 0    50   Input ~ 0
+Text GLabel 5125 4025 2    50   Input ~ 0
 LED_Enable
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
@@ -173,8 +173,6 @@ F 3 "~" H 5550 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 3850 5350 3850
-Wire Wire Line
 	5750 3500 5750 3850
 Wire Wire Line
 	5350 3800 5350 3850
@@ -211,4 +209,58 @@ Wire Wire Line
 Connection ~ 4200 3050
 Wire Wire Line
 	4900 3050 6100 3050
+$Comp
+L Device:LED D?
+U 1 1 604F1096
+P 4550 3850
+AR Path="/604F1096" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/604F1096" Ref="D?"  Part="1" 
+F 0 "D?" V 4589 3733 50  0000 R CNN
+F 1 "LED" V 4498 3733 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 3850 50  0001 C CNN
+F 3 "~" H 4550 3850 50  0001 C CNN
+	1    4550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604F109C
+P 4950 3850
+AR Path="/604F109C" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/604F109C" Ref="R?"  Part="1" 
+F 0 "R?" H 5020 3896 50  0000 L CNN
+F 1 "330" H 5020 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+	1    4950 3850
+	0    1    1    0   
+$EndComp
+Text Notes 3875 3950 0    50   ~ 0
+YELLOW
+Wire Wire Line
+	4700 3850 4800 3850
+$Comp
+L power:GND #PWR?
+U 1 1 604F1131
+P 4250 3950
+AR Path="/604F1131" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/604F1131" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 3700 50  0001 C CNN
+F 1 "GND" H 4350 3850 50  0000 C CNN
+F 2 "" H 4250 3950 50  0001 C CNN
+F 3 "" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3850 5125 3850
+Wire Wire Line
+	4250 3850 4250 3950
+Wire Wire Line
+	4250 3850 4400 3850
+Wire Wire Line
+	5125 4025 5125 3850
+Connection ~ 5125 3850
+Wire Wire Line
+	5125 3850 5350 3850
 $EndSCHEMATC
