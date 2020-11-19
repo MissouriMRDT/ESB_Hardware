@@ -410,7 +410,7 @@ AR Path="/5F841BF9/5F7FD5A8" Ref="Conn?"  Part="2"
 AR Path="/5F8CBD9C/5F7FD5A8" Ref="Conn?"  Part="2" 
 F 0 "Conn1" H 2733 3162 60  0000 C CNN
 F 1 "AndersonPP" H 2733 3056 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2375 2225 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2375 2225 60  0001 C CNN
 F 3 "" H 2375 2225 60  0001 C CNN
 	2    2525 2775
 	1    0    0    -1  
@@ -437,7 +437,7 @@ AR Path="/5F841BF9/5F7FD5AE" Ref="Conn?"  Part="1"
 AR Path="/5F8CBD9C/5F7FD5AE" Ref="Conn?"  Part="1" 
 F 0 "Conn1" H 2808 5912 60  0000 C CNN
 F 1 "AndersonPP" H 2808 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2450 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2450 4975 60  0001 C CNN
 F 3 "" H 2450 4975 60  0001 C CNN
 	1    2600 5525
 	1    0    0    -1  
@@ -520,7 +520,7 @@ AR Path="/5F841BF9/5FC0696B" Ref="Conn?"  Part="1"
 AR Path="/5F8CBD9C/5FC0696B" Ref="Conn?"  Part="1" 
 F 0 "Conn1" H 2808 6562 60  0000 C CNN
 F 1 "AndersonPP" H 2808 6456 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2450 5625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2450 5625 60  0001 C CNN
 F 3 "" H 2450 5625 60  0001 C CNN
 	3    2600 6175
 	1    0    0    -1  
@@ -530,10 +530,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 6075 3300 6000
 $Comp
-L power:+12VA #PWR?
+L power:+12VA #PWR0133
 U 1 1 5FC088F5
 P 3300 6000
-F 0 "#PWR?" H 3300 5850 50  0001 C CNN
+F 0 "#PWR0133" H 3300 5850 50  0001 C CNN
 F 1 "+12VA" H 3315 6173 50  0000 C CNN
 F 2 "" H 3300 6000 50  0001 C CNN
 F 3 "" H 3300 6000 50  0001 C CNN

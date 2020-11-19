@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Evan Seabaugh\\Documents\\ScienceSensors_Hardware\\Hardware\\SRASensorBoard_Hardware\\SRA_Sensor_Board.sch")
-    (date "11/17/2020 11:53:22 PM")
+    (date "11/19/2020 12:15:09 AM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -623,7 +623,7 @@
       (tstamp 604F109C))
     (comp (ref U4)
       (value TM4C129E_Launchpad)
-      (footprint MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM)
+      (footprint MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM)
       (libsource (lib SRA_Sensor_Board-rescue) (part TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue) (description ""))
       (sheetpath (names /TIVA/) (tstamps /5F8FEC08/))
       (tstamp 5F933A94))
