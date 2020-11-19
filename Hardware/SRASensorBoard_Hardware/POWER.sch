@@ -13,139 +13,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Connectors:AndersonPP Conn1
-U 2 1 5F7FD5A8
-P 2550 2775
-AR Path="/5F7D791F/5F7FD5A8" Ref="Conn1"  Part="2" 
-AR Path="/5F841BF9/5F7FD5A8" Ref="Conn?"  Part="2" 
-AR Path="/5F8CBD9C/5F7FD5A8" Ref="Conn?"  Part="2" 
-F 0 "Conn1" H 2758 3162 60  0000 C CNN
-F 1 "AndersonPP" H 2758 3056 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2400 2225 60  0001 C CNN
-F 3 "" H 2400 2225 60  0001 C CNN
-	2    2550 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn1
-U 1 1 5F7FD5AE
-P 2600 5525
-AR Path="/5F7D791F/5F7FD5AE" Ref="Conn1"  Part="1" 
-AR Path="/5F841BF9/5F7FD5AE" Ref="Conn?"  Part="1" 
-AR Path="/5F8CBD9C/5F7FD5AE" Ref="Conn?"  Part="1" 
-F 0 "Conn1" H 2808 5912 60  0000 C CNN
-F 1 "AndersonPP" H 2808 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2450 4975 60  0001 C CNN
-F 3 "" H 2450 4975 60  0001 C CNN
-	1    2600 5525
-	1    0    0    -1  
-$EndComp
 Text Notes 2000 2225 0    98   ~ 20
 Power\n
-Wire Wire Line
-	8350 3850 8200 3850
-Wire Wire Line
-	8350 3850 8350 4300
-Wire Wire Line
-	8350 4300 8200 4300
-$Comp
-L power:GND #PWR?
-U 1 1 5F80E633
-P 8350 4300
-AR Path="/5F80E633" Ref="#PWR?"  Part="1" 
-AR Path="/5F7D791F/5F80E633" Ref="#PWR0101"  Part="1" 
-AR Path="/5F841BF9/5F80E633" Ref="#PWR?"  Part="1" 
-AR Path="/5F8CBD9C/5F80E633" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 8350 4050 50  0001 C CNN
-F 1 "GND" H 8355 4127 50  0000 C CNN
-F 2 "" H 8350 4300 50  0001 C CNN
-F 3 "" H 8350 4300 50  0001 C CNN
-	1    8350 4300
-	1    0    0    -1  
-$EndComp
-Connection ~ 8350 4300
-$Comp
-L power:+12V #PWR?
-U 1 1 5F80E63A
-P 8350 2925
-AR Path="/5F80E63A" Ref="#PWR?"  Part="1" 
-AR Path="/5F7D791F/5F80E63A" Ref="#PWR0102"  Part="1" 
-AR Path="/5F841BF9/5F80E63A" Ref="#PWR?"  Part="1" 
-AR Path="/5F8CBD9C/5F80E63A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 8350 2775 50  0001 C CNN
-F 1 "+12V" H 8365 3098 50  0000 C CNN
-F 2 "" H 8350 2925 50  0001 C CNN
-F 3 "" H 8350 2925 50  0001 C CNN
-	1    8350 2925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 2925 8200 2925
 $Comp
 L power:+24V #PWR?
 U 1 1 5F80E641
-P 8350 3375
+P 8350 3350
 AR Path="/5F80E641" Ref="#PWR?"  Part="1" 
 AR Path="/5F7D791F/5F80E641" Ref="#PWR0103"  Part="1" 
 AR Path="/5F841BF9/5F80E641" Ref="#PWR?"  Part="1" 
 AR Path="/5F8CBD9C/5F80E641" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 8350 3225 50  0001 C CNN
-F 1 "+24V" H 8365 3548 50  0000 C CNN
-F 2 "" H 8350 3375 50  0001 C CNN
-F 3 "" H 8350 3375 50  0001 C CNN
-	1    8350 3375
+F 0 "#PWR0103" H 8350 3200 50  0001 C CNN
+F 1 "+24V" H 8365 3523 50  0000 C CNN
+F 2 "" H 8350 3350 50  0001 C CNN
+F 3 "" H 8350 3350 50  0001 C CNN
+	1    8350 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 3375 8200 3375
 Text Notes 7400 2425 0    98   ~ 20
 Off Board Boost Converter
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F80E649
-P 7800 3950
-AR Path="/5F80E649" Ref="Conn?"  Part="1" 
-AR Path="/5F7D791F/5F80E649" Ref="Conn2"  Part="1" 
-AR Path="/5F841BF9/5F80E649" Ref="Conn?"  Part="1" 
-AR Path="/5F8CBD9C/5F80E649" Ref="Conn?"  Part="1" 
-F 0 "Conn2" H 7900 4300 60  0000 C CNN
-F 1 "Boost 12V" H 7900 4200 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 3400 60  0001 C CNN
-F 3 "" H 7650 3400 60  0001 C CNN
-	1    7800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5F80E64F
-P 7800 3025
-AR Path="/5F80E64F" Ref="Conn?"  Part="2" 
-AR Path="/5F7D791F/5F80E64F" Ref="Conn2"  Part="2" 
-AR Path="/5F841BF9/5F80E64F" Ref="Conn?"  Part="2" 
-AR Path="/5F8CBD9C/5F80E64F" Ref="Conn?"  Part="2" 
-F 0 "Conn2" H 7900 3375 60  0000 C CNN
-F 1 "Boost 12V" H 7900 3275 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 2475 60  0001 C CNN
-F 3 "" H 7650 2475 60  0001 C CNN
-	2    7800 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F80E655
-P 7800 4400
-AR Path="/5F80E655" Ref="Conn?"  Part="1" 
-AR Path="/5F7D791F/5F80E655" Ref="Conn3"  Part="1" 
-AR Path="/5F841BF9/5F80E655" Ref="Conn?"  Part="1" 
-AR Path="/5F8CBD9C/5F80E655" Ref="Conn?"  Part="1" 
-F 0 "Conn3" H 7900 4750 60  0000 C CNN
-F 1 "Boost 24V" H 7900 4650 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 3850 60  0001 C CNN
-F 3 "" H 7650 3850 60  0001 C CNN
-	1    7800 4400
-	1    0    0    -1  
-$EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 2 1 5F80E65B
@@ -170,182 +56,45 @@ POWER
 $Comp
 L power:GND #PWR0104
 U 1 1 5F936D42
-P 3000 3275
-F 0 "#PWR0104" H 3000 3025 50  0001 C CNN
-F 1 "GND" H 3005 3102 50  0000 C CNN
-F 2 "" H 3000 3275 50  0001 C CNN
-F 3 "" H 3000 3275 50  0001 C CNN
-	1    3000 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5F9379EC
-P 3600 3275
-F 0 "#PWR0105" H 3600 3025 50  0001 C CNN
-F 1 "GND" H 3605 3102 50  0000 C CNN
-F 2 "" H 3600 3275 50  0001 C CNN
-F 3 "" H 3600 3275 50  0001 C CNN
-	1    3600 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5F937A49
-P 4100 3275
-F 0 "#PWR0106" H 4100 3025 50  0001 C CNN
-F 1 "GND" H 4105 3102 50  0000 C CNN
-F 2 "" H 4100 3275 50  0001 C CNN
-F 3 "" H 4100 3275 50  0001 C CNN
-	1    4100 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5F937C5D
-P 4750 3275
-F 0 "#PWR0107" H 4750 3025 50  0001 C CNN
-F 1 "GND" H 4755 3102 50  0000 C CNN
-F 2 "" H 4750 3275 50  0001 C CNN
-F 3 "" H 4750 3275 50  0001 C CNN
-	1    4750 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5F937E80
-P 5300 3275
-F 0 "#PWR0108" H 5300 3025 50  0001 C CNN
-F 1 "GND" H 5305 3102 50  0000 C CNN
-F 2 "" H 5300 3275 50  0001 C CNN
-F 3 "" H 5300 3275 50  0001 C CNN
-	1    5300 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5F9389AD
-P 3200 5425
-F 0 "#PWR0109" H 3200 5175 50  0001 C CNN
-F 1 "GND" H 3205 5252 50  0000 C CNN
-F 2 "" H 3200 5425 50  0001 C CNN
-F 3 "" H 3200 5425 50  0001 C CNN
-	1    3200 5425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 5425 3200 5425
-$Comp
-L Regulator_Switching:LM2576S-3.3 U1
-U 1 1 5F939124
-P 4100 2775
-F 0 "U1" H 4100 3142 50  0000 C CNN
-F 1 "LM2576S-3.3" H 4100 3051 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 4100 2525 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 4100 2775 50  0001 C CNN
-	1    4100 2775
+P 2975 3275
+F 0 "#PWR0104" H 2975 3025 50  0001 C CNN
+F 1 "GND" H 2980 3102 50  0000 C CNN
+F 2 "" H 2975 3275 50  0001 C CNN
+F 3 "" H 2975 3275 50  0001 C CNN
+	1    2975 3275
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR0110
 U 1 1 5F93CF46
-P 3250 2525
-F 0 "#PWR0110" H 3250 2375 50  0001 C CNN
-F 1 "+12V" H 3265 2698 50  0000 C CNN
-F 2 "" H 3250 2525 50  0001 C CNN
-F 3 "" H 3250 2525 50  0001 C CNN
-	1    3250 2525
+P 3225 2525
+F 0 "#PWR0110" H 3225 2375 50  0001 C CNN
+F 1 "+12V" H 3240 2698 50  0000 C CNN
+F 2 "" H 3225 2525 50  0001 C CNN
+F 3 "" H 3225 2525 50  0001 C CNN
+	1    3225 2525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2675 3000 2675
+	2925 2675 2975 2675
 Wire Wire Line
-	3250 2675 3250 2525
-Wire Wire Line
-	3250 2675 3600 2675
-Connection ~ 3250 2675
+	3225 2675 3225 2525
 $Comp
 L Device:C C1
 U 1 1 5F946159
-P 3000 2825
-F 0 "C1" H 3115 2871 50  0000 L CNN
-F 1 "100uF" H 3115 2780 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 2675 50  0001 C CNN
-F 3 "~" H 3000 2825 50  0001 C CNN
-	1    3000 2825
+P 2975 2825
+F 0 "C1" H 3090 2871 50  0000 L CNN
+F 1 "10uF" H 3090 2780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 2675 50  0001 C CNN
+F 3 "~" H 2975 2825 50  0001 C CNN
+	1    2975 2825
 	1    0    0    -1  
 $EndComp
-Connection ~ 3000 2675
+Connection ~ 2975 2675
 Wire Wire Line
-	3000 2675 3250 2675
+	2975 2675 3225 2675
 Wire Wire Line
-	3000 2975 3000 3275
-Wire Wire Line
-	3600 2875 3600 3275
-Wire Wire Line
-	4100 3075 4100 3275
-Wire Wire Line
-	4600 2675 5300 2675
-Wire Wire Line
-	5300 2675 5300 2875
-$Comp
-L Device:L L1
-U 1 1 5F949937
-P 5150 2875
-F 0 "L1" V 4969 2875 50  0000 C CNN
-F 1 "100uH" V 5060 2875 50  0000 C CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" H 5150 2875 50  0001 C CNN
-F 3 "~" H 5150 2875 50  0001 C CNN
-	1    5150 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D1
-U 1 1 5F94A568
-P 4750 3025
-F 0 "D1" V 4704 3104 50  0000 L CNN
-F 1 "1N5822" V 4795 3104 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 4750 3025 50  0001 C CNN
-F 3 "~" H 4750 3025 50  0001 C CNN
-	1    4750 3025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 2875 4750 2875
-Wire Wire Line
-	4750 2875 5000 2875
-Connection ~ 4750 2875
-$Comp
-L Device:C C3
-U 1 1 5F94BD26
-P 5300 3025
-F 0 "C3" H 5415 3071 50  0000 L CNN
-F 1 "1000uF" H 5415 2980 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5338 2875 50  0001 C CNN
-F 3 "~" H 5300 3025 50  0001 C CNN
-	1    5300 3025
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 2875
-$Comp
-L power:+3.3V #PWR0111
-U 1 1 5F94D111
-P 5450 2775
-F 0 "#PWR0111" H 5450 2625 50  0001 C CNN
-F 1 "+3.3V" H 5465 2948 50  0000 C CNN
-F 2 "" H 5450 2775 50  0001 C CNN
-F 3 "" H 5450 2775 50  0001 C CNN
-	1    5450 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2875 5450 2875
-Wire Wire Line
-	5450 2875 5450 2775
-Wire Wire Line
-	4750 3175 4750 3275
-Wire Wire Line
-	5300 3175 5300 3275
+	2975 2975 2975 3275
 $Comp
 L power:GND #PWR0112
 U 1 1 5F957D31
@@ -355,50 +104,6 @@ F 1 "GND" H 3055 4502 50  0000 C CNN
 F 2 "" H 3050 4675 50  0001 C CNN
 F 3 "" H 3050 4675 50  0001 C CNN
 	1    3050 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5F957D37
-P 3650 4675
-F 0 "#PWR0113" H 3650 4425 50  0001 C CNN
-F 1 "GND" H 3655 4502 50  0000 C CNN
-F 2 "" H 3650 4675 50  0001 C CNN
-F 3 "" H 3650 4675 50  0001 C CNN
-	1    3650 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5F957D3D
-P 4150 4675
-F 0 "#PWR0114" H 4150 4425 50  0001 C CNN
-F 1 "GND" H 4155 4502 50  0000 C CNN
-F 2 "" H 4150 4675 50  0001 C CNN
-F 3 "" H 4150 4675 50  0001 C CNN
-	1    4150 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5F957D43
-P 4800 4675
-F 0 "#PWR0115" H 4800 4425 50  0001 C CNN
-F 1 "GND" H 4805 4502 50  0000 C CNN
-F 2 "" H 4800 4675 50  0001 C CNN
-F 3 "" H 4800 4675 50  0001 C CNN
-	1    4800 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5F957D49
-P 5350 4675
-F 0 "#PWR0116" H 5350 4425 50  0001 C CNN
-F 1 "GND" H 5355 4502 50  0000 C CNN
-F 2 "" H 5350 4675 50  0001 C CNN
-F 3 "" H 5350 4675 50  0001 C CNN
-	1    5350 4675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -421,162 +126,14 @@ L Device:C C2
 U 1 1 5F957D5F
 P 3050 4225
 F 0 "C2" H 3165 4271 50  0000 L CNN
-F 1 "100uF" H 3165 4180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3088 4075 50  0001 C CNN
+F 1 "10uF" H 3165 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4075 50  0001 C CNN
 F 3 "~" H 3050 4225 50  0001 C CNN
 	1    3050 4225
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 4075
 Wire Wire Line
 	3050 4375 3050 4675
-Wire Wire Line
-	3650 4275 3650 4675
-Wire Wire Line
-	4150 4475 4150 4675
-Wire Wire Line
-	4650 4075 5350 4075
-Wire Wire Line
-	5350 4075 5350 4275
-$Comp
-L Device:L L2
-U 1 1 5F957D6C
-P 5200 4275
-F 0 "L2" V 5019 4275 50  0000 C CNN
-F 1 "100uH" V 5110 4275 50  0000 C CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" H 5200 4275 50  0001 C CNN
-F 3 "~" H 5200 4275 50  0001 C CNN
-	1    5200 4275
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 5F957D72
-P 4800 4425
-F 0 "D2" V 4754 4504 50  0000 L CNN
-F 1 "1N5822" V 4845 4504 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 4800 4425 50  0001 C CNN
-F 3 "~" H 4800 4425 50  0001 C CNN
-	1    4800 4425
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4650 4275 4800 4275
-Wire Wire Line
-	4800 4275 5050 4275
-Connection ~ 4800 4275
-$Comp
-L Device:C C4
-U 1 1 5F957D7B
-P 5350 4425
-F 0 "C4" H 5465 4471 50  0000 L CNN
-F 1 "1000uF" H 5465 4380 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5388 4275 50  0001 C CNN
-F 3 "~" H 5350 4425 50  0001 C CNN
-	1    5350 4425
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 4275
-Wire Wire Line
-	5350 4275 5500 4275
-Wire Wire Line
-	5500 4275 5500 4175
-Wire Wire Line
-	4800 4575 4800 4675
-Wire Wire Line
-	5350 4575 5350 4675
-Wire Wire Line
-	3050 4075 3650 4075
-$Comp
-L power:+5V #PWR0118
-U 1 1 5F95A72D
-P 5500 4175
-F 0 "#PWR0118" H 5500 4025 50  0001 C CNN
-F 1 "+5V" H 5515 4348 50  0000 C CNN
-F 2 "" H 5500 4175 50  0001 C CNN
-F 3 "" H 5500 4175 50  0001 C CNN
-	1    5500 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Switching:LM2576HVS-5 U2
-U 1 1 5F95BC9B
-P 4150 4175
-F 0 "U2" H 4150 4542 50  0000 C CNN
-F 1 "LM2576HVS-5" H 4150 4451 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 4150 3925 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 4150 4175 50  0001 C CNN
-	1    4150 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 6057C153
-P 6200 4275
-AR Path="/6057C153" Ref="D?"  Part="1" 
-AR Path="/5F841BF9/6057C153" Ref="D?"  Part="1" 
-AR Path="/5F7D791F/6057C153" Ref="D4"  Part="1" 
-F 0 "D4" V 6239 4158 50  0000 R CNN
-F 1 "LED" V 6148 4158 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 4275 50  0001 C CNN
-F 3 "~" H 6200 4275 50  0001 C CNN
-	1    6200 4275
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6057C159
-P 5800 4275
-AR Path="/6057C159" Ref="R?"  Part="1" 
-AR Path="/5F841BF9/6057C159" Ref="R?"  Part="1" 
-AR Path="/5F7D791F/6057C159" Ref="R2"  Part="1" 
-F 0 "R2" H 5870 4321 50  0000 L CNN
-F 1 "510" H 5870 4230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 4275 50  0001 C CNN
-F 3 "~" H 5800 4275 50  0001 C CNN
-	1    5800 4275
-	0    -1   -1   0   
-$EndComp
-Text Notes 6350 4525 0    50   ~ 0
-GREEN
-Wire Wire Line
-	6050 4275 5950 4275
-Wire Wire Line
-	5650 4275 5500 4275
-$Comp
-L Device:LED D?
-U 1 1 6057C162
-P 6150 2875
-AR Path="/6057C162" Ref="D?"  Part="1" 
-AR Path="/5F841BF9/6057C162" Ref="D?"  Part="1" 
-AR Path="/5F7D791F/6057C162" Ref="D3"  Part="1" 
-F 0 "D3" V 6189 2758 50  0000 R CNN
-F 1 "LED" V 6098 2758 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 2875 50  0001 C CNN
-F 3 "~" H 6150 2875 50  0001 C CNN
-	1    6150 2875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6057C168
-P 5750 2875
-AR Path="/6057C168" Ref="R?"  Part="1" 
-AR Path="/5F841BF9/6057C168" Ref="R?"  Part="1" 
-AR Path="/5F7D791F/6057C168" Ref="R1"  Part="1" 
-F 0 "R1" H 5820 2921 50  0000 L CNN
-F 1 "330" H 5820 2830 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 2875 50  0001 C CNN
-F 3 "~" H 5750 2875 50  0001 C CNN
-	1    5750 2875
-	0    -1   -1   0   
-$EndComp
-Text Notes 6300 3125 0    50   ~ 0
-GREEN
-Wire Wire Line
-	6000 2875 5900 2875
-Wire Wire Line
-	5600 2875 5450 2875
 $Comp
 L Device:LED D?
 U 1 1 6057C17D
@@ -595,44 +152,16 @@ Text Notes 9200 3625 0    50   ~ 0
 GREEN
 $Comp
 L power:GND #PWR?
-U 1 1 6057C1AE
-P 6400 4275
-AR Path="/6057C1AE" Ref="#PWR?"  Part="1" 
-AR Path="/5F841BF9/6057C1AE" Ref="#PWR?"  Part="1" 
-AR Path="/5F7D791F/6057C1AE" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 6400 4025 50  0001 C CNN
-F 1 "GND" H 6500 4175 50  0000 C CNN
-F 2 "" H 6400 4275 50  0001 C CNN
-F 3 "" H 6400 4275 50  0001 C CNN
-	1    6400 4275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6057C1B4
-P 6350 2875
-AR Path="/6057C1B4" Ref="#PWR?"  Part="1" 
-AR Path="/5F841BF9/6057C1B4" Ref="#PWR?"  Part="1" 
-AR Path="/5F7D791F/6057C1B4" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 6350 2625 50  0001 C CNN
-F 1 "GND" H 6450 2775 50  0000 C CNN
-F 2 "" H 6350 2875 50  0001 C CNN
-F 3 "" H 6350 2875 50  0001 C CNN
-	1    6350 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 6057C1BA
-P 9250 3375
+P 9250 3400
 AR Path="/6057C1BA" Ref="#PWR?"  Part="1" 
 AR Path="/5F841BF9/6057C1BA" Ref="#PWR?"  Part="1" 
 AR Path="/5F7D791F/6057C1BA" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 9250 3125 50  0001 C CNN
-F 1 "GND" H 9350 3275 50  0000 C CNN
-F 2 "" H 9250 3375 50  0001 C CNN
-F 3 "" H 9250 3375 50  0001 C CNN
-	1    9250 3375
+F 0 "#PWR0121" H 9250 3150 50  0001 C CNN
+F 1 "GND" H 9350 3300 50  0000 C CNN
+F 2 "" H 9250 3400 50  0001 C CNN
+F 3 "" H 9250 3400 50  0001 C CNN
+	1    9250 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -667,24 +196,20 @@ Text Notes 9200 3175 0    50   ~ 0
 GREEN
 Wire Wire Line
 	8900 2925 8800 2925
-Wire Wire Line
-	8500 2925 8350 2925
 $Comp
 L power:GND #PWR?
 U 1 1 6057C1CF
-P 9250 2925
+P 9250 2950
 AR Path="/6057C1CF" Ref="#PWR?"  Part="1" 
 AR Path="/5F841BF9/6057C1CF" Ref="#PWR?"  Part="1" 
 AR Path="/5F7D791F/6057C1CF" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 9250 2675 50  0001 C CNN
-F 1 "GND" H 9350 2825 50  0000 C CNN
-F 2 "" H 9250 2925 50  0001 C CNN
-F 3 "" H 9250 2925 50  0001 C CNN
-	1    9250 2925
+F 0 "#PWR0122" H 9250 2700 50  0001 C CNN
+F 1 "GND" H 9350 2850 50  0000 C CNN
+F 2 "" H 9250 2950 50  0001 C CNN
+F 3 "" H 9250 2950 50  0001 C CNN
+	1    9250 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8500 3375 8350 3375
 Wire Wire Line
 	8900 3375 8800 3375
 $Comp
@@ -705,12 +230,314 @@ Wire Wire Line
 	9250 3375 9200 3375
 Wire Wire Line
 	9250 2925 9200 2925
+$Comp
+L MRDT_Devices:OKI U2
+U 1 1 5FB574DF
+P 3575 2775
+F 0 "U2" H 3625 2725 60  0001 C CNN
+F 1 "OKI" H 3775 3056 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 3375 2675 60  0001 C CNN
+F 3 "" H 3375 2675 60  0001 C CNN
+	1    3575 2775
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6400 4275 6350 4275
+	3375 2675 3225 2675
+Connection ~ 3225 2675
+$Comp
+L power:GND #PWR0105
+U 1 1 5FB5BB13
+P 3775 3275
+F 0 "#PWR0105" H 3775 3025 50  0001 C CNN
+F 1 "GND" H 3780 3102 50  0000 C CNN
+F 2 "" H 3775 3275 50  0001 C CNN
+F 3 "" H 3775 3275 50  0001 C CNN
+	1    3775 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FB5BB19
+P 4400 3025
+F 0 "C4" H 4515 3071 50  0000 L CNN
+F 1 "10uF" H 4515 2980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 2875 50  0001 C CNN
+F 3 "~" H 4400 3025 50  0001 C CNN
+	1    4400 3025
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6350 2875 6300 2875
-Connection ~ 5450 2875
-Connection ~ 5500 4275
+	4400 2675 4400 2875
+Wire Wire Line
+	4175 2675 4400 2675
+Connection ~ 4400 2675
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5FB609F0
+P 4500 2600
+F 0 "#PWR0106" H 4500 2450 50  0001 C CNN
+F 1 "+3.3V" H 4515 2773 50  0000 C CNN
+F 2 "" H 4500 2600 50  0001 C CNN
+F 3 "" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2600 4500 2675
+Wire Wire Line
+	4400 2675 4500 2675
+$Comp
+L MRDT_Devices:OKI U1
+U 1 1 5FB6B586
+P 3500 4175
+F 0 "U1" H 3550 4125 60  0001 C CNN
+F 1 "OKI" H 3700 4456 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 3300 4075 60  0001 C CNN
+F 3 "" H 3300 4075 60  0001 C CNN
+	1    3500 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FB6B58D
+P 3700 4675
+F 0 "#PWR0107" H 3700 4425 50  0001 C CNN
+F 1 "GND" H 3705 4502 50  0000 C CNN
+F 2 "" H 3700 4675 50  0001 C CNN
+F 3 "" H 3700 4675 50  0001 C CNN
+	1    3700 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FB6B593
+P 4325 4425
+F 0 "C3" H 4440 4471 50  0000 L CNN
+F 1 "10uF" H 4440 4380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4363 4275 50  0001 C CNN
+F 3 "~" H 4325 4425 50  0001 C CNN
+	1    4325 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4375 3700 4675
+Wire Wire Line
+	4325 4075 4325 4275
+Wire Wire Line
+	4100 4075 4325 4075
+Connection ~ 4325 4075
+Wire Wire Line
+	4425 4000 4425 4075
+Wire Wire Line
+	4325 4075 4425 4075
+Wire Wire Line
+	3050 4075 3300 4075
+Connection ~ 3050 4075
+$Comp
+L power:+5V #PWR0108
+U 1 1 5FB6C886
+P 4425 4000
+F 0 "#PWR0108" H 4425 3850 50  0001 C CNN
+F 1 "+5V" H 4440 4173 50  0000 C CNN
+F 2 "" H 4425 4000 50  0001 C CNN
+F 3 "" H 4425 4000 50  0001 C CNN
+	1    4425 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FB6D2FF
+P 4400 3275
+F 0 "#PWR0111" H 4400 3025 50  0001 C CNN
+F 1 "GND" H 4405 3102 50  0000 C CNN
+F 2 "" H 4400 3275 50  0001 C CNN
+F 3 "" H 4400 3275 50  0001 C CNN
+	1    4400 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FB6DF21
+P 4325 4675
+F 0 "#PWR0113" H 4325 4425 50  0001 C CNN
+F 1 "GND" H 4330 4502 50  0000 C CNN
+F 2 "" H 4325 4675 50  0001 C CNN
+F 3 "" H 4325 4675 50  0001 C CNN
+	1    4325 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3175 4400 3275
+Wire Wire Line
+	4325 4575 4325 4675
+Wire Wire Line
+	3775 2975 3775 3275
+Wire Wire Line
+	8200 2925 8350 2925
+$Comp
+L power:+12VA #PWR0102
+U 1 1 5FBE1377
+P 8350 2900
+F 0 "#PWR0102" H 8350 2750 50  0001 C CNN
+F 1 "+12VA" H 8365 3073 50  0000 C CNN
+F 2 "" H 8350 2900 50  0001 C CNN
+F 3 "" H 8350 2900 50  0001 C CNN
+	1    8350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2900 8350 2925
 Connection ~ 8350 2925
+Wire Wire Line
+	8350 2925 8500 2925
+Wire Wire Line
+	8200 3375 8350 3375
+Wire Wire Line
+	8350 3350 8350 3375
 Connection ~ 8350 3375
+Wire Wire Line
+	8350 3375 8500 3375
+Wire Wire Line
+	9250 2925 9250 2950
+Wire Wire Line
+	9250 3375 9250 3400
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 2 1 5F7FD5A8
+P 2525 2775
+AR Path="/5F7D791F/5F7FD5A8" Ref="Conn1"  Part="2" 
+AR Path="/5F841BF9/5F7FD5A8" Ref="Conn?"  Part="2" 
+AR Path="/5F8CBD9C/5F7FD5A8" Ref="Conn?"  Part="2" 
+F 0 "Conn1" H 2733 3162 60  0000 C CNN
+F 1 "AndersonPP" H 2733 3056 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2375 2225 60  0001 C CNN
+F 3 "" H 2375 2225 60  0001 C CNN
+	2    2525 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5425 3200 5425
+$Comp
+L power:GND #PWR0109
+U 1 1 5F9389AD
+P 3200 5425
+F 0 "#PWR0109" H 3200 5175 50  0001 C CNN
+F 1 "GND" H 3205 5252 50  0000 C CNN
+F 2 "" H 3200 5425 50  0001 C CNN
+F 3 "" H 3200 5425 50  0001 C CNN
+	1    3200 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 1 1 5F7FD5AE
+P 2600 5525
+AR Path="/5F7D791F/5F7FD5AE" Ref="Conn1"  Part="1" 
+AR Path="/5F841BF9/5F7FD5AE" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F7FD5AE" Ref="Conn?"  Part="1" 
+F 0 "Conn1" H 2808 5912 60  0000 C CNN
+F 1 "AndersonPP" H 2808 5806 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2450 4975 60  0001 C CNN
+F 3 "" H 2450 4975 60  0001 C CNN
+	1    2600 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4300 8350 4350
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F80E655
+P 7800 4400
+AR Path="/5F80E655" Ref="Conn?"  Part="1" 
+AR Path="/5F7D791F/5F80E655" Ref="Conn3"  Part="1" 
+AR Path="/5F841BF9/5F80E655" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E655" Ref="Conn?"  Part="1" 
+F 0 "Conn3" H 7900 4750 60  0000 C CNN
+F 1 "Boost 24V" H 7900 4650 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 3850 60  0001 C CNN
+F 3 "" H 7650 3850 60  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F80E633
+P 8350 4350
+AR Path="/5F80E633" Ref="#PWR?"  Part="1" 
+AR Path="/5F7D791F/5F80E633" Ref="#PWR0101"  Part="1" 
+AR Path="/5F841BF9/5F80E633" Ref="#PWR?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E633" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 8350 4100 50  0001 C CNN
+F 1 "GND" H 8355 4177 50  0000 C CNN
+F 2 "" H 8350 4350 50  0001 C CNN
+F 3 "" H 8350 4350 50  0001 C CNN
+	1    8350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4300 8200 4300
+Connection ~ 8350 4300
+Wire Wire Line
+	8350 3850 8350 4300
+Wire Wire Line
+	8350 3850 8200 3850
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F80E649
+P 7800 3950
+AR Path="/5F80E649" Ref="Conn?"  Part="1" 
+AR Path="/5F7D791F/5F80E649" Ref="Conn2"  Part="1" 
+AR Path="/5F841BF9/5F80E649" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5F80E649" Ref="Conn?"  Part="1" 
+F 0 "Conn2" H 7900 4300 60  0000 C CNN
+F 1 "Boost 12V" H 7900 4200 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 3400 60  0001 C CNN
+F 3 "" H 7650 3400 60  0001 C CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F80E64F
+P 7800 3025
+AR Path="/5F80E64F" Ref="Conn?"  Part="2" 
+AR Path="/5F7D791F/5F80E64F" Ref="Conn2"  Part="2" 
+AR Path="/5F841BF9/5F80E64F" Ref="Conn?"  Part="2" 
+AR Path="/5F8CBD9C/5F80E64F" Ref="Conn?"  Part="2" 
+F 0 "Conn2" H 7900 3375 60  0000 C CNN
+F 1 "Boost 12V" H 7900 3275 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7650 2475 60  0001 C CNN
+F 3 "" H 7650 2475 60  0001 C CNN
+	2    7800 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 3 1 5FC0696B
+P 2600 6175
+AR Path="/5F7D791F/5FC0696B" Ref="Conn1"  Part="3" 
+AR Path="/5F841BF9/5FC0696B" Ref="Conn?"  Part="1" 
+AR Path="/5F8CBD9C/5FC0696B" Ref="Conn?"  Part="1" 
+F 0 "Conn1" H 2808 6562 60  0000 C CNN
+F 1 "AndersonPP" H 2808 6456 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2450 5625 60  0001 C CNN
+F 3 "" H 2450 5625 60  0001 C CNN
+	3    2600 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6075 3300 6075
+Wire Wire Line
+	3300 6075 3300 6000
+$Comp
+L power:+12VA #PWR0133
+U 1 1 5FC088F5
+P 3300 6000
+F 0 "#PWR0133" H 3300 5850 50  0001 C CNN
+F 1 "+12VA" H 3315 6173 50  0000 C CNN
+F 2 "" H 3300 6000 50  0001 C CNN
+F 3 "" H 3300 6000 50  0001 C CNN
+	1    3300 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

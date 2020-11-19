@@ -19,9 +19,9 @@ Wire Wire Line
 	7150 4100 7100 4100
 Text GLabel 7150 4100 2    50   Output ~ 0
 LED_Enable
-Text GLabel 4225 5275 0    50   Output ~ 0
+Text GLabel 4175 5275 0    50   Output ~ 0
 SW_ERROR
-Text GLabel 4200 4900 0    50   Output ~ 0
+Text GLabel 4125 4900 0    50   Output ~ 0
 SW_Flag2
 Text GLabel 4200 4500 0    50   Output ~ 0
 SW_Flag1
@@ -30,28 +30,24 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0166
 U 1 1 5F933A2E
-P 5450 4000
-F 0 "#PWR0166" H 5450 3750 50  0001 C CNN
-F 1 "GND" H 5455 3827 50  0000 C CNN
-F 2 "" H 5450 4000 50  0001 C CNN
-F 3 "" H 5450 4000 50  0001 C CNN
-	1    5450 4000
+P 5450 4025
+F 0 "#PWR0166" H 5450 3775 50  0001 C CNN
+F 1 "GND" H 5455 3852 50  0000 C CNN
+F 2 "" H 5450 4025 50  0001 C CNN
+F 3 "" H 5450 4025 50  0001 C CNN
+	1    5450 4025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 2400 7100 2400
-Wire Wire Line
-	7200 2300 7200 2400
 $Comp
 L power:GND #PWR0167
 U 1 1 5F933A36
-P 7200 2300
-F 0 "#PWR0167" H 7200 2050 50  0001 C CNN
-F 1 "GND" H 7205 2127 50  0000 C CNN
-F 2 "" H 7200 2300 50  0001 C CNN
-F 3 "" H 7200 2300 50  0001 C CNN
-	1    7200 2300
-	-1   0    0    1   
+P 7525 2475
+F 0 "#PWR0167" H 7525 2225 50  0001 C CNN
+F 1 "GND" H 7530 2302 50  0000 C CNN
+F 2 "" H 7525 2475 50  0001 C CNN
+F 3 "" H 7525 2475 50  0001 C CNN
+	1    7525 2475
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0168
@@ -117,10 +113,6 @@ NoConn ~ 6200 3300
 NoConn ~ 4400 3000
 NoConn ~ 4400 2500
 NoConn ~ 5300 2900
-NoConn ~ 5300 3000
-NoConn ~ 5300 3100
-NoConn ~ 5300 3200
-NoConn ~ 5300 3300
 NoConn ~ 7100 4300
 $Comp
 L power:+3.3V #PWR0170
@@ -163,17 +155,6 @@ NoConn ~ 5300 2800
 NoConn ~ 4400 2900
 $Comp
 L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
-U 4 1 5F933A8E
-P 6900 3350
-F 0 "U4" H 7000 3300 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 7150 3300 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6900 3350 60  0001 C CNN
-F 3 "" H 6900 3350 60  0001 C CNN
-	4    6900 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 3 1 5F933A94
 P 6400 3350
 F 0 "U4" H 6400 3300 60  0000 L CNN
@@ -182,17 +163,6 @@ F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6400 3350 60  0001 C CNN
 F 3 "" H 6400 3350 60  0001 C CNN
 	3    6400 3350
 	1    0    0    -1  
-$EndComp
-$Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
-U 2 1 5F933A9A
-P 5100 3350
-F 0 "U4" H 5200 3300 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 5350 3300 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5100 3350 60  0001 C CNN
-F 3 "" H 5100 3350 60  0001 C CNN
-	2    5100 3350
-	-1   0    0    -1  
 $EndComp
 $Comp
 L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
@@ -238,10 +208,6 @@ F 3 "" H 5100 4850 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 2500 5950 2500
-Text GLabel 7150 2500 2    50   Output ~ 0
-Reset
-Wire Wire Line
-	7150 2500 7100 2500
 $Comp
 L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
 U 8 1 5F933ACF
@@ -270,12 +236,12 @@ NoConn ~ 6200 4000
 $Comp
 L power:GND #PWR0171
 U 1 1 5F933ADE
-P 7300 3900
-F 0 "#PWR0171" H 7300 3650 50  0001 C CNN
-F 1 "GND" H 7450 3850 50  0000 C CNN
-F 2 "" H 7300 3900 50  0001 C CNN
-F 3 "" H 7300 3900 50  0001 C CNN
-	1    7300 3900
+P 7300 3925
+F 0 "#PWR0171" H 7300 3675 50  0001 C CNN
+F 1 "GND" H 7450 3875 50  0000 C CNN
+F 2 "" H 7300 3925 50  0001 C CNN
+F 3 "" H 7300 3925 50  0001 C CNN
+	1    7300 3925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -295,7 +261,6 @@ Text Notes 3775 3325 0    50   ~ 0
 SDA/SCL 0\n\n
 Text GLabel 4175 3425 0    50   Input ~ 0
 NO_SDA
-NoConn ~ 4400 4000
 Wire Wire Line
 	4400 4100 4150 4100
 Text GLabel 4150 4100 0    50   Input ~ 0
@@ -349,8 +314,8 @@ P 3700 5050
 AR Path="/605279B4" Ref="R?"  Part="1" 
 AR Path="/5F841BF9/605279B4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279B4" Ref="R40"  Part="1" 
-F 0 "R40" H 3770 5096 50  0000 L CNN
-F 1 "330" H 3770 5005 50  0000 L CNN
+F 0 "R40" V 3800 4975 50  0000 L CNN
+F 1 "330" V 3700 4975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 5050 50  0001 C CNN
 F 3 "~" H 3700 5050 50  0001 C CNN
 	1    3700 5050
@@ -381,8 +346,8 @@ P 3700 4350
 AR Path="/605279C4" Ref="R?"  Part="1" 
 AR Path="/5F841BF9/605279C4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279C4" Ref="R38"  Part="1" 
-F 0 "R38" H 3770 4396 50  0000 L CNN
-F 1 "330" H 3770 4305 50  0000 L CNN
+F 0 "R38" V 3800 4275 50  0000 L CNN
+F 1 "330" V 3700 4275 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4350 50  0001 C CNN
 F 3 "~" H 3700 4350 50  0001 C CNN
 	1    3700 4350
@@ -413,8 +378,8 @@ P 3700 4700
 AR Path="/605279D4" Ref="R?"  Part="1" 
 AR Path="/5F841BF9/605279D4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279D4" Ref="R39"  Part="1" 
-F 0 "R39" H 3770 4746 50  0000 L CNN
-F 1 "330" H 3770 4655 50  0000 L CNN
+F 0 "R39" V 3800 4625 50  0000 L CNN
+F 1 "330" V 3700 4625 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4700 50  0001 C CNN
 F 3 "~" H 3700 4700 50  0001 C CNN
 	1    3700 4700
@@ -427,51 +392,45 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 60527A35
-P 3100 5050
+P 3000 5150
 AR Path="/60527A35" Ref="#PWR?"  Part="1" 
 AR Path="/5F841BF9/60527A35" Ref="#PWR?"  Part="1" 
 AR Path="/5F8FEC08/60527A35" Ref="#PWR0172"  Part="1" 
-F 0 "#PWR0172" H 3100 4800 50  0001 C CNN
-F 1 "GND" H 3200 4950 50  0000 C CNN
-F 2 "" H 3100 5050 50  0001 C CNN
-F 3 "" H 3100 5050 50  0001 C CNN
-	1    3100 5050
-	0    1    1    0   
+F 0 "#PWR0172" H 3000 4900 50  0001 C CNN
+F 1 "GND" H 3000 4975 50  0000 C CNN
+F 2 "" H 3000 5150 50  0001 C CNN
+F 3 "" H 3000 5150 50  0001 C CNN
+	1    3000 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60527A3B
-P 3100 4350
+P 3000 4400
 AR Path="/60527A3B" Ref="#PWR?"  Part="1" 
 AR Path="/5F841BF9/60527A3B" Ref="#PWR?"  Part="1" 
 AR Path="/5F8FEC08/60527A3B" Ref="#PWR0173"  Part="1" 
-F 0 "#PWR0173" H 3100 4100 50  0001 C CNN
-F 1 "GND" H 3200 4250 50  0000 C CNN
-F 2 "" H 3100 4350 50  0001 C CNN
-F 3 "" H 3100 4350 50  0001 C CNN
-	1    3100 4350
-	0    1    1    0   
+F 0 "#PWR0173" H 3000 4150 50  0001 C CNN
+F 1 "GND" H 3000 4225 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60527A41
-P 3100 4700
+P 3000 4775
 AR Path="/60527A41" Ref="#PWR?"  Part="1" 
 AR Path="/5F841BF9/60527A41" Ref="#PWR?"  Part="1" 
 AR Path="/5F8FEC08/60527A41" Ref="#PWR0174"  Part="1" 
-F 0 "#PWR0174" H 3100 4450 50  0001 C CNN
-F 1 "GND" H 3200 4600 50  0000 C CNN
-F 2 "" H 3100 4700 50  0001 C CNN
-F 3 "" H 3100 4700 50  0001 C CNN
-	1    3100 4700
-	0    1    1    0   
+F 0 "#PWR0174" H 3000 4525 50  0001 C CNN
+F 1 "GND" H 3000 4600 50  0000 C CNN
+F 2 "" H 3000 4775 50  0001 C CNN
+F 3 "" H 3000 4775 50  0001 C CNN
+	1    3000 4775
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 4350 3150 4350
-Wire Wire Line
-	3100 4700 3150 4700
-Wire Wire Line
-	3100 5050 3150 5050
 Wire Wire Line
 	4300 4350 4300 4500
 Wire Wire Line
@@ -499,4 +458,71 @@ Wire Wire Line
 	4225 5050 4300 5050
 NoConn ~ 5300 2400
 NoConn ~ 5300 3900
+$Comp
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+U 2 1 5F933A9A
+P 5100 3350
+F 0 "U4" H 5200 3300 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 5350 3300 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5100 3350 60  0001 C CNN
+F 3 "" H 5100 3350 60  0001 C CNN
+	2    5100 3350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5450 3000 2    50   Input ~ 0
+Video
+Text GLabel 5450 3100 2    50   Input ~ 0
+Clock_Pulse
+Text GLabel 5450 3200 2    50   Input ~ 0
+Trigger_Pulse
+Text GLabel 5450 3300 2    50   Input ~ 0
+Start_Pulse
+Wire Wire Line
+	5300 3000 5450 3000
+Wire Wire Line
+	5300 3100 5450 3100
+Wire Wire Line
+	5300 3200 5450 3200
+Wire Wire Line
+	5300 3300 5450 3300
+Text GLabel 4350 4000 0    50   Input ~ 0
+EOS
+Wire Wire Line
+	4350 4000 4400 4000
+Wire Wire Line
+	4200 4900 4125 4900
+Wire Wire Line
+	4225 5275 4175 5275
+Wire Wire Line
+	3000 4350 3150 4350
+Wire Wire Line
+	3000 4700 3000 4775
+Wire Wire Line
+	3000 4700 3150 4700
+Wire Wire Line
+	3000 4350 3000 4400
+Wire Wire Line
+	3000 5050 3000 5150
+Wire Wire Line
+	3000 5050 3150 5050
+Wire Wire Line
+	7100 2400 7525 2400
+Wire Wire Line
+	7525 2400 7525 2475
+Wire Wire Line
+	5450 4000 5450 4025
+Wire Wire Line
+	7300 3900 7300 3925
+NoConn ~ 7100 2500
+$Comp
+L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+U 4 1 5F933A8E
+P 6900 3350
+F 0 "U4" H 7000 3300 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 7150 3300 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6900 3350 60  0001 C CNN
+F 3 "" H 6900 3350 60  0001 C CNN
+	4    6900 3350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
