@@ -264,11 +264,11 @@ NO_SDA
 Wire Wire Line
 	4400 4100 4150 4100
 Text GLabel 4150 4100 0    50   Input ~ 0
-N2O_RX
+TIVA_N2O_RX
 Wire Wire Line
 	4400 4200 4150 4200
 Text GLabel 4150 4200 0    50   Output ~ 0
-N2O_TX
+TIVA_N2O_TX
 Text Notes 3825 4000 0    50   ~ 0
 Serial 6\n
 Wire Wire Line

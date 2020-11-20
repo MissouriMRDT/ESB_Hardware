@@ -726,13 +726,13 @@ F 3 "" H 6950 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4850 5850 0    50   Input ~ 0
-N2O_TX
+TIVA_N2O_TX
 Text GLabel 5450 5850 2    50   Output ~ 0
 N2O_RX
 Text GLabel 7000 5850 2    50   Input ~ 0
 N2O_TX
 Text GLabel 6400 5850 0    50   Output ~ 0
-N2O_RX
+TIVA_N2O_RX
 $Comp
 L Device:LED D?
 U 1 1 5FAD79F1
@@ -1718,11 +1718,11 @@ F 3 "~" H 7025 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C 100nf1
+L Device:C C9
 U 1 1 5FDA3C36
 P 8375 850
-F 0 "100nf1" H 8490 896 50  0000 L CNN
-F 1 "C" H 8490 805 50  0000 L CNN
+F 0 "C9" H 8490 896 50  0000 L CNN
+F 1 "100nf" H 8490 805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8413 700 50  0001 C CNN
 F 3 "~" H 8375 850 50  0001 C CNN
 	1    8375 850 
@@ -1744,7 +1744,7 @@ U 1 1 5FF784D9
 P 9000 850
 F 0 "C8" V 9228 850 50  0000 C CNN
 F 1 "4.7uF" V 9137 850 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 9000 850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 9000 850 50  0001 C CNN
 F 3 "~" H 9000 850 50  0001 C CNN
 	1    9000 850 
 	0    -1   -1   0   
