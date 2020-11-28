@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3300 5450 3300
 Text GLabel 4350 4000 0    50   Input ~ 0
-Tiva_EOS
+TIVA_EOS
 Wire Wire Line
 	4350 4000 4400 4000
 Wire Wire Line
