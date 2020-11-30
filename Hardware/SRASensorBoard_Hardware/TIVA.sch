@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SRA_Sensor_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -154,9 +155,11 @@ Wire Wire Line
 NoConn ~ 5300 2800
 NoConn ~ 4400 2900
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 3 1 5F933A94
 P 6850 3350
+AR Path="/5F933A94" Ref="U4"  Part="3" 
+AR Path="/5F8FEC08/5F933A94" Ref="U4"  Part="3" 
 F 0 "U4" H 6850 3300 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 6600 3300 60  0001 L CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 6850 3350 60  0001 C CNN
@@ -165,9 +168,11 @@ F 3 "" H 6850 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 1 1 5F933AA0
 P 4600 3350
+AR Path="/5F933AA0" Ref="U4"  Part="1" 
+AR Path="/5F8FEC08/5F933AA0" Ref="U4"  Part="1" 
 F 0 "U4" H 4600 3300 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 4350 3300 60  0001 L CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 4600 3350 60  0001 C CNN
@@ -185,9 +190,11 @@ NoConn ~ 4400 4300
 Wire Wire Line
 	4300 3900 4400 3900
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 5 1 5F933AAE
 P 4600 4850
+AR Path="/5F933AAE" Ref="U4"  Part="5" 
+AR Path="/5F8FEC08/5F933AAE" Ref="U4"  Part="5" 
 F 0 "U4" H 4600 4800 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 4400 4800 60  0001 L CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 4600 4850 60  0001 C CNN
@@ -196,9 +203,11 @@ F 3 "" H 4600 4850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 6 1 5F933AB4
 P 5100 4850
+AR Path="/5F933AB4" Ref="U4"  Part="6" 
+AR Path="/5F8FEC08/5F933AB4" Ref="U4"  Part="6" 
 F 0 "U4" H 5200 4800 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 5300 4800 60  0001 C CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 5100 4850 60  0001 C CNN
@@ -207,9 +216,11 @@ F 3 "" H 5100 4850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 8 1 5F933ACF
 P 7350 4850
+AR Path="/5F933ACF" Ref="U4"  Part="8" 
+AR Path="/5F8FEC08/5F933ACF" Ref="U4"  Part="8" 
 F 0 "U4" H 7450 4800 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 7600 4800 60  0001 C CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 7350 4850 60  0001 C CNN
@@ -218,9 +229,11 @@ F 3 "" H 7350 4850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 7 1 5F933AD5
 P 6850 4850
+AR Path="/5F933AD5" Ref="U4"  Part="7" 
+AR Path="/5F8FEC08/5F933AD5" Ref="U4"  Part="7" 
 F 0 "U4" H 6850 4800 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 6600 4800 60  0001 L CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 6850 4850 60  0001 C CNN
@@ -313,8 +326,8 @@ AR Path="/605279B4" Ref="R?"  Part="1"
 AR Path="/5F841BF9/605279B4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279B4" Ref="R40"  Part="1" 
 F 0 "R40" V 3800 4975 50  0000 L CNN
-F 1 "330" V 3700 4975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 5050 50  0001 C CNN
+F 1 "480" V 3700 4975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 5050 50  0001 C CNN
 F 3 "~" H 3700 5050 50  0001 C CNN
 	1    3700 5050
 	0    1    1    0   
@@ -345,8 +358,8 @@ AR Path="/605279C4" Ref="R?"  Part="1"
 AR Path="/5F841BF9/605279C4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279C4" Ref="R38"  Part="1" 
 F 0 "R38" V 3800 4275 50  0000 L CNN
-F 1 "330" V 3700 4275 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4350 50  0001 C CNN
+F 1 "480" V 3700 4275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 4350 50  0001 C CNN
 F 3 "~" H 3700 4350 50  0001 C CNN
 	1    3700 4350
 	0    1    1    0   
@@ -377,8 +390,8 @@ AR Path="/605279D4" Ref="R?"  Part="1"
 AR Path="/5F841BF9/605279D4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/605279D4" Ref="R39"  Part="1" 
 F 0 "R39" V 3800 4625 50  0000 L CNN
-F 1 "330" V 3700 4625 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4700 50  0001 C CNN
+F 1 "480" V 3700 4625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 4700 50  0001 C CNN
 F 3 "~" H 3700 4700 50  0001 C CNN
 	1    3700 4700
 	0    1    1    0   
@@ -457,9 +470,11 @@ Wire Wire Line
 NoConn ~ 5300 2400
 NoConn ~ 5300 3900
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 2 1 5F933A9A
 P 5100 3350
+AR Path="/5F933A9A" Ref="U4"  Part="2" 
+AR Path="/5F8FEC08/5F933A9A" Ref="U4"  Part="2" 
 F 0 "U4" H 5200 3300 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 5350 3300 60  0001 C CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 5100 3350 60  0001 C CNN
@@ -509,9 +524,11 @@ Wire Wire Line
 	7750 3900 7750 3925
 NoConn ~ 7550 2500
 $Comp
-L SRA_Sensor_Board-rescue:TM4C129E_Launchpad-MRDT_Shields-SRA_Sensor_Board-rescue U4
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 4 1 5F933A8E
 P 7350 3350
+AR Path="/5F933A8E" Ref="U4"  Part="4" 
+AR Path="/5F8FEC08/5F933A8E" Ref="U4"  Part="4" 
 F 0 "U4" H 7450 3300 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 7600 3300 60  0001 C CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 7350 3350 60  0001 C CNN
@@ -543,8 +560,8 @@ AR Path="/60AEE3A6" Ref="R?"  Part="1"
 AR Path="/5F841BF9/60AEE3A6" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/60AEE3A6" Ref="R50"  Part="1" 
 F 0 "R50" V 5575 2425 50  0000 L CNN
-F 1 "330" V 5625 2575 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5555 2650 50  0001 C CNN
+F 1 "480" V 5625 2575 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5555 2650 50  0001 C CNN
 F 3 "~" H 5625 2650 50  0001 C CNN
 	1    5625 2650
 	0    -1   -1   0   
@@ -604,8 +621,8 @@ AR Path="/60CF753B" Ref="R?"  Part="1"
 AR Path="/5F841BF9/60CF753B" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/60CF753B" Ref="R51"  Part="1" 
 F 0 "R51" V 5575 2675 50  0000 L CNN
-F 1 "330" V 5625 2825 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5555 2900 50  0001 C CNN
+F 1 "480" V 5625 2825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5555 2900 50  0001 C CNN
 F 3 "~" H 5625 2900 50  0001 C CNN
 	1    5625 2900
 	0    -1   -1   0   
@@ -657,8 +674,8 @@ AR Path="/60D6145F" Ref="R?"  Part="1"
 AR Path="/5F841BF9/60D6145F" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/60D6145F" Ref="R52"  Part="1" 
 F 0 "R52" V 5600 2975 50  0000 L CNN
-F 1 "330" V 5650 3100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 3175 50  0001 C CNN
+F 1 "480" V 5650 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 3175 50  0001 C CNN
 F 3 "~" H 5650 3175 50  0001 C CNN
 	1    5650 3175
 	0    -1   -1   0   
@@ -724,8 +741,8 @@ AR Path="/60E141A4" Ref="R?"  Part="1"
 AR Path="/5F841BF9/60E141A4" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/60E141A4" Ref="R53"  Part="1" 
 F 0 "R53" V 5600 3225 50  0000 L CNN
-F 1 "330" V 5650 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 3425 50  0001 C CNN
+F 1 "480" V 5650 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 3425 50  0001 C CNN
 F 3 "~" H 5650 3425 50  0001 C CNN
 	1    5650 3425
 	0    -1   -1   0   
@@ -783,8 +800,8 @@ AR Path="/60EBE8EC" Ref="R?"  Part="1"
 AR Path="/5F841BF9/60EBE8EC" Ref="R?"  Part="1" 
 AR Path="/5F8FEC08/60EBE8EC" Ref="R49"  Part="1" 
 F 0 "R49" V 3950 3725 50  0000 L CNN
-F 1 "330" V 4000 3850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 3925 50  0001 C CNN
+F 1 "480" V 4000 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 3925 50  0001 C CNN
 F 3 "~" H 4000 3925 50  0001 C CNN
 	1    4000 3925
 	0    1    1    0   

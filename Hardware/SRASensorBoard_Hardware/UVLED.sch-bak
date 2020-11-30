@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SRA_Sensor_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -231,7 +232,7 @@ AR Path="/604F109C" Ref="R?"  Part="1"
 AR Path="/5F841BF9/604F109C" Ref="R?"  Part="1" 
 AR Path="/5F8CBD9C/604F109C" Ref="R35"  Part="1" 
 F 0 "R35" H 5020 3896 50  0000 L CNN
-F 1 "330" H 5020 3805 50  0000 L CNN
+F 1 "480" H 5020 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3850 50  0001 C CNN
 F 3 "~" H 4950 3850 50  0001 C CNN
 	1    4950 3850
