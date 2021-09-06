@@ -1,0 +1,834 @@
+EESchema Schematic File Version 4
+LIBS:SRA_Sensor_Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8400 7000 0    276  ~ 55
+TIVA\n
+Wire Wire Line
+	7600 4100 7550 4100
+Text GLabel 7600 4100 2    50   Output ~ 0
+LED_Enable
+Text GLabel 4175 5275 0    50   Output ~ 0
+SW_ERROR
+Text GLabel 4125 4900 0    50   Output ~ 0
+SW_Flag2
+Text GLabel 4200 4500 0    50   Output ~ 0
+SW_Flag1
+Wire Wire Line
+	5300 4000 5450 4000
+$Comp
+L power:GND #PWR0166
+U 1 1 5F933A2E
+P 5450 4025
+F 0 "#PWR0166" H 5450 3775 50  0001 C CNN
+F 1 "GND" H 5455 3852 50  0000 C CNN
+F 2 "" H 5450 4025 50  0001 C CNN
+F 3 "" H 5450 4025 50  0001 C CNN
+	1    5450 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0167
+U 1 1 5F933A36
+P 7975 2475
+F 0 "#PWR0167" H 7975 2225 50  0001 C CNN
+F 1 "GND" H 7980 2302 50  0000 C CNN
+F 2 "" H 7975 2475 50  0001 C CNN
+F 3 "" H 7975 2475 50  0001 C CNN
+	1    7975 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5F933A3C
+P 6200 2375
+F 0 "#PWR0168" H 6200 2125 50  0001 C CNN
+F 1 "GND" H 6300 2375 50  0000 C CNN
+F 2 "" H 6200 2375 50  0001 C CNN
+F 3 "" H 6200 2375 50  0001 C CNN
+	1    6200 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2400 4400 2400
+Wire Wire Line
+	4300 2300 4300 2400
+$Comp
+L power:+3.3V #PWR0169
+U 1 1 5F933A44
+P 4300 2300
+F 0 "#PWR0169" H 4300 2150 50  0001 C CNN
+F 1 "+3.3V" H 4315 2473 50  0000 C CNN
+F 2 "" H 4300 2300 50  0001 C CNN
+F 3 "" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 4100
+NoConn ~ 5300 4200
+NoConn ~ 5300 4500
+NoConn ~ 6650 4800
+NoConn ~ 6650 4700
+NoConn ~ 6650 4600
+NoConn ~ 6650 4500
+NoConn ~ 6650 4400
+NoConn ~ 6650 4300
+NoConn ~ 6650 4200
+NoConn ~ 6650 4100
+NoConn ~ 7550 4200
+NoConn ~ 7550 4400
+NoConn ~ 7550 4500
+NoConn ~ 7550 4600
+NoConn ~ 7550 4700
+NoConn ~ 7550 4800
+NoConn ~ 7550 3300
+NoConn ~ 7550 3200
+NoConn ~ 7550 3100
+NoConn ~ 7550 3000
+NoConn ~ 7550 2900
+NoConn ~ 7550 2800
+NoConn ~ 7550 2700
+NoConn ~ 7550 2600
+NoConn ~ 6650 2400
+NoConn ~ 6650 2500
+NoConn ~ 6650 2600
+NoConn ~ 6650 2700
+NoConn ~ 6650 2800
+NoConn ~ 6650 2900
+NoConn ~ 6650 3000
+NoConn ~ 6650 3100
+NoConn ~ 6650 3200
+NoConn ~ 6650 3300
+NoConn ~ 4400 3000
+NoConn ~ 4400 2500
+NoConn ~ 5300 2900
+NoConn ~ 7550 4300
+$Comp
+L power:+3.3V #PWR0170
+U 1 1 5F933A79
+P 4300 3850
+F 0 "#PWR0170" H 4300 3700 50  0001 C CNN
+F 1 "+3.3V" H 4315 4023 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4300 3900
+Text GLabel 4300 2600 0    50   Input ~ 0
+TIVA_CO2_RX
+Wire Wire Line
+	4300 2600 4400 2600
+Text GLabel 4300 2700 0    50   Output ~ 0
+TIVA_CO2_TX
+Wire Wire Line
+	4300 2700 4400 2700
+Text GLabel 4300 2800 0    50   Input ~ 0
+TIVA_USB_RX
+Wire Wire Line
+	4300 2800 4400 2800
+Text GLabel 4300 3100 0    50   Output ~ 0
+TIVA_USB_TX
+Wire Wire Line
+	4400 3100 4300 3100
+Text GLabel 5450 4300 2    50   Input ~ 0
+TIVA_O2_RX
+Wire Wire Line
+	5450 4300 5300 4300
+Text GLabel 5450 4400 2    50   Output ~ 0
+TIVA_O2_TX
+Wire Wire Line
+	5450 4400 5300 4400
+NoConn ~ 5300 2800
+NoConn ~ 4400 2900
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 3 1 5F933A94
+P 6850 3350
+AR Path="/5F933A94" Ref="U4"  Part="3" 
+AR Path="/5F8FEC08/5F933A94" Ref="U4"  Part="3" 
+F 0 "U4" H 6850 3300 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 6600 3300 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 6850 3350 60  0001 C CNN
+F 3 "" H 6850 3350 60  0001 C CNN
+	3    6850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 1 1 5F933AA0
+P 4600 3350
+AR Path="/5F933AA0" Ref="U4"  Part="1" 
+AR Path="/5F8FEC08/5F933AA0" Ref="U4"  Part="1" 
+F 0 "U4" H 4600 3300 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4350 3300 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 4600 3350 60  0001 C CNN
+F 3 "" H 4600 3350 60  0001 C CNN
+	1    4600 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 4500
+Wire Wire Line
+	4300 4600 4400 4600
+Wire Wire Line
+	4300 4800 4400 4800
+NoConn ~ 4400 4400
+NoConn ~ 4400 4300
+Wire Wire Line
+	4300 3900 4400 3900
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 5 1 5F933AAE
+P 4600 4850
+AR Path="/5F933AAE" Ref="U4"  Part="5" 
+AR Path="/5F8FEC08/5F933AAE" Ref="U4"  Part="5" 
+F 0 "U4" H 4600 4800 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4400 4800 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 4600 4850 60  0001 C CNN
+F 3 "" H 4600 4850 60  0001 C CNN
+	5    4600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 6 1 5F933AB4
+P 5100 4850
+AR Path="/5F933AB4" Ref="U4"  Part="6" 
+AR Path="/5F8FEC08/5F933AB4" Ref="U4"  Part="6" 
+F 0 "U4" H 5200 4800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 5300 4800 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 5100 4850 60  0001 C CNN
+F 3 "" H 5100 4850 60  0001 C CNN
+	6    5100 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 8 1 5F933ACF
+P 7350 4850
+AR Path="/5F933ACF" Ref="U4"  Part="8" 
+AR Path="/5F8FEC08/5F933ACF" Ref="U4"  Part="8" 
+F 0 "U4" H 7450 4800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 7600 4800 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 7350 4850 60  0001 C CNN
+F 3 "" H 7350 4850 60  0001 C CNN
+	8    7350 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 7 1 5F933AD5
+P 6850 4850
+AR Path="/5F933AD5" Ref="U4"  Part="7" 
+AR Path="/5F8FEC08/5F933AD5" Ref="U4"  Part="7" 
+F 0 "U4" H 6850 4800 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 6600 4800 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 6850 4850 60  0001 C CNN
+F 3 "" H 6850 4850 60  0001 C CNN
+	7    6850 4850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 4000
+NoConn ~ 6650 3900
+NoConn ~ 6650 4000
+$Comp
+L power:GND #PWR0171
+U 1 1 5F933ADE
+P 7750 3925
+F 0 "#PWR0171" H 7750 3675 50  0001 C CNN
+F 1 "GND" H 7900 3875 50  0000 C CNN
+F 2 "" H 7750 3925 50  0001 C CNN
+F 3 "" H 7750 3925 50  0001 C CNN
+	1    7750 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3900 7550 3900
+Text Notes 3850 3000 0    50   ~ 0
+Serial 5
+Text Notes 3850 2500 0    50   ~ 0
+Serial 7
+Text Notes 5600 4250 0    50   ~ 0
+Serial 4
+NoConn ~ 5300 2600
+NoConn ~ 5300 2700
+NoConn ~ 5300 4600
+Text GLabel 4175 3325 0    50   Output ~ 0
+NO_SCL
+Text Notes 3775 3325 0    50   ~ 0
+SDA/SCL 0\n\n
+Text GLabel 4175 3425 0    50   Input ~ 0
+NO_SDA
+Wire Wire Line
+	4400 4100 4150 4100
+Text GLabel 4150 4100 0    50   Input ~ 0
+TIVA_N2O_RX
+Wire Wire Line
+	4400 4200 4150 4200
+Text GLabel 4150 4200 0    50   Output ~ 0
+TIVA_N2O_TX
+Text Notes 3275 4175 0    50   ~ 0
+Serial 6\n
+Wire Wire Line
+	4400 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 3325
+Wire Wire Line
+	4250 3325 4175 3325
+Wire Wire Line
+	4400 3300 4300 3300
+Wire Wire Line
+	4300 3300 4300 3425
+Wire Wire Line
+	4300 3425 4175 3425
+Text GLabel 5475 4700 2    50   Input ~ 0
+NO2_RX
+Text GLabel 5475 4800 2    50   Output ~ 0
+NO2_TX
+Wire Wire Line
+	5300 4700 5475 4700
+Wire Wire Line
+	5300 4800 5475 4800
+Text Notes 5500 4625 0    50   ~ 0
+Serial 3\n
+$Comp
+L Device:LED D?
+U 1 1 605279AE
+P 3300 5050
+AR Path="/605279AE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279AE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279AE" Ref="D22"  Part="1" 
+F 0 "D22" V 3339 4933 50  0000 R CNN
+F 1 "Red" V 3248 4933 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 5050 50  0001 C CNN
+F 3 "~" H 3300 5050 50  0001 C CNN
+	1    3300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279B4
+P 3700 5050
+AR Path="/605279B4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279B4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279B4" Ref="R40"  Part="1" 
+F 0 "R40" V 3800 4975 50  0000 L CNN
+F 1 "480" V 3700 4975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 5050 50  0001 C CNN
+F 3 "~" H 3700 5050 50  0001 C CNN
+	1    3700 5050
+	0    1    1    0   
+$EndComp
+Text Notes 2900 5000 3    50   ~ 0
+RED\n
+Wire Wire Line
+	3450 5050 3550 5050
+$Comp
+L Device:LED D?
+U 1 1 605279BE
+P 3300 4350
+AR Path="/605279BE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279BE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279BE" Ref="D20"  Part="1" 
+F 0 "D20" V 3339 4233 50  0000 R CNN
+F 1 "Blue" V 3248 4233 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 4350 50  0001 C CNN
+F 3 "~" H 3300 4350 50  0001 C CNN
+	1    3300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279C4
+P 3700 4350
+AR Path="/605279C4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279C4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279C4" Ref="R38"  Part="1" 
+F 0 "R38" V 3800 4275 50  0000 L CNN
+F 1 "480" V 3700 4275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 4350 50  0001 C CNN
+F 3 "~" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	0    1    1    0   
+$EndComp
+Text Notes 2900 4300 3    50   ~ 0
+BLU
+Wire Wire Line
+	3450 4350 3550 4350
+$Comp
+L Device:LED D?
+U 1 1 605279CE
+P 3300 4700
+AR Path="/605279CE" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/605279CE" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/605279CE" Ref="D21"  Part="1" 
+F 0 "D21" V 3339 4583 50  0000 R CNN
+F 1 "Blue" V 3248 4583 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 4700 50  0001 C CNN
+F 3 "~" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605279D4
+P 3700 4700
+AR Path="/605279D4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/605279D4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/605279D4" Ref="R39"  Part="1" 
+F 0 "R39" V 3800 4625 50  0000 L CNN
+F 1 "480" V 3700 4625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3630 4700 50  0001 C CNN
+F 3 "~" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	0    1    1    0   
+$EndComp
+Text Notes 2900 4650 3    50   ~ 0
+BLU
+Wire Wire Line
+	3450 4700 3550 4700
+$Comp
+L power:GND #PWR?
+U 1 1 60527A35
+P 3000 5150
+AR Path="/60527A35" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A35" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A35" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 3000 4900 50  0001 C CNN
+F 1 "GND" H 3000 4975 50  0000 C CNN
+F 2 "" H 3000 5150 50  0001 C CNN
+F 3 "" H 3000 5150 50  0001 C CNN
+	1    3000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60527A3B
+P 3000 4400
+AR Path="/60527A3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A3B" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0173" H 3000 4150 50  0001 C CNN
+F 1 "GND" H 3000 4225 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60527A41
+P 3000 4775
+AR Path="/60527A41" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60527A41" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60527A41" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 3000 4525 50  0001 C CNN
+F 1 "GND" H 3000 4600 50  0000 C CNN
+F 2 "" H 3000 4775 50  0001 C CNN
+F 3 "" H 3000 4775 50  0001 C CNN
+	1    3000 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4350 4300 4500
+Wire Wire Line
+	3850 4350 4300 4350
+Wire Wire Line
+	3850 4700 4200 4700
+Wire Wire Line
+	4300 5050 4300 4800
+Wire Wire Line
+	3850 5050 4225 5050
+Wire Wire Line
+	4200 4500 4300 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	4300 4500 4300 4600
+Wire Wire Line
+	4200 4900 4200 4700
+Connection ~ 4200 4700
+Wire Wire Line
+	4200 4700 4400 4700
+Wire Wire Line
+	4225 5275 4225 5050
+Connection ~ 4225 5050
+Wire Wire Line
+	4225 5050 4300 5050
+NoConn ~ 5300 2400
+NoConn ~ 5300 3900
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 2 1 5F933A9A
+P 5100 3350
+AR Path="/5F933A9A" Ref="U4"  Part="2" 
+AR Path="/5F8FEC08/5F933A9A" Ref="U4"  Part="2" 
+F 0 "U4" H 5200 3300 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 5350 3300 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 5100 3350 60  0001 C CNN
+F 3 "" H 5100 3350 60  0001 C CNN
+	2    5100 3350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5475 2550 2    50   Input ~ 0
+TIVA_Video
+Text GLabel 5475 2775 2    50   Input ~ 0
+TIVA_Clock_Pulse
+Text GLabel 5500 3050 2    50   Input ~ 0
+TIVA_Trigger_Pulse
+Text GLabel 5450 3300 2    50   Input ~ 0
+TIVA_Start_Pulse
+Wire Wire Line
+	5300 3000 5375 3000
+Wire Wire Line
+	5300 3100 5450 3100
+Wire Wire Line
+	5300 3300 5400 3300
+Text GLabel 4150 3775 0    50   Input ~ 0
+TIVA_EOS
+Wire Wire Line
+	4200 4900 4125 4900
+Wire Wire Line
+	4225 5275 4175 5275
+Wire Wire Line
+	3000 4350 3150 4350
+Wire Wire Line
+	3000 4700 3000 4775
+Wire Wire Line
+	3000 4700 3150 4700
+Wire Wire Line
+	3000 4350 3000 4400
+Wire Wire Line
+	3000 5050 3000 5150
+Wire Wire Line
+	3000 5050 3150 5050
+Wire Wire Line
+	7550 2400 7975 2400
+Wire Wire Line
+	7975 2400 7975 2475
+Wire Wire Line
+	5450 4000 5450 4025
+Wire Wire Line
+	7750 3900 7750 3925
+NoConn ~ 7550 2500
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 4 1 5F933A8E
+P 7350 3350
+AR Path="/5F933A8E" Ref="U4"  Part="4" 
+AR Path="/5F8FEC08/5F933A8E" Ref="U4"  Part="4" 
+F 0 "U4" H 7450 3300 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 7600 3300 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 7350 3350 60  0001 C CNN
+F 3 "" H 7350 3350 60  0001 C CNN
+	4    7350 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60AEE399
+P 6525 2675
+AR Path="/60AEE399" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60AEE399" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60AEE399" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 6525 2425 50  0001 C CNN
+F 1 "GND" H 6525 2775 50  0000 C CNN
+F 2 "" H 6525 2675 50  0001 C CNN
+F 3 "" H 6525 2675 50  0001 C CNN
+	1    6525 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 2650 5775 2650
+$Comp
+L Device:R R?
+U 1 1 60AEE3A6
+P 5625 2650
+AR Path="/60AEE3A6" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/60AEE3A6" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/60AEE3A6" Ref="R50"  Part="1" 
+F 0 "R50" V 5575 2425 50  0000 L CNN
+F 1 "480" V 5625 2575 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5555 2650 50  0001 C CNN
+F 3 "~" H 5625 2650 50  0001 C CNN
+	1    5625 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60AEE3AC
+P 6025 2650
+AR Path="/60AEE3AC" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/60AEE3AC" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/60AEE3AC" Ref="D2"  Part="1" 
+F 0 "D2" H 5750 2700 50  0000 R CNN
+F 1 "Blue" H 5925 2700 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6025 2650 50  0001 C CNN
+F 3 "~" H 6025 2650 50  0001 C CNN
+	1    6025 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 2500 5400 2500
+Wire Wire Line
+	5400 2500 5400 2350
+Wire Wire Line
+	5375 3000 5375 2650
+Wire Wire Line
+	5375 2550 5475 2550
+Wire Wire Line
+	6200 2375 6200 2350
+Wire Wire Line
+	6200 2350 5400 2350
+Wire Wire Line
+	5375 2650 5475 2650
+Connection ~ 5375 2650
+Wire Wire Line
+	5375 2650 5375 2550
+$Comp
+L power:GND #PWR?
+U 1 1 60CF752E
+P 6525 2925
+AR Path="/60CF752E" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60CF752E" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60CF752E" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 6525 2675 50  0001 C CNN
+F 1 "GND" H 6525 3000 50  0000 C CNN
+F 2 "" H 6525 2925 50  0001 C CNN
+F 3 "" H 6525 2925 50  0001 C CNN
+	1    6525 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 2900 5775 2900
+$Comp
+L Device:R R?
+U 1 1 60CF753B
+P 5625 2900
+AR Path="/60CF753B" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/60CF753B" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/60CF753B" Ref="R51"  Part="1" 
+F 0 "R51" V 5575 2675 50  0000 L CNN
+F 1 "480" V 5625 2825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5555 2900 50  0001 C CNN
+F 3 "~" H 5625 2900 50  0001 C CNN
+	1    5625 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60CF7541
+P 6025 2900
+AR Path="/60CF7541" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/60CF7541" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/60CF7541" Ref="D3"  Part="1" 
+F 0 "D3" H 5750 2950 50  0000 R CNN
+F 1 "Blue" H 5925 2950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6025 2900 50  0001 C CNN
+F 3 "~" H 6025 2900 50  0001 C CNN
+	1    6025 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6525 2650 6525 2675
+Wire Wire Line
+	6175 2650 6525 2650
+Wire Wire Line
+	6525 2900 6525 2925
+Wire Wire Line
+	6175 2900 6525 2900
+Wire Wire Line
+	5450 3100 5450 2900
+Wire Wire Line
+	5450 2775 5475 2775
+Wire Wire Line
+	5450 2900 5475 2900
+Connection ~ 5450 2900
+Wire Wire Line
+	5450 2900 5450 2775
+Wire Wire Line
+	5475 3200 5475 3175
+Wire Wire Line
+	5475 3050 5500 3050
+Wire Wire Line
+	5300 3200 5475 3200
+Wire Wire Line
+	5900 3175 5800 3175
+$Comp
+L Device:R R?
+U 1 1 60D6145F
+P 5650 3175
+AR Path="/60D6145F" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/60D6145F" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/60D6145F" Ref="R52"  Part="1" 
+F 0 "R52" V 5600 2975 50  0000 L CNN
+F 1 "480" V 5650 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 3175 50  0001 C CNN
+F 3 "~" H 5650 3175 50  0001 C CNN
+	1    5650 3175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60D61465
+P 6050 3175
+AR Path="/60D61465" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/60D61465" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/60D61465" Ref="D4"  Part="1" 
+F 0 "D4" H 5775 3225 50  0000 R CNN
+F 1 "Blue" H 5950 3225 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 3175 50  0001 C CNN
+F 3 "~" H 6050 3175 50  0001 C CNN
+	1    6050 3175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3175 5475 3175
+Connection ~ 5475 3175
+Wire Wire Line
+	5475 3175 5475 3050
+$Comp
+L power:GND #PWR?
+U 1 1 60D61452
+P 6525 3200
+AR Path="/60D61452" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60D61452" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60D61452" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 6525 2950 50  0001 C CNN
+F 1 "GND" H 6525 3275 50  0000 C CNN
+F 2 "" H 6525 3200 50  0001 C CNN
+F 3 "" H 6525 3200 50  0001 C CNN
+	1    6525 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 3175 6525 3200
+Wire Wire Line
+	6200 3175 6525 3175
+$Comp
+L power:GND #PWR?
+U 1 1 60E14197
+P 6525 3450
+AR Path="/60E14197" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60E14197" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60E14197" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 6525 3200 50  0001 C CNN
+F 1 "GND" H 6525 3525 50  0000 C CNN
+F 2 "" H 6525 3450 50  0001 C CNN
+F 3 "" H 6525 3450 50  0001 C CNN
+	1    6525 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3425 5800 3425
+$Comp
+L Device:R R?
+U 1 1 60E141A4
+P 5650 3425
+AR Path="/60E141A4" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/60E141A4" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/60E141A4" Ref="R53"  Part="1" 
+F 0 "R53" V 5600 3225 50  0000 L CNN
+F 1 "480" V 5650 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 3425 50  0001 C CNN
+F 3 "~" H 5650 3425 50  0001 C CNN
+	1    5650 3425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60E141AA
+P 6050 3425
+AR Path="/60E141AA" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/60E141AA" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/60E141AA" Ref="D23"  Part="1" 
+F 0 "D23" H 5775 3475 50  0000 R CNN
+F 1 "Blue" H 5950 3475 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 3425 50  0001 C CNN
+F 3 "~" H 6050 3425 50  0001 C CNN
+	1    6050 3425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3300 5400 3425
+Wire Wire Line
+	5400 3425 5500 3425
+Connection ~ 5400 3300
+Wire Wire Line
+	5400 3300 5450 3300
+Wire Wire Line
+	6200 3425 6525 3425
+Wire Wire Line
+	6525 3425 6525 3450
+$Comp
+L power:GND #PWR?
+U 1 1 60EBE8DF
+P 3200 4000
+AR Path="/60EBE8DF" Ref="#PWR?"  Part="1" 
+AR Path="/5F841BF9/60EBE8DF" Ref="#PWR?"  Part="1" 
+AR Path="/5F8FEC08/60EBE8DF" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0187" H 3200 3750 50  0001 C CNN
+F 1 "GND" H 3050 3950 50  0000 C CNN
+F 2 "" H 3200 4000 50  0001 C CNN
+F 3 "" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3925 3200 4000
+Wire Wire Line
+	3450 3925 3200 3925
+Wire Wire Line
+	3750 3925 3850 3925
+$Comp
+L Device:R R?
+U 1 1 60EBE8EC
+P 4000 3925
+AR Path="/60EBE8EC" Ref="R?"  Part="1" 
+AR Path="/5F841BF9/60EBE8EC" Ref="R?"  Part="1" 
+AR Path="/5F8FEC08/60EBE8EC" Ref="R49"  Part="1" 
+F 0 "R49" V 3950 3725 50  0000 L CNN
+F 1 "480" V 4000 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 3925 50  0001 C CNN
+F 3 "~" H 4000 3925 50  0001 C CNN
+	1    4000 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60EBE8F2
+P 3600 3925
+AR Path="/60EBE8F2" Ref="D?"  Part="1" 
+AR Path="/5F841BF9/60EBE8F2" Ref="D?"  Part="1" 
+AR Path="/5F8FEC08/60EBE8F2" Ref="D1"  Part="1" 
+F 0 "D1" H 3625 4025 50  0000 R CNN
+F 1 "Blue" H 3500 4025 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 3925 50  0001 C CNN
+F 3 "~" H 3600 3925 50  0001 C CNN
+	1    3600 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3775 4175 3775
+Wire Wire Line
+	4175 3775 4175 3925
+Wire Wire Line
+	4175 4000 4400 4000
+Wire Wire Line
+	4150 3925 4175 3925
+Connection ~ 4175 3925
+Wire Wire Line
+	4175 3925 4175 4000
+$EndSCHEMATC
