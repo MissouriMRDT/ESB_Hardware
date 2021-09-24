@@ -53,7 +53,7 @@ Text Notes 9175 3275 0    197  ~ 0
 Andersons
 Text Notes 8800 6325 0    197  ~ 0
 OKIs
-Text Notes 1400 7375 0    197  ~ 0
+Text Notes 1400 7375 0    118  ~ 0
 Sensors
 $Comp
 L Converter_DCDC:OKI-78SR-3.3_1.5-W36H-C U?
