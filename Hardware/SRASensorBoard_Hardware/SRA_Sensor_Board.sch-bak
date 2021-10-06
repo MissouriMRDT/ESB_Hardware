@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 2 1 614D19B3
-P 10175 850
-F 0 "Conn?" H 10147 897 60  0000 R CNN
-F 1 "AndersonPP" H 10147 1003 60  0000 R CNN
-F 2 "" H 10025 300 60  0001 C CNN
-F 3 "" H 10025 300 60  0001 C CNN
-	2    10175 850 
+P 10275 950
+F 0 "Conn?" H 10247 997 60  0000 R CNN
+F 1 "AndersonPP" H 10247 1103 60  0000 R CNN
+F 2 "" H 10125 400 60  0001 C CNN
+F 3 "" H 10125 400 60  0001 C CNN
+	2    10275 950 
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 614D22E6
-P 10175 1300
-F 0 "Conn?" H 10147 1347 60  0000 R CNN
-F 1 "AndersonPP" H 10147 1453 60  0000 R CNN
-F 2 "" H 10025 750 60  0001 C CNN
-F 3 "" H 10025 750 60  0001 C CNN
-	1    10175 1300
+P 10275 1400
+F 0 "Conn?" H 10247 1447 60  0000 R CNN
+F 1 "AndersonPP" H 10247 1553 60  0000 R CNN
+F 2 "" H 10125 850 60  0001 C CNN
+F 3 "" H 10125 850 60  0001 C CNN
+	1    10275 1400
 	-1   0    0    1   
 $EndComp
 $Sheet
@@ -51,36 +51,264 @@ Wire Notes Line
 	8700 475  8700 3500
 Text Notes 9175 3275 0    197  ~ 0
 Andersons
-Text Notes 8800 6325 0    197  ~ 0
+Text Notes 8925 6275 0    197  ~ 0
 OKIs
 Text Notes 1400 7375 0    197  ~ 0
 Sensors
-$Comp
-L Converter_DCDC:OKI-78SR-3.3_1.5-W36H-C U?
-U 1 1 61509405
-P 9050 4350
-F 0 "U?" H 9050 4592 50  0000 C CNN
-F 1 "OKI-78SR-3.3_1.5-W36H-C" H 9050 4501 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" H 9100 4100 50  0001 L CIN
-F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 9050 4350 50  0001 C CNN
-	1    9050 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Converter_DCDC:OKI-78SR-5_1.5-W36H-C U?
-U 1 1 615099E1
-P 9050 5300
-F 0 "U?" H 9050 5542 50  0000 C CNN
-F 1 "OKI-78SR-5_1.5-W36H-C" H 9050 5451 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" H 9100 5050 50  0001 L CIN
-F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 9050 5300 50  0001 C CNN
-	1    9050 5300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6975 3500 6975 6525
 Wire Notes Line
 	6975 6525 11225 6525
 Wire Notes Line
 	6975 3500 11200 3500
+$Comp
+L Converter_DCDC:OKI-78SR-5_1.5-W36H-C U?
+U 1 1 615099E1
+P 8325 5225
+F 0 "U?" H 8325 5467 50  0000 C CNN
+F 1 "OKI-78SR-5_1.5-W36H-C" H 8325 5376 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" H 8375 4975 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 8325 5225 50  0001 C CNN
+	1    8325 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:OKI-78SR-3.3_1.5-W36H-C U?
+U 1 1 61509405
+P 8350 4200
+F 0 "U?" H 8350 4442 50  0000 C CNN
+F 1 "OKI-78SR-3.3_1.5-W36H-C" H 8350 4351 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" H 8400 3950 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 8350 4200 50  0001 C CNN
+	1    8350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 615E1386
+P 7600 4350
+F 0 "C?" H 7715 4396 50  0000 L CNN
+F 1 "CP1" H 7715 4305 50  0000 L CNN
+F 2 "" H 7600 4350 50  0001 C CNN
+F 3 "~" H 7600 4350 50  0001 C CNN
+	1    7600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615E2024
+P 9050 4350
+F 0 "C?" H 9165 4396 50  0000 L CNN
+F 1 "C" H 9165 4305 50  0000 L CNN
+F 2 "" H 9088 4200 50  0001 C CNN
+F 3 "~" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 615E2538
+P 9350 4350
+F 0 "C?" H 9465 4396 50  0000 L CNN
+F 1 "CP1" H 9465 4305 50  0000 L CNN
+F 2 "" H 9350 4350 50  0001 C CNN
+F 3 "~" H 9350 4350 50  0001 C CNN
+	1    9350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 615E33B2
+P 9725 4275
+F 0 "J?" H 9647 4314 60  0000 R CNN
+F 1 "Test_Point" H 9647 4420 60  0000 R CNN
+F 2 "" H 9725 4225 60  0001 C CNN
+F 3 "" H 9725 4225 60  0001 C CNN
+	1    9725 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E4C25
+P 10175 4200
+F 0 "R?" V 9968 4200 50  0000 C CNN
+F 1 "R" V 10059 4200 50  0000 C CNN
+F 2 "" V 10105 4200 50  0001 C CNN
+F 3 "~" H 10175 4200 50  0001 C CNN
+	1    10175 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615E5345
+P 10625 4200
+F 0 "D?" H 10618 3945 50  0000 C CNN
+F 1 "LED" H 10618 4036 50  0000 C CNN
+F 2 "" H 10625 4200 50  0001 C CNN
+F 3 "~" H 10625 4200 50  0001 C CNN
+	1    10625 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615E5F0A
+P 10950 4375
+F 0 "#PWR?" H 10950 4125 50  0001 C CNN
+F 1 "GND" H 10955 4202 50  0000 C CNN
+F 2 "" H 10950 4375 50  0001 C CNN
+F 3 "" H 10950 4375 50  0001 C CNN
+	1    10950 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4200 8050 4200
+Wire Wire Line
+	7600 4500 7600 4625
+Wire Wire Line
+	7600 4625 8350 4625
+Wire Wire Line
+	8350 4625 8350 4500
+Wire Wire Line
+	9050 4625 9050 4500
+Wire Wire Line
+	8350 4625 9050 4625
+Connection ~ 8350 4625
+Wire Wire Line
+	9050 4625 9350 4625
+Wire Wire Line
+	9350 4625 9350 4500
+Connection ~ 9050 4625
+Wire Wire Line
+	9350 4200 9050 4200
+Connection ~ 9050 4200
+Wire Wire Line
+	9350 4200 9725 4200
+Wire Wire Line
+	9725 4200 9725 4275
+Connection ~ 9350 4200
+Connection ~ 9725 4200
+Wire Wire Line
+	10325 4200 10475 4200
+Wire Wire Line
+	10775 4200 10950 4200
+Wire Wire Line
+	10950 4200 10950 4375
+Wire Wire Line
+	8650 4200 9050 4200
+Wire Wire Line
+	9725 4200 10025 4200
+$Comp
+L Device:CP1 C?
+U 1 1 615EE19D
+P 7575 5375
+F 0 "C?" H 7690 5421 50  0000 L CNN
+F 1 "CP1" H 7690 5330 50  0000 L CNN
+F 2 "" H 7575 5375 50  0001 C CNN
+F 3 "~" H 7575 5375 50  0001 C CNN
+	1    7575 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615EE1A3
+P 9025 5375
+F 0 "C?" H 9140 5421 50  0000 L CNN
+F 1 "C" H 9140 5330 50  0000 L CNN
+F 2 "" H 9063 5225 50  0001 C CNN
+F 3 "~" H 9025 5375 50  0001 C CNN
+	1    9025 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 615EE1A9
+P 9325 5375
+F 0 "C?" H 9440 5421 50  0000 L CNN
+F 1 "CP1" H 9440 5330 50  0000 L CNN
+F 2 "" H 9325 5375 50  0001 C CNN
+F 3 "~" H 9325 5375 50  0001 C CNN
+	1    9325 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 615EE1AF
+P 9700 5300
+F 0 "J?" H 9622 5339 60  0000 R CNN
+F 1 "Test_Point" H 9622 5445 60  0000 R CNN
+F 2 "" H 9700 5250 60  0001 C CNN
+F 3 "" H 9700 5250 60  0001 C CNN
+	1    9700 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615EE1B5
+P 10150 5225
+F 0 "R?" V 9943 5225 50  0000 C CNN
+F 1 "R" V 10034 5225 50  0000 C CNN
+F 2 "" V 10080 5225 50  0001 C CNN
+F 3 "~" H 10150 5225 50  0001 C CNN
+	1    10150 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615EE1BB
+P 10600 5225
+F 0 "D?" H 10593 4970 50  0000 C CNN
+F 1 "LED" H 10593 5061 50  0000 C CNN
+F 2 "" H 10600 5225 50  0001 C CNN
+F 3 "~" H 10600 5225 50  0001 C CNN
+	1    10600 5225
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615EE1C1
+P 10925 5400
+F 0 "#PWR?" H 10925 5150 50  0001 C CNN
+F 1 "GND" H 10930 5227 50  0000 C CNN
+F 2 "" H 10925 5400 50  0001 C CNN
+F 3 "" H 10925 5400 50  0001 C CNN
+	1    10925 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7575 5225 8025 5225
+Wire Wire Line
+	7575 5525 7575 5650
+Wire Wire Line
+	7575 5650 8325 5650
+Wire Wire Line
+	8325 5650 8325 5525
+Wire Wire Line
+	9025 5650 9025 5525
+Wire Wire Line
+	8325 5650 9025 5650
+Connection ~ 8325 5650
+Wire Wire Line
+	9025 5650 9325 5650
+Wire Wire Line
+	9325 5650 9325 5525
+Connection ~ 9025 5650
+Wire Wire Line
+	9325 5225 9025 5225
+Connection ~ 9025 5225
+Wire Wire Line
+	9325 5225 9700 5225
+Wire Wire Line
+	9700 5225 9700 5300
+Connection ~ 9325 5225
+Connection ~ 9700 5225
+Wire Wire Line
+	10300 5225 10450 5225
+Wire Wire Line
+	10750 5225 10925 5225
+Wire Wire Line
+	10925 5225 10925 5400
+Wire Wire Line
+	8625 5225 9025 5225
+Wire Wire Line
+	9700 5225 10000 5225
 $EndSCHEMATC
