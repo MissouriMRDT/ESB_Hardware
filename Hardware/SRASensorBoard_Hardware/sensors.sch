@@ -1,0 +1,354 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 615E7887
+P 2800 1900
+AR Path="/615E7887" Ref="Conn?"  Part="1" 
+AR Path="/615E494A/615E7887" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 2928 2158 60  0000 L CNN
+F 1 "Molex_SL_04" H 2928 2052 60  0000 L CNN
+F 2 "" H 2800 1900 60  0001 C CNN
+F 3 "" H 2800 1900 60  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615E788D
+P 2550 1300
+AR Path="/615E788D" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615E788D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 1150 50  0001 C CNN
+F 1 "+5V" H 2565 1473 50  0000 C CNN
+F 2 "" H 2550 1300 50  0001 C CNN
+F 3 "" H 2550 1300 50  0001 C CNN
+	1    2550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615E7893
+P 1300 1400
+AR Path="/615E7893" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615E7893" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 1150 50  0001 C CNN
+F 1 "GND" H 1305 1227 50  0000 C CNN
+F 2 "" H 1300 1400 50  0001 C CNN
+F 3 "" H 1300 1400 50  0001 C CNN
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E7899
+P 2200 1750
+AR Path="/615E7899" Ref="R?"  Part="1" 
+AR Path="/615E494A/615E7899" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 1800 50  0000 C CNN
+F 1 "480" H 2350 1700 50  0000 C CNN
+F 2 "" V 2130 1750 50  0001 C CNN
+F 3 "~" H 2200 1750 50  0001 C CNN
+	1    2200 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E789F
+P 2200 2150
+AR Path="/615E789F" Ref="R?"  Part="1" 
+AR Path="/615E494A/615E789F" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 2200 50  0000 C CNN
+F 1 "480" H 2350 2100 50  0000 C CNN
+F 2 "" V 2130 2150 50  0001 C CNN
+F 3 "~" H 2200 2150 50  0001 C CNN
+	1    2200 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1550 2550 1550
+Wire Wire Line
+	2550 1550 2550 1300
+Wire Wire Line
+	2600 1650 2500 1650
+Wire Wire Line
+	2500 1650 2500 1350
+Wire Wire Line
+	2350 1750 2450 1750
+Wire Wire Line
+	2600 1850 2550 1850
+Wire Wire Line
+	2550 1850 2550 2150
+Wire Wire Line
+	2550 2150 2450 2150
+Connection ~ 2450 2150
+Wire Wire Line
+	2450 2150 2350 2150
+Wire Wire Line
+	2450 1750 2450 1600
+Wire Wire Line
+	2450 1600 2350 1600
+Connection ~ 2450 1750
+Wire Wire Line
+	2450 1750 2600 1750
+Text GLabel 2350 1600 0    50   Input ~ 0
+O2_TX
+Wire Wire Line
+	2050 1750 1850 1750
+Wire Wire Line
+	2050 2150 1850 2150
+$Comp
+L Device:LED D?
+U 1 1 615E78B6
+P 1700 1750
+AR Path="/615E78B6" Ref="D?"  Part="1" 
+AR Path="/615E494A/615E78B6" Ref="D?"  Part="1" 
+F 0 "D?" V 1750 1600 50  0000 C CNN
+F 1 "Blue" V 1650 1550 50  0000 C CNN
+F 2 "" H 1700 1750 50  0001 C CNN
+F 3 "~" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615E78BC
+P 1700 2150
+AR Path="/615E78BC" Ref="D?"  Part="1" 
+AR Path="/615E494A/615E78BC" Ref="D?"  Part="1" 
+F 0 "D?" V 1750 2000 50  0000 C CNN
+F 1 "Blue" V 1650 1950 50  0000 C CNN
+F 2 "" H 1700 2150 50  0001 C CNN
+F 3 "~" H 1700 2150 50  0001 C CNN
+	1    1700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1750 1550 1750
+Wire Wire Line
+	1550 2150 1300 2150
+Wire Wire Line
+	1300 2150 1300 2350
+$Comp
+L power:GND #PWR?
+U 1 1 615E78C5
+P 1300 1850
+AR Path="/615E78C5" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615E78C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 1600 50  0001 C CNN
+F 1 "GND" H 1305 1677 50  0000 C CNN
+F 2 "" H 1300 1850 50  0001 C CNN
+F 3 "" H 1300 1850 50  0001 C CNN
+	1    1300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615E78CB
+P 1300 2350
+AR Path="/615E78CB" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615E78CB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 2100 50  0001 C CNN
+F 1 "GND" H 1305 2177 50  0000 C CNN
+F 2 "" H 1300 2350 50  0001 C CNN
+F 3 "" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1750 1300 1850
+Wire Wire Line
+	2450 2450 2350 2450
+Wire Wire Line
+	2450 2150 2450 2450
+Text GLabel 2350 2450 0    50   Input ~ 0
+O2_RX
+Wire Wire Line
+	1300 1350 1300 1400
+Wire Wire Line
+	1300 1350 2500 1350
+Text Notes 800  1000 0    98   ~ 20
+O2 Sensor
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 615ECF4A
+P 2750 3850
+AR Path="/615ECF4A" Ref="Conn?"  Part="1" 
+AR Path="/615E494A/615ECF4A" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 2878 4108 60  0000 L CNN
+F 1 "Molex_SL_04" H 2878 4002 60  0000 L CNN
+F 2 "" H 2750 3850 60  0001 C CNN
+F 3 "" H 2750 3850 60  0001 C CNN
+	1    2750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615ECF50
+P 2500 3250
+AR Path="/615ECF50" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615ECF50" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 3100 50  0001 C CNN
+F 1 "+5V" H 2515 3423 50  0000 C CNN
+F 2 "" H 2500 3250 50  0001 C CNN
+F 3 "" H 2500 3250 50  0001 C CNN
+	1    2500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615ECF56
+P 1250 3350
+AR Path="/615ECF56" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615ECF56" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1250 3100 50  0001 C CNN
+F 1 "GND" H 1255 3177 50  0000 C CNN
+F 2 "" H 1250 3350 50  0001 C CNN
+F 3 "" H 1250 3350 50  0001 C CNN
+	1    1250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615ECF5C
+P 2150 3700
+AR Path="/615ECF5C" Ref="R?"  Part="1" 
+AR Path="/615E494A/615ECF5C" Ref="R?"  Part="1" 
+F 0 "R?" H 2300 3750 50  0000 C CNN
+F 1 "480" H 2300 3650 50  0000 C CNN
+F 2 "" V 2080 3700 50  0001 C CNN
+F 3 "~" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615ECF62
+P 2150 4100
+AR Path="/615ECF62" Ref="R?"  Part="1" 
+AR Path="/615E494A/615ECF62" Ref="R?"  Part="1" 
+F 0 "R?" H 2300 4150 50  0000 C CNN
+F 1 "480" H 2300 4050 50  0000 C CNN
+F 2 "" V 2080 4100 50  0001 C CNN
+F 3 "~" H 2150 4100 50  0001 C CNN
+	1    2150 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 3500 2500 3500
+Wire Wire Line
+	2500 3500 2500 3250
+Wire Wire Line
+	2550 3600 2450 3600
+Wire Wire Line
+	2450 3600 2450 3300
+Wire Wire Line
+	2300 3700 2400 3700
+Wire Wire Line
+	2550 3800 2500 3800
+Wire Wire Line
+	2500 3800 2500 4100
+Wire Wire Line
+	2500 4100 2400 4100
+Connection ~ 2400 4100
+Wire Wire Line
+	2400 4100 2300 4100
+Wire Wire Line
+	2400 3700 2400 3550
+Wire Wire Line
+	2400 3550 2300 3550
+Connection ~ 2400 3700
+Wire Wire Line
+	2400 3700 2550 3700
+Text GLabel 2300 3550 0    50   Input ~ 0
+CO2_TX
+Wire Wire Line
+	2000 3700 1800 3700
+Wire Wire Line
+	2000 4100 1800 4100
+$Comp
+L Device:LED D?
+U 1 1 615ECF79
+P 1650 3700
+AR Path="/615ECF79" Ref="D?"  Part="1" 
+AR Path="/615E494A/615ECF79" Ref="D?"  Part="1" 
+F 0 "D?" V 1700 3550 50  0000 C CNN
+F 1 "Blue" V 1600 3500 50  0000 C CNN
+F 2 "" H 1650 3700 50  0001 C CNN
+F 3 "~" H 1650 3700 50  0001 C CNN
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615ECF7F
+P 1650 4100
+AR Path="/615ECF7F" Ref="D?"  Part="1" 
+AR Path="/615E494A/615ECF7F" Ref="D?"  Part="1" 
+F 0 "D?" V 1700 3950 50  0000 C CNN
+F 1 "Blue" V 1600 3900 50  0000 C CNN
+F 2 "" H 1650 4100 50  0001 C CNN
+F 3 "~" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3700 1500 3700
+Wire Wire Line
+	1500 4100 1250 4100
+Wire Wire Line
+	1250 4100 1250 4300
+$Comp
+L power:GND #PWR?
+U 1 1 615ECF88
+P 1250 3800
+AR Path="/615ECF88" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615ECF88" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1250 3550 50  0001 C CNN
+F 1 "GND" H 1255 3627 50  0000 C CNN
+F 2 "" H 1250 3800 50  0001 C CNN
+F 3 "" H 1250 3800 50  0001 C CNN
+	1    1250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615ECF8E
+P 1250 4300
+AR Path="/615ECF8E" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/615ECF8E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1250 4050 50  0001 C CNN
+F 1 "GND" H 1255 4127 50  0000 C CNN
+F 2 "" H 1250 4300 50  0001 C CNN
+F 3 "" H 1250 4300 50  0001 C CNN
+	1    1250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3700 1250 3800
+Wire Wire Line
+	2400 4400 2300 4400
+Wire Wire Line
+	2400 4100 2400 4400
+Text GLabel 2300 4400 0    50   Input ~ 0
+CO2_RX
+Wire Wire Line
+	1250 3300 1250 3350
+Wire Wire Line
+	1250 3300 2450 3300
+Text Notes 800  3050 0    118  ~ 24
+CO2_Sensor
+$EndSCHEMATC
