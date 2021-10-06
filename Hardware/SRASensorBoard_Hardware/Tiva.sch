@@ -221,4 +221,12 @@ Wire Wire Line
 	2125 1875 1850 1875
 Wire Wire Line
 	2125 2175 1850 2175
+Text GLabel 2000 3300 0    50   Input ~ 0
+CH4RX
+Text GLabel 2000 3400 0    50   Input ~ 0
+CH4TX
+Wire Wire Line
+	2000 3300 2175 3300
+Wire Wire Line
+	2000 3400 2175 3400
 $EndSCHEMATC
