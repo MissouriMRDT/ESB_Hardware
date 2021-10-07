@@ -180,7 +180,7 @@ Wire Wire Line
 	1300 1350 1300 1400
 Wire Wire Line
 	1300 1350 2500 1350
-Text Notes 800  1000 0    98   ~ 20
+Text Notes 800  1000 0    118  ~ 0
 O2 Sensor
 $Comp
 L MRDT_Connectors:Molex_SL_04 Conn?
@@ -349,7 +349,7 @@ Wire Wire Line
 	1250 3300 1250 3350
 Wire Wire Line
 	1250 3300 2450 3300
-Text Notes 800  3050 0    118  ~ 24
+Text Notes 800  3050 0    118  ~ 0
 CO2_Sensor
 Text Notes 5125 1400 0    118  ~ 0
 Methane Sensor
@@ -709,8 +709,8 @@ F 3 "" H 5250 3125 50  0001 C CNN
 	1    5250 3125
 	1    0    0    -1  
 $EndComp
-Text Notes 4025 3375 0    50   ~ 0
+Text Notes 3850 3375 0    79   ~ 0
 USB Port
-Text Notes 6175 3800 0    50   ~ 0
+Text Notes 5975 3800 0    79   ~ 0
 USB to UART Converter
 $EndSCHEMATC

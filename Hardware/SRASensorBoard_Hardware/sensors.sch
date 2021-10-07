@@ -104,7 +104,7 @@ Wire Wire Line
 Connection ~ 2450 1750
 Wire Wire Line
 	2450 1750 2600 1750
-Text GLabel 2350 1600 0    50   Input ~ 0
+Text GLabel 2350 1600 0    50   Output ~ 0
 O2_TX
 Wire Wire Line
 	2050 1750 1850 1750
@@ -273,7 +273,7 @@ Wire Wire Line
 Connection ~ 2400 3700
 Wire Wire Line
 	2400 3700 2550 3700
-Text GLabel 2300 3550 0    50   Input ~ 0
+Text GLabel 2300 3550 0    50   Output ~ 0
 CO2_TX
 Wire Wire Line
 	2000 3700 1800 3700
@@ -616,9 +616,9 @@ Wire Wire Line
 Wire Wire Line
 	7300 2250 7775 2250
 Text GLabel 7950 2250 2    50   Input ~ 0
-CH4RX
+CH4_RX
 Text GLabel 7950 2150 2    50   Output ~ 0
-CH4TX
+CH4_TX
 $Comp
 L Device:R R?
 U 1 1 6168B9AC

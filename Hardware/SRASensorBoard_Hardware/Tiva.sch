@@ -205,26 +205,26 @@ F 3 "" H 2025 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2025 3100 2175 3100
-Text GLabel 1850 1675 0    50   Input ~ 0
+Text GLabel 1850 1775 0    50   Output ~ 0
 TIVA_O2_RX
-Text GLabel 1850 1775 0    50   Input ~ 0
+Text GLabel 1850 1675 0    50   Input ~ 0
 TIVA_O2_TX
 Wire Wire Line
 	1850 1675 2125 1675
 Wire Wire Line
 	1850 1775 2125 1775
-Text GLabel 1850 2175 0    50   Input ~ 0
-TIVA_CO2_TX
 Text GLabel 1850 1875 0    50   Input ~ 0
+TIVA_CO2_TX
+Text GLabel 1850 2175 0    50   Output ~ 0
 TIVA_CO2_RX
 Wire Wire Line
 	2125 1875 1850 1875
 Wire Wire Line
 	2125 2175 1850 2175
-Text GLabel 2000 3300 0    50   Input ~ 0
-CH4RX
 Text GLabel 2000 3400 0    50   Input ~ 0
-CH4TX
+CH4_RX
+Text GLabel 2000 3300 0    50   Input ~ 0
+CH4_TX
 Wire Wire Line
 	2000 3300 2175 3300
 Wire Wire Line
