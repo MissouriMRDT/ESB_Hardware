@@ -36,7 +36,7 @@ F 3 "" H 10125 850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 750  850  1550 1325
+S 750  850  2425 2000
 U 614D345C
 F0 "Tiva" 50
 F1 "Tiva.sch" 50
@@ -338,7 +338,7 @@ Wire Wire Line
 Wire Wire Line
 	9875 1050 9700 1050
 $Sheet
-S 950  5400 2250 1450
+S 1375 4000 4750 2900
 U 615E494A
 F0 "Sheet615E4949" 50
 F1 "sensors.sch" 50
