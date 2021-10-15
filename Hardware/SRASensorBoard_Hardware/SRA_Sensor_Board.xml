@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\neaco\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware\SRA_Sensor_Board.sch</source>
-    <date>10/10/2021 4:21:30 PM</date>
-    <tool>Eeschema (5.1.10)-1</tool>
+    <source>C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware\SRA_Sensor_Board.sch</source>
+    <date>10/14/2021 9:00:22 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -866,10 +866,9 @@
         <alias>IRLML0030</alias>
         <alias>IRLML2060</alias>
         <alias>TSM2302CX</alias>
-        <alias>AO3400A</alias>
       </aliases>
       <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
@@ -896,13 +895,13 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Interface_USB.lib</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:\Users\neaco\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib</uri>
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib</uri>
     </library>
     <library logical="MRDT_Shields">
-      <uri>C:\Users\neaco\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib</uri>
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib</uri>
     </library>
     <library logical="SRA_Sensor_Board-rescue">
-      <uri>C:\Users\neaco\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware/SRA_Sensor_Board-rescue.lib</uri>
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware/SRA_Sensor_Board-rescue.lib</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
