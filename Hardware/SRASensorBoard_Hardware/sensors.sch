@@ -418,8 +418,6 @@ Wire Wire Line
 Wire Wire Line
 	4325 2125 5150 2125
 Wire Wire Line
-	6400 1425 6400 1250
-Wire Wire Line
 	6400 1250 4750 1250
 $Comp
 L power:+5V #PWR0131
@@ -533,8 +531,6 @@ F 3 "~" H 6100 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6600 1425 6600 1325
-Wire Wire Line
 	5800 1725 5750 1725
 Wire Wire Line
 	5750 1725 5750 2325
@@ -557,7 +553,7 @@ $Comp
 L Device:C C6
 U 1 1 6167C537
 P 4475 1250
-F 0 "C6" V 4325 1050 50  0000 L CNN
+F 0 "C6" V 4250 1100 50  0000 L CNN
 F 1 "100nF" V 4325 1150 50  0000 L CNN
 F 2 "" H 4513 1100 50  0001 C CNN
 F 3 "~" H 4475 1250 50  0001 C CNN
@@ -590,94 +586,14 @@ $Comp
 L Device:CP1 C7
 U 1 1 61685AB6
 P 4475 1450
-F 0 "C7" V 4600 1300 50  0000 C CNN
-F 1 "CP1" V 4600 1450 50  0000 C CNN
+F 0 "C7" V 4675 1350 50  0000 C CNN
+F 1 "4.7 uF" V 4600 1450 50  0000 C CNN
 F 2 "" H 4475 1450 50  0001 C CNN
 F 3 "~" H 4475 1450 50  0001 C CNN
 	1    4475 1450
 	0    1    1    0   
 $EndComp
 Connection ~ 4325 1450
-Wire Wire Line
-	7200 1725 7375 1725
-Wire Wire Line
-	7200 1825 7675 1825
-$Comp
-L Device:R R28
-U 1 1 6168B9AC
-P 7375 1425
-F 0 "R28" H 7445 1471 50  0000 L CNN
-F 1 "480" V 7375 1350 50  0000 L CNN
-F 2 "" V 7305 1425 50  0001 C CNN
-F 3 "~" H 7375 1425 50  0001 C CNN
-	1    7375 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R29
-U 1 1 6168BDE5
-P 7675 1425
-F 0 "R29" H 7745 1471 50  0000 L CNN
-F 1 "480" V 7675 1350 50  0000 L CNN
-F 2 "" V 7605 1425 50  0001 C CNN
-F 3 "~" H 7675 1425 50  0001 C CNN
-	1    7675 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D14
-U 1 1 6168C4BA
-P 7375 1050
-F 0 "D14" V 7322 1130 50  0000 L CNN
-F 1 "Blue" V 7413 1130 50  0000 L CNN
-F 2 "" H 7375 1050 50  0001 C CNN
-F 3 "~" H 7375 1050 50  0001 C CNN
-	1    7375 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D15
-U 1 1 6168D01D
-P 7675 1050
-F 0 "D15" V 7622 1130 50  0000 L CNN
-F 1 "Blue" V 7713 1130 50  0000 L CNN
-F 2 "" H 7675 1050 50  0001 C CNN
-F 3 "~" H 7675 1050 50  0001 C CNN
-	1    7675 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 61690493
-P 7675 775
-F 0 "#PWR0134" H 7675 525 50  0001 C CNN
-F 1 "GND" H 7680 602 50  0000 C CNN
-F 2 "" H 7675 775 50  0001 C CNN
-F 3 "" H 7675 775 50  0001 C CNN
-	1    7675 775 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7375 1725 7375 1575
-Connection ~ 7375 1725
-Wire Wire Line
-	7375 1725 7850 1725
-Wire Wire Line
-	7375 1275 7375 1200
-Wire Wire Line
-	7375 900  7375 775 
-Wire Wire Line
-	7375 775  7675 775 
-Wire Wire Line
-	7675 900  7675 775 
-Connection ~ 7675 775 
-Wire Wire Line
-	7675 1200 7675 1275
-Wire Wire Line
-	7675 1575 7675 1825
-Connection ~ 7675 1825
-Wire Wire Line
-	7675 1825 7850 1825
 Connection ~ 5150 2625
 Wire Wire Line
 	5150 2700 5150 2625
@@ -1205,10 +1121,6 @@ Text GLabel 8600 4475 0    50   Output ~ 0
 CH4_RX
 Text GLabel 7225 4475 0    50   Input ~ 0
 CH4_TX
-Text GLabel 7850 1725 2    50   Output ~ 0
-CH4_TX
-Text GLabel 7850 1825 2    50   Input ~ 0
-CH4_RX
 Text GLabel 7550 4475 2    50   Output ~ 0
 TIVA_CH4_RX
 Wire Wire Line
@@ -1560,6 +1472,16 @@ Wire Wire Line
 	5575 2125 5800 2125
 Wire Wire Line
 	5575 2025 5800 2025
+NoConn ~ 7200 2225
+NoConn ~ 7200 2325
+NoConn ~ 7200 2425
+NoConn ~ 7200 2525
+NoConn ~ 7200 2025
+NoConn ~ 7200 1925
+Wire Wire Line
+	6600 1425 6600 1325
+Wire Wire Line
+	6400 1425 6400 1250
 $Comp
 L Interface_USB:FT230XS U4
 U 1 1 615E4F23
@@ -1571,10 +1493,88 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 
 	1    6500 2125
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7200 2225
-NoConn ~ 7200 2325
-NoConn ~ 7200 2425
-NoConn ~ 7200 2525
-NoConn ~ 7200 2025
-NoConn ~ 7200 1925
+Wire Wire Line
+	7950 1825 8125 1825
+Connection ~ 7950 1825
+Wire Wire Line
+	7950 1825 7950 1900
+Wire Wire Line
+	7650 1725 8125 1725
+Connection ~ 7650 1725
+Wire Wire Line
+	7650 1725 7650 1900
+Wire Wire Line
+	7200 1725 7650 1725
+Wire Wire Line
+	7200 1825 7950 1825
+$Comp
+L Device:R R28
+U 1 1 6168B9AC
+P 7950 2050
+F 0 "R28" H 7750 2100 50  0000 L CNN
+F 1 "480" V 7950 1975 50  0000 L CNN
+F 2 "" V 7880 2050 50  0001 C CNN
+F 3 "~" H 7950 2050 50  0001 C CNN
+	1    7950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 6168BDE5
+P 7650 2050
+F 0 "R29" H 7720 2096 50  0000 L CNN
+F 1 "480" V 7650 1975 50  0000 L CNN
+F 2 "" V 7580 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 6168C4BA
+P 7950 2425
+F 0 "D14" V 7900 2125 50  0000 L CNN
+F 1 "Blue" V 7975 2150 50  0000 L CNN
+F 2 "" H 7950 2425 50  0001 C CNN
+F 3 "~" H 7950 2425 50  0001 C CNN
+	1    7950 2425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 6168D01D
+P 7650 2425
+F 0 "D15" V 7700 2200 50  0000 L CNN
+F 1 "Blue" V 7775 2200 50  0000 L CNN
+F 2 "" H 7650 2425 50  0001 C CNN
+F 3 "~" H 7650 2425 50  0001 C CNN
+	1    7650 2425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 61690493
+P 7650 2700
+F 0 "#PWR0134" H 7650 2450 50  0001 C CNN
+F 1 "GND" H 7655 2527 50  0000 C CNN
+F 2 "" H 7650 2700 50  0001 C CNN
+F 3 "" H 7650 2700 50  0001 C CNN
+	1    7650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2200 7950 2275
+Wire Wire Line
+	7950 2575 7950 2700
+Wire Wire Line
+	7950 2700 7650 2700
+Wire Wire Line
+	7650 2575 7650 2700
+Connection ~ 7650 2700
+Wire Wire Line
+	7650 2275 7650 2200
+Text GLabel 8125 1825 2    50   Input ~ 0
+CH4_RX
+Text GLabel 8125 1725 2    50   Output ~ 0
+CH4_TX
 $EndSCHEMATC
