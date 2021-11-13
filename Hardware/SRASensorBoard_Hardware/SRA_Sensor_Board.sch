@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -42,13 +42,11 @@ F0 "Tiva" 50
 F1 "Tiva.sch" 50
 $EndSheet
 Wire Notes Line
-	475  3475 3675 3475
-Wire Notes Line
 	3675 3475 3675 475 
 Text Notes 1675 3325 0    197  ~ 0
 Tiva
 Wire Notes Line
-	8700 475  8700 3500
+	8700 475  8700 3475
 Text Notes 9175 3275 0    197  ~ 0
 Andersons
 Text Notes 8925 6275 0    197  ~ 0
@@ -56,11 +54,7 @@ OKIs
 Text Notes 1400 7375 0    197  ~ 0
 Sensors
 Wire Notes Line
-	6975 3500 6975 6525
-Wire Notes Line
-	6975 6525 11225 6525
-Wire Notes Line
-	6975 3500 11200 3500
+	6975 3475 6975 6525
 $Comp
 L Converter_DCDC:OKI-78SR-5_1.5-W36H-C U1
 U 1 1 615099E1
@@ -355,4 +349,14 @@ Wire Wire Line
 	9025 5225 10000 5225
 Wire Wire Line
 	9050 4200 10025 4200
+$Sheet
+S 4625 925  3225 1975
+U 61988F48
+F0 "Lasers & LEDs" 50
+F1 "Lasers_LEDs.sch" 50
+$EndSheet
+Text Notes 5000 3275 0    197  ~ 0
+Lasers and LEDs
+Wire Notes Line
+	475  3475 11225 3475
 $EndSCHEMATC

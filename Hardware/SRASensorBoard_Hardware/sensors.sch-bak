@@ -1699,7 +1699,11 @@ Wire Wire Line
 Wire Wire Line
 	4375 2325 4325 2325
 Text Label 4700 2025 0    50   ~ 0
-D-
+D1-
 Text Label 4700 2125 0    50   ~ 0
-D+
+D1+
+Text Label 5625 2025 0    50   ~ 0
+D2-
+Text Label 5625 2125 0    50   ~ 0
+D2+
 $EndSCHEMATC
