@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -126,12 +126,12 @@ $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 61500D9F
-P 3800 1575
-F 0 "#PWR0113" H 3800 1325 50  0001 C CNN
-F 1 "GND" H 3875 1400 50  0000 R CNN
-F 2 "" H 3800 1575 50  0001 C CNN
-F 3 "" H 3800 1575 50  0001 C CNN
-	1    3800 1575
+P 4200 1375
+F 0 "#PWR0113" H 4200 1125 50  0001 C CNN
+F 1 "GND" H 4275 1200 50  0000 R CNN
+F 2 "" H 4200 1375 50  0001 C CNN
+F 3 "" H 4200 1375 50  0001 C CNN
+	1    4200 1375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -151,8 +151,6 @@ Wire Wire Line
 	6975 3225 7100 3225
 Wire Wire Line
 	3825 3200 3950 3200
-Wire Wire Line
-	3675 1575 3800 1575
 $Comp
 L power:+5V #PWR0115
 U 1 1 61503CB5
@@ -230,21 +228,17 @@ Wire Wire Line
 Wire Wire Line
 	2000 3400 2175 3400
 Text GLabel 1850 2275 0    50   Output ~ 0
-NO_SCL
+NO2_SCL
 Text GLabel 1850 2375 0    50   Output ~ 0
-NO_SDA
+NO2_SDA
 Wire Wire Line
 	2125 2275 1850 2275
 Wire Wire Line
 	2125 2375 1850 2375
 Text GLabel 4000 3500 2    50   Input ~ 0
-TIVA_NH3_RX
-Text GLabel 4000 3600 2    50   Output ~ 0
-TIVA_NH3_TX
+TIVA_NH3_A
 Wire Wire Line
 	4000 3500 3825 3500
-Wire Wire Line
-	3825 3600 4000 3600
 NoConn ~ 2125 1575
 NoConn ~ 2125 1975
 NoConn ~ 2125 2075
@@ -263,9 +257,6 @@ NoConn ~ 3675 2275
 NoConn ~ 3675 2175
 NoConn ~ 3675 2075
 NoConn ~ 3675 1975
-NoConn ~ 3675 1875
-NoConn ~ 3675 1775
-NoConn ~ 3675 1675
 NoConn ~ 5225 1600
 NoConn ~ 5225 1700
 NoConn ~ 5225 1800
@@ -290,11 +281,6 @@ NoConn ~ 5325 3325
 NoConn ~ 5325 3425
 NoConn ~ 5325 3525
 NoConn ~ 5325 3625
-NoConn ~ 5325 3725
-NoConn ~ 5325 3825
-NoConn ~ 5325 3925
-NoConn ~ 5325 4025
-NoConn ~ 5325 4125
 NoConn ~ 6975 3325
 NoConn ~ 6975 3425
 NoConn ~ 6975 3525
@@ -302,8 +288,6 @@ NoConn ~ 6975 3625
 NoConn ~ 6975 3725
 NoConn ~ 6975 3825
 NoConn ~ 6975 3925
-NoConn ~ 6975 4025
-NoConn ~ 6975 4125
 $Comp
 L Device:LED D4
 U 1 1 6165658F
@@ -429,4 +413,45 @@ F 3 "~" H 1725 4225 50  0001 C CNN
 	1    1725 4225
 	-1   0    0    1   
 $EndComp
+NoConn ~ 3825 3600
+Text GLabel 5125 4125 0    50   Output ~ 0
+Laser1
+Text GLabel 5125 4025 0    50   Output ~ 0
+Laser2
+Text GLabel 5125 3925 0    50   Output ~ 0
+Laser3
+Text GLabel 7100 4025 2    50   Output ~ 0
+Lights
+Text GLabel 7100 4125 2    50   Output ~ 0
+UVLED
+NoConn ~ 5325 3725
+NoConn ~ 5325 3825
+Wire Wire Line
+	5125 4125 5325 4125
+Wire Wire Line
+	5325 4025 5125 4025
+Wire Wire Line
+	5125 3925 5325 3925
+Wire Wire Line
+	6975 4125 7100 4125
+Wire Wire Line
+	7100 4025 6975 4025
+Text GLabel 3875 1675 2    51   Input ~ 0
+Photodiode1
+Text GLabel 3875 1775 2    51   Input ~ 0
+Photodiode2
+Text GLabel 3875 1875 2    51   Input ~ 0
+Photodiode3
+Wire Wire Line
+	3675 1575 4075 1575
+Wire Wire Line
+	4075 1575 4075 1375
+Wire Wire Line
+	4075 1375 4200 1375
+Wire Wire Line
+	3675 1675 3875 1675
+Wire Wire Line
+	3675 1775 3875 1775
+Wire Wire Line
+	3675 1875 3875 1875
 $EndSCHEMATC
