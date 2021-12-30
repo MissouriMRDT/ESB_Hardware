@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:AndersonPP Conn6
+L MRDT_Connectors:AndersonPP Conn1
 U 2 1 614D19B3
 P 10275 950
-F 0 "Conn6" H 10247 997 60  0000 R CNN
+F 0 "Conn1" H 10247 997 60  0000 R CNN
 F 1 "AndersonPP" H 10247 1103 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 10125 400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 10125 400 60  0001 C CNN
 F 3 "" H 10125 400 60  0001 C CNN
 	2    10275 950 
 	-1   0    0    1   
@@ -30,7 +30,7 @@ U 1 1 614D22E6
 P 10275 1400
 F 0 "Conn1" H 10247 1447 60  0000 R CNN
 F 1 "AndersonPP" H 10247 1553 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 10125 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 10125 850 60  0001 C CNN
 F 3 "" H 10125 850 60  0001 C CNN
 	1    10275 1400
 	-1   0    0    1   
@@ -183,7 +183,7 @@ U 1 1 615EE1B5
 P 10150 5225
 F 0 "R1" V 9943 5225 50  0000 C CNN
 F 1 "100" V 10034 5225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 5225 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 5225 50  0001 C CNN
 F 3 "~" H 10150 5225 50  0001 C CNN
 	1    10150 5225
 	0    1    1    0   
