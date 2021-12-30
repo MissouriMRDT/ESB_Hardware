@@ -1,0 +1,23 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C10 C6 ,2,100nF,,~
+C2 C4 C1 C3 ,4,10uf,,~
+C5 ,1,10nF,,~
+C7 ,1,CP1,,~
+C9 C8 ,2,47pF,,~
+Conn1 ,1,AndersonPP,,
+Conn5 Conn4 Conn3 Conn2 ,4,Molex_SL_04,,
+D12 D13 D10 D11 D14 D15 D9 D8 D6 D7 ,10,Blue,,~
+D2 D1 D4 D5 D3 ,5,LED,,~
+FB1 ,1,Ferrite_Bead,,~
+J1 ,1,USB_A,, ~
+Q2 Q3 Q4 Q6 Q1 Q5 ,6,BSS138,Package_TO_SOT_SMD:SOT-23,https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+R1 ,1,100,,~
+R12 R13 R10 R11 R28 R29 R6 R7 ,8,480,,~
+R18 R15 R19 R16 R25 R22 R27 R24 R17 R14 R26 R23 ,12,10K,,~
+R2 R9 R8 ,3,43,,~
+R20 R21 ,2,27,,~
+R5 R4 R3 ,3,330,,~
+U1 ,1,OKI-78SR-5_1.5-W36H-C,Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal,https://power.murata.com/data/power/oki-78sr.pdf
+U2 ,1,OKI-78SR-3.3_1.5-W36H-C,Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal,https://power.murata.com/data/power/oki-78sr.pdf
+U3 ,1,TM4C129E_Launchpad,,
+U4 ,1,FT230XS,Package_SO:SSOP-16_3.9x4.9mm_P0.635mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf

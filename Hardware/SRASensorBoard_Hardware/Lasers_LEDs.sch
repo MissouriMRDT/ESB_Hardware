@@ -1,0 +1,643 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn11
+U 1 1 6198C584
+P 2375 1425
+F 0 "Conn11" H 2503 1583 60  0000 L CNN
+F 1 "Molex_SL_02" H 2503 1477 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2375 1325 60  0001 C CNN
+F 3 "" H 2375 1325 60  0001 C CNN
+	1    2375 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn12
+U 1 1 6198D1B6
+P 2375 1975
+F 0 "Conn12" H 2503 2133 60  0000 L CNN
+F 1 "Molex_SL_02" H 2503 2027 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2375 1875 60  0001 C CNN
+F 3 "" H 2375 1875 60  0001 C CNN
+	1    2375 1975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 900  1    51   Input ~ 0
+Laser1
+$Comp
+L power:+5V #PWR07
+U 1 1 619943DD
+P 1150 1275
+F 0 "#PWR07" H 1150 1125 50  0001 C CNN
+F 1 "+5V" H 1165 1448 50  0000 C CNN
+F 2 "" H 1150 1275 50  0001 C CNN
+F 3 "" H 1150 1275 50  0001 C CNN
+	1    1150 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1275 1500 1275
+Wire Wire Line
+	1700 975  1700 900 
+Wire Wire Line
+	1900 1275 2025 1275
+Wire Wire Line
+	2175 1375 2050 1375
+Text GLabel 1900 1925 0    51   Output ~ 0
+Photodiode1
+$Comp
+L power:+3.3V #PWR012
+U 1 1 61995817
+P 2025 1825
+F 0 "#PWR012" H 2025 1675 50  0001 C CNN
+F 1 "+3.3V" H 2040 1998 50  0000 C CNN
+F 2 "" H 2025 1825 50  0001 C CNN
+F 3 "" H 2025 1825 50  0001 C CNN
+	1    2025 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 1825 2175 1825
+Wire Wire Line
+	2175 1925 1900 1925
+$Comp
+L power:GND #PWR013
+U 1 1 61994BF5
+P 2050 1375
+F 0 "#PWR013" H 2050 1125 50  0001 C CNN
+F 1 "GND" H 2055 1202 50  0000 C CNN
+F 2 "" H 2050 1375 50  0001 C CNN
+F 3 "" H 2050 1375 50  0001 C CNN
+	1    2050 1375
+	1    0    0    -1  
+$EndComp
+Text Notes 1250 2225 0    118  ~ 0
+Laser & Photodiode 1
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn7
+U 1 1 6199A2AC
+P 2325 3475
+F 0 "Conn7" H 2453 3633 60  0000 L CNN
+F 1 "Molex_SL_02" H 2453 3527 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2325 3375 60  0001 C CNN
+F 3 "" H 2325 3375 60  0001 C CNN
+	1    2325 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn8
+U 1 1 6199A2B2
+P 2325 4025
+F 0 "Conn8" H 2453 4183 60  0000 L CNN
+F 1 "Molex_SL_02" H 2453 4077 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2325 3925 60  0001 C CNN
+F 3 "" H 2325 3925 60  0001 C CNN
+	1    2325 4025
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 2950 1    51   Input ~ 0
+Laser2
+$Comp
+L power:+5V #PWR05
+U 1 1 6199A2BF
+P 1100 3325
+F 0 "#PWR05" H 1100 3175 50  0001 C CNN
+F 1 "+5V" H 1115 3498 50  0000 C CNN
+F 2 "" H 1100 3325 50  0001 C CNN
+F 3 "" H 1100 3325 50  0001 C CNN
+	1    1100 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3325 1450 3325
+Wire Wire Line
+	1650 3025 1650 2950
+Wire Wire Line
+	1850 3325 2000 3325
+Wire Wire Line
+	2125 3425 2000 3425
+Text GLabel 1850 3975 0    51   Output ~ 0
+Photodiode2
+$Comp
+L power:+3.3V #PWR08
+U 1 1 6199A2CA
+P 1975 3875
+F 0 "#PWR08" H 1975 3725 50  0001 C CNN
+F 1 "+3.3V" H 1990 4048 50  0000 C CNN
+F 2 "" H 1975 3875 50  0001 C CNN
+F 3 "" H 1975 3875 50  0001 C CNN
+	1    1975 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 3875 2125 3875
+Wire Wire Line
+	2125 3975 1850 3975
+$Comp
+L power:GND #PWR010
+U 1 1 6199A2D2
+P 2000 3425
+F 0 "#PWR010" H 2000 3175 50  0001 C CNN
+F 1 "GND" H 2005 3252 50  0000 C CNN
+F 2 "" H 2000 3425 50  0001 C CNN
+F 3 "" H 2000 3425 50  0001 C CNN
+	1    2000 3425
+	1    0    0    -1  
+$EndComp
+Text Notes 1200 4275 0    118  ~ 0
+Laser & Photodiode 2
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn9
+U 1 1 6199B4EA
+P 2325 5425
+F 0 "Conn9" H 2453 5583 60  0000 L CNN
+F 1 "Molex_SL_02" H 2453 5477 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2325 5325 60  0001 C CNN
+F 3 "" H 2325 5325 60  0001 C CNN
+	1    2325 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn10
+U 1 1 6199B4F0
+P 2325 5975
+F 0 "Conn10" H 2453 6133 60  0000 L CNN
+F 1 "Molex_SL_02" H 2453 6027 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2325 5875 60  0001 C CNN
+F 3 "" H 2325 5875 60  0001 C CNN
+	1    2325 5975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 4900 1    51   Input ~ 0
+Laser3
+$Comp
+L power:+5V #PWR06
+U 1 1 6199B4FD
+P 1100 5275
+F 0 "#PWR06" H 1100 5125 50  0001 C CNN
+F 1 "+5V" H 1115 5448 50  0000 C CNN
+F 2 "" H 1100 5275 50  0001 C CNN
+F 3 "" H 1100 5275 50  0001 C CNN
+	1    1100 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5275 1450 5275
+Wire Wire Line
+	1650 4975 1650 4900
+Wire Wire Line
+	1850 5275 1975 5275
+Wire Wire Line
+	2125 5375 2000 5375
+Text GLabel 1850 5925 0    51   Output ~ 0
+Photodiode3
+$Comp
+L power:+3.3V #PWR09
+U 1 1 6199B508
+P 1975 5825
+F 0 "#PWR09" H 1975 5675 50  0001 C CNN
+F 1 "+3.3V" H 1990 5998 50  0000 C CNN
+F 2 "" H 1975 5825 50  0001 C CNN
+F 3 "" H 1975 5825 50  0001 C CNN
+	1    1975 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 5825 2125 5825
+Wire Wire Line
+	2125 5925 1850 5925
+$Comp
+L power:GND #PWR011
+U 1 1 6199B510
+P 2000 5375
+F 0 "#PWR011" H 2000 5125 50  0001 C CNN
+F 1 "GND" H 2005 5202 50  0000 C CNN
+F 2 "" H 2000 5375 50  0001 C CNN
+F 3 "" H 2000 5375 50  0001 C CNN
+	1    2000 5375
+	1    0    0    -1  
+$EndComp
+Text Notes 1200 6200 0    118  ~ 0
+Laser & Photodiode 3
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn14
+U 1 1 6199BCF1
+P 5025 1475
+F 0 "Conn14" H 5153 1633 60  0000 L CNN
+F 1 "Molex_SL_02" H 5153 1527 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 5025 1375 60  0001 C CNN
+F 3 "" H 5025 1375 60  0001 C CNN
+	1    5025 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn13
+U 1 1 6199C0D6
+P 5000 2900
+F 0 "Conn13" H 5128 3058 60  0000 L CNN
+F 1 "Molex_SL_02" H 5128 2952 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 5000 2800 60  0001 C CNN
+F 3 "" H 5000 2800 60  0001 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 4425 1825 0    118  ~ 0
+UV Led
+Text Notes 4475 3275 0    118  ~ 0
+Lights
+$Comp
+L Device:R R?
+U 1 1 619A3177
+P 2250 1075
+AR Path="/619A3177" Ref="R?"  Part="1" 
+AR Path="/615E494A/619A3177" Ref="R?"  Part="1" 
+AR Path="/61988F48/619A3177" Ref="R38"  Part="1" 
+F 0 "R38" V 2350 1075 50  0000 C CNN
+F 1 "240" V 2250 1075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2180 1075 50  0001 C CNN
+F 3 "~" H 2250 1075 50  0001 C CNN
+	1    2250 1075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 1075 2450 1075
+$Comp
+L Device:LED D?
+U 1 1 619A317E
+P 2950 1075
+AR Path="/619A317E" Ref="D?"  Part="1" 
+AR Path="/615E494A/619A317E" Ref="D?"  Part="1" 
+AR Path="/61988F48/619A317E" Ref="D17"  Part="1" 
+F 0 "D17" H 2950 900 50  0000 C CNN
+F 1 "Blue" H 2950 975 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2950 1075 50  0001 C CNN
+F 3 "~" H 2950 1075 50  0001 C CNN
+	1    2950 1075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 1075 3100 1075
+$Comp
+L power:GND #PWR?
+U 1 1 619A3185
+P 3150 1100
+AR Path="/619A3185" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/619A3185" Ref="#PWR?"  Part="1" 
+AR Path="/61988F48/619A3185" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3150 850 50  0001 C CNN
+F 1 "GND" H 3155 927 50  0000 C CNN
+F 2 "" H 3150 1100 50  0001 C CNN
+F 3 "" H 3150 1100 50  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1075 3150 1100
+$Comp
+L Device:R R?
+U 1 1 619A318C
+P 2600 1075
+AR Path="/619A318C" Ref="R?"  Part="1" 
+AR Path="/615E494A/619A318C" Ref="R?"  Part="1" 
+AR Path="/61988F48/619A318C" Ref="R41"  Part="1" 
+F 0 "R41" V 2700 1075 50  0000 C CNN
+F 1 "240" V 2600 1075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2530 1075 50  0001 C CNN
+F 3 "~" H 2600 1075 50  0001 C CNN
+	1    2600 1075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1075 2800 1075
+Wire Wire Line
+	2100 1075 2025 1075
+Wire Wire Line
+	2025 1075 2025 1275
+Connection ~ 2025 1275
+Wire Wire Line
+	2025 1275 2175 1275
+$Comp
+L Device:R R?
+U 1 1 619A7FF7
+P 2225 3125
+AR Path="/619A7FF7" Ref="R?"  Part="1" 
+AR Path="/615E494A/619A7FF7" Ref="R?"  Part="1" 
+AR Path="/61988F48/619A7FF7" Ref="R31"  Part="1" 
+F 0 "R31" V 2325 3125 50  0000 C CNN
+F 1 "240" V 2225 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2155 3125 50  0001 C CNN
+F 3 "~" H 2225 3125 50  0001 C CNN
+	1    2225 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2375 3125 2425 3125
+$Comp
+L Device:LED D?
+U 1 1 619A7FFE
+P 2925 3125
+AR Path="/619A7FFE" Ref="D?"  Part="1" 
+AR Path="/615E494A/619A7FFE" Ref="D?"  Part="1" 
+AR Path="/61988F48/619A7FFE" Ref="D16"  Part="1" 
+F 0 "D16" H 2925 2950 50  0000 C CNN
+F 1 "Blue" H 2925 3025 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2925 3125 50  0001 C CNN
+F 3 "~" H 2925 3125 50  0001 C CNN
+	1    2925 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3125 3125 3075 3125
+$Comp
+L power:GND #PWR?
+U 1 1 619A8005
+P 3125 3150
+AR Path="/619A8005" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/619A8005" Ref="#PWR?"  Part="1" 
+AR Path="/61988F48/619A8005" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3125 2900 50  0001 C CNN
+F 1 "GND" H 3130 2977 50  0000 C CNN
+F 2 "" H 3125 3150 50  0001 C CNN
+F 3 "" H 3125 3150 50  0001 C CNN
+	1    3125 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 3125 3125 3150
+$Comp
+L Device:R R?
+U 1 1 619A800C
+P 2575 3125
+AR Path="/619A800C" Ref="R?"  Part="1" 
+AR Path="/615E494A/619A800C" Ref="R?"  Part="1" 
+AR Path="/61988F48/619A800C" Ref="R40"  Part="1" 
+F 0 "R40" V 2675 3125 50  0000 C CNN
+F 1 "240" V 2575 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2505 3125 50  0001 C CNN
+F 3 "~" H 2575 3125 50  0001 C CNN
+	1    2575 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2725 3125 2775 3125
+Wire Wire Line
+	2075 3125 2000 3125
+Wire Wire Line
+	2000 3125 2000 3325
+Connection ~ 2000 3325
+Wire Wire Line
+	2000 3325 2125 3325
+$Comp
+L Device:R R?
+U 1 1 619AC625
+P 2200 5075
+AR Path="/619AC625" Ref="R?"  Part="1" 
+AR Path="/615E494A/619AC625" Ref="R?"  Part="1" 
+AR Path="/61988F48/619AC625" Ref="R17"  Part="1" 
+F 0 "R17" V 2300 5075 50  0000 C CNN
+F 1 "240" V 2200 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 5075 50  0001 C CNN
+F 3 "~" H 2200 5075 50  0001 C CNN
+	1    2200 5075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 5075 2400 5075
+$Comp
+L Device:LED D?
+U 1 1 619AC62C
+P 2900 5075
+AR Path="/619AC62C" Ref="D?"  Part="1" 
+AR Path="/615E494A/619AC62C" Ref="D?"  Part="1" 
+AR Path="/61988F48/619AC62C" Ref="D9"  Part="1" 
+F 0 "D9" H 2900 4900 50  0000 C CNN
+F 1 "Blue" H 2900 4975 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 5075 50  0001 C CNN
+F 3 "~" H 2900 5075 50  0001 C CNN
+	1    2900 5075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 5075 3050 5075
+$Comp
+L power:GND #PWR?
+U 1 1 619AC633
+P 3100 5100
+AR Path="/619AC633" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/619AC633" Ref="#PWR?"  Part="1" 
+AR Path="/61988F48/619AC633" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 3100 4850 50  0001 C CNN
+F 1 "GND" H 3105 4927 50  0000 C CNN
+F 2 "" H 3100 5100 50  0001 C CNN
+F 3 "" H 3100 5100 50  0001 C CNN
+	1    3100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5075 3100 5100
+$Comp
+L Device:R R?
+U 1 1 619AC63A
+P 2550 5075
+AR Path="/619AC63A" Ref="R?"  Part="1" 
+AR Path="/615E494A/619AC63A" Ref="R?"  Part="1" 
+AR Path="/61988F48/619AC63A" Ref="R39"  Part="1" 
+F 0 "R39" V 2650 5075 50  0000 C CNN
+F 1 "240" V 2550 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 5075 50  0001 C CNN
+F 3 "~" H 2550 5075 50  0001 C CNN
+	1    2550 5075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 5075 2750 5075
+Wire Wire Line
+	2050 5075 1975 5075
+Wire Wire Line
+	1975 5075 1975 5275
+Connection ~ 1975 5275
+Wire Wire Line
+	1975 5275 2125 5275
+$Comp
+L power:GND #PWR?
+U 1 1 619C0978
+P 5275 1050
+AR Path="/619C0978" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/619C0978" Ref="#PWR?"  Part="1" 
+AR Path="/61988F48/619C0978" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 5275 800 50  0001 C CNN
+F 1 "GND" H 5280 877 50  0000 C CNN
+F 2 "" H 5275 1050 50  0001 C CNN
+F 3 "" H 5275 1050 50  0001 C CNN
+	1    5275 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 1050 5000 1050
+$Comp
+L Device:LED D?
+U 1 1 619C097F
+P 4850 1050
+AR Path="/619C097F" Ref="D?"  Part="1" 
+AR Path="/615E494A/619C097F" Ref="D?"  Part="1" 
+AR Path="/61988F48/619C097F" Ref="D18"  Part="1" 
+F 0 "D18" V 4900 900 50  0000 C CNN
+F 1 "Blue" V 4800 850 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 1050 50  0001 C CNN
+F 3 "~" H 4850 1050 50  0001 C CNN
+	1    4850 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4625 1050 4700 1050
+$Comp
+L Device:R R?
+U 1 1 619C0986
+P 4475 1050
+AR Path="/619C0986" Ref="R?"  Part="1" 
+AR Path="/615E494A/619C0986" Ref="R?"  Part="1" 
+AR Path="/61988F48/619C0986" Ref="R42"  Part="1" 
+F 0 "R42" H 4625 1100 50  0000 C CNN
+F 1 "43" H 4625 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4405 1050 50  0001 C CNN
+F 3 "~" H 4475 1050 50  0001 C CNN
+	1    4475 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 619C3190
+P 4850 2475
+AR Path="/619C3190" Ref="D?"  Part="1" 
+AR Path="/615E494A/619C3190" Ref="D?"  Part="1" 
+AR Path="/61988F48/619C3190" Ref="D19"  Part="1" 
+F 0 "D19" V 4900 2325 50  0000 C CNN
+F 1 "Blue" V 4800 2275 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2475 50  0001 C CNN
+F 3 "~" H 4850 2475 50  0001 C CNN
+	1    4850 2475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4625 2475 4700 2475
+$Comp
+L Device:R R?
+U 1 1 619C3197
+P 4475 2475
+AR Path="/619C3197" Ref="R?"  Part="1" 
+AR Path="/615E494A/619C3197" Ref="R?"  Part="1" 
+AR Path="/61988F48/619C3197" Ref="R43"  Part="1" 
+F 0 "R43" H 4625 2525 50  0000 C CNN
+F 1 "43" H 4625 2425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4405 2475 50  0001 C CNN
+F 3 "~" H 4475 2475 50  0001 C CNN
+	1    4475 2475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 2475 5000 2475
+$Comp
+L power:GND #PWR?
+U 1 1 619C3189
+P 5250 2475
+AR Path="/619C3189" Ref="#PWR?"  Part="1" 
+AR Path="/615E494A/619C3189" Ref="#PWR?"  Part="1" 
+AR Path="/61988F48/619C3189" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5250 2225 50  0001 C CNN
+F 1 "GND" H 5255 2302 50  0000 C CNN
+F 2 "" H 5250 2475 50  0001 C CNN
+F 3 "" H 5250 2475 50  0001 C CNN
+	1    5250 2475
+	1    0    0    -1  
+$EndComp
+Text GLabel 4075 1325 0    50   Input ~ 0
+UVLED
+Text GLabel 4050 2750 0    50   Input ~ 0
+Lights
+Wire Wire Line
+	4800 2750 4325 2750
+Wire Wire Line
+	4325 1050 4325 1325
+Wire Wire Line
+	4075 1325 4325 1325
+Connection ~ 4325 1325
+Wire Wire Line
+	4325 1325 4825 1325
+Wire Wire Line
+	4325 2475 4325 2750
+Connection ~ 4325 2750
+Wire Wire Line
+	4325 2750 4050 2750
+$Comp
+L power:GND #PWR017
+U 1 1 61A08F8A
+P 4675 1425
+F 0 "#PWR017" H 4675 1175 50  0001 C CNN
+F 1 "GND" H 4680 1252 50  0000 C CNN
+F 2 "" H 4675 1425 50  0001 C CNN
+F 3 "" H 4675 1425 50  0001 C CNN
+	1    4675 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 61A09773
+P 4675 2850
+F 0 "#PWR018" H 4675 2600 50  0001 C CNN
+F 1 "GND" H 4680 2677 50  0000 C CNN
+F 2 "" H 4675 2850 50  0001 C CNN
+F 3 "" H 4675 2850 50  0001 C CNN
+	1    4675 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 1425 4675 1425
+Wire Wire Line
+	4675 2850 4800 2850
+$Comp
+L Transistor_FET:BSS214NW Q8
+U 1 1 61915760
+P 1700 1175
+F 0 "Q8" V 1949 1175 50  0000 C CNN
+F 1 "BSS214NW" V 2040 1175 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 1100 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1700 1175 50  0001 L CNN
+	1    1700 1175
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS214NW Q7
+U 1 1 619184D3
+P 1650 5175
+F 0 "Q7" V 1899 5175 50  0000 C CNN
+F 1 "BSS214NW" V 1990 5175 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1850 5100 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1650 5175 50  0001 L CNN
+	1    1650 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS214NW Q9
+U 1 1 61918AD9
+P 1650 3225
+F 0 "Q9" V 1899 3225 50  0000 C CNN
+F 1 "BSS214NW" V 1990 3225 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1850 3150 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1650 3225 50  0001 L CNN
+	1    1650 3225
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

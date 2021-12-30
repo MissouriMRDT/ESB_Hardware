@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name Package)(type KiCad)(uri C:/MRDT_KiCAD_Libraries-2021/Package)(options "")(descr ""))
 )
