@@ -616,18 +616,7 @@ F 1 "BSS214NW" V 2040 1175 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 1100 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1700 1175 50  0001 L CNN
 	1    1700 1175
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BSS214NW Q7
-U 1 1 619184D3
-P 1650 5175
-F 0 "Q7" V 1899 5175 50  0000 C CNN
-F 1 "BSS214NW" V 1990 5175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1850 5100 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1650 5175 50  0001 L CNN
-	1    1650 5175
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Transistor_FET:BSS214NW Q9
@@ -638,6 +627,17 @@ F 1 "BSS214NW" V 1990 3225 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1850 3150 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1650 3225 50  0001 L CNN
 	1    1650 3225
-	0    1    1    0   
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS214NW Q7
+U 1 1 619184D3
+P 1650 5175
+F 0 "Q7" V 1899 5175 50  0000 C CNN
+F 1 "BSS214NW" V 1990 5175 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1850 5100 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 1650 5175 50  0001 L CNN
+	1    1650 5175
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
