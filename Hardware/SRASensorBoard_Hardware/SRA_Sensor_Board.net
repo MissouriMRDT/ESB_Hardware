@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:\Users\neaco\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware\SRA_Sensor_Board.sch)
-    (date "2/15/2022 10:36:58 PM")
-    (tool "Eeschema (5.1.10)-1")
+    (source C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware\SRA_Sensor_Board.sch)
+    (date "2/17/2022 1:46:59 AM")
+    (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -1123,10 +1123,9 @@
         (alias ZXMN6A07F)
         (alias IRLML0030)
         (alias IRLML2060)
-        (alias TSM2302CX)
-        (alias AO3400A))
+        (alias TSM2302CX))
       (description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
-      (docs https://www.onsemi.com/pub/Collateral/BSS138-D.PDF)
+      (docs https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf)
       (footprints
         (fp SOT?23*))
       (fields
@@ -1160,11 +1159,11 @@
     (library (logical Interface_USB)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_USB.lib"))
     (library (logical MRDT_Connectors)
-      (uri C:\Users\neaco\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib))
+      (uri C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib))
     (library (logical MRDT_Shields)
-      (uri C:\Users\neaco\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib))
+      (uri C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib))
     (library (logical SRA_Sensor_Board-rescue)
-      (uri C:\Users\neaco\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware/SRA_Sensor_Board-rescue.lib))
+      (uri C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\SRASensorBoard_Hardware/SRA_Sensor_Board-rescue.lib))
     (library (logical Transistor_FET)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_FET.lib")))
   (nets
