@@ -1,4 +1,4 @@
-19531223042602856
+19544389027547224
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56245,6 +56245,13 @@ NX5032GA_Crystal
 2
 2
 MRDT_Actives
+PMN280ENEAX
+
+
+0
+6
+6
+MRDT_Actives
 Q36SR12020NRFA
 
 
@@ -56595,6 +56602,27 @@ MOLEX_uF_S_07_Vertical
 7
 7
 MRDT_Connectors
+MOLEX_uF_S_08_Vertical
+
+
+0
+8
+8
+MRDT_Connectors
+MOLEX_uF_S_09_Vertical
+
+
+0
+9
+9
+MRDT_Connectors
+RJ45_Teensy
+
+
+0
+16
+15
+MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -56832,6 +56860,13 @@ LQFP-64
 0
 64
 64
+MRDT_ICs
+TB67H400AFNG,EL
+HTSSOP-48_6.1x12.5mm_P0.5mm
+HTSSOP SO
+0
+49
+49
 MRDT_ICs
 USEQGSEAN8L180
 
@@ -57078,6 +57113,13 @@ LAUNCHXL_F28069M_J5_THT_TOP
 40
 39
 MRDT_Shields
+MODULE_DEV-16771
+
+
+0
+65
+65
+MRDT_Shields
 RASPBERRY_PI_HEADERS
 
 
@@ -57148,6 +57190,13 @@ TM4C129E_Launchpad_FULL_THT_TOP
 80
 77
 MRDT_Shields
+TM4C129E_Launchpad_FULL_Vertical
+
+
+0
+80
+77
+MRDT_Shields
 TM4C129E_Launchpad_X7_SMD_BOTTOM
 
 
@@ -57203,6 +57252,13 @@ TM4C129E_Launchpad_X9_THT_TOP
 0
 40
 39
+MRDT_Shields
+Teensy_4_1_Vertical
+
+
+0
+65
+65
 MRDT_Silkscreens
 0-README
 
