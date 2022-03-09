@@ -161,7 +161,7 @@ U 1 1 615EE19D
 P 7575 5375
 F 0 "C1" H 7690 5421 50  0000 L CNN
 F 1 "10uf" H 7690 5330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7575 5375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7575 5375 50  0001 C CNN
 F 3 "~" H 7575 5375 50  0001 C CNN
 	1    7575 5375
 	1    0    0    -1  
@@ -359,4 +359,48 @@ Text Notes 5000 3275 0    197  ~ 0
 Lasers and LEDs
 Wire Notes Line
 	475  3475 11225 3475
+$Comp
+L MRDT_Drill_Holes:Via V2
+U 1 1 622C1FEF
+P 9400 2700
+F 0 "V2" H 9628 2758 60  0000 L CNN
+F 1 "Via" H 9628 2652 60  0000 L CNN
+F 2 "MRDT_Drill_Holes:4_40_Hole_Corner" H 9400 2700 60  0001 C CNN
+F 3 "" H 9400 2700 60  0001 C CNN
+	1    9400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V1
+U 1 1 622C2C38
+P 9400 2425
+F 0 "V1" H 9628 2483 60  0000 L CNN
+F 1 "Via" H 9628 2377 60  0000 L CNN
+F 2 "MRDT_Drill_Holes:4_40_Hole_Corner" H 9400 2425 60  0001 C CNN
+F 3 "" H 9400 2425 60  0001 C CNN
+	1    9400 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V3
+U 1 1 622C343B
+P 10000 2400
+F 0 "V3" H 10228 2458 60  0000 L CNN
+F 1 "Via" H 10228 2352 60  0000 L CNN
+F 2 "MRDT_Drill_Holes:4_40_Hole_Corner" H 10000 2400 60  0001 C CNN
+F 3 "" H 10000 2400 60  0001 C CNN
+	1    10000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V4
+U 1 1 622C3B50
+P 10000 2700
+F 0 "V4" H 10228 2758 60  0000 L CNN
+F 1 "Via" H 10228 2652 60  0000 L CNN
+F 2 "MRDT_Drill_Holes:4_40_Hole_Corner" H 10000 2700 60  0001 C CNN
+F 3 "" H 10000 2700 60  0001 C CNN
+	1    10000 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

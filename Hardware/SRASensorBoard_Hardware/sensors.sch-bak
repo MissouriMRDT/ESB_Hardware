@@ -296,46 +296,6 @@ Text Notes 5875 3375 0    79   ~ 0
 USB to UART Converter
 Text Notes 625  2975 0    118  ~ 24
 NO2_Sensor
-Wire Wire Line
-	875  3150 2075 3150
-Wire Wire Line
-	875  3150 875  3200
-Text GLabel 1975 3650 0    50   Input ~ 0
-NO2_SDA
-Wire Wire Line
-	2075 3450 2075 3150
-Wire Wire Line
-	2175 3450 2075 3450
-Wire Wire Line
-	2125 3350 2125 3100
-Wire Wire Line
-	2175 3350 2125 3350
-$Comp
-L power:GND #PWR?
-U 1 1 61613283
-P 875 3200
-AR Path="/61613283" Ref="#PWR?"  Part="1" 
-AR Path="/615E494A/61613283" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 875 2950 50  0001 C CNN
-F 1 "GND" H 880 3027 50  0000 C CNN
-F 2 "" H 875 3200 50  0001 C CNN
-F 3 "" H 875 3200 50  0001 C CNN
-	1    875  3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn?
-U 1 1 61613277
-P 2375 3700
-AR Path="/61613277" Ref="Conn?"  Part="1" 
-AR Path="/615E494A/61613277" Ref="Conn3"  Part="1" 
-F 0 "Conn3" H 2503 3958 60  0000 L CNN
-F 1 "Molex_SL_04" H 2503 3852 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2375 3700 60  0001 C CNN
-F 3 "" H 2375 3700 60  0001 C CNN
-	1    2375 3700
-	1    0    0    -1  
-$EndComp
 Text Notes 4425 5075 0    118  ~ 24
 MOSFETS
 $Comp
@@ -814,116 +774,10 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 
 	1    6500 2125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 1825 8125 1825
-Connection ~ 7950 1825
-Wire Wire Line
-	7950 1825 7950 1900
-Wire Wire Line
-	7650 1725 8125 1725
-Connection ~ 7650 1725
-Wire Wire Line
-	7650 1725 7650 1900
-Wire Wire Line
-	7200 1725 7650 1725
-Wire Wire Line
-	7200 1825 7950 1825
-$Comp
-L Device:R R28
-U 1 1 6168B9AC
-P 7950 2050
-F 0 "R28" H 7750 2100 50  0000 L CNN
-F 1 "240" V 7950 1975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7880 2050 50  0001 C CNN
-F 3 "~" H 7950 2050 50  0001 C CNN
-	1    7950 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R29
-U 1 1 6168BDE5
-P 7650 2050
-F 0 "R29" H 7720 2096 50  0000 L CNN
-F 1 "240" V 7650 1975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 2050 50  0001 C CNN
-F 3 "~" H 7650 2050 50  0001 C CNN
-	1    7650 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D14
-U 1 1 6168C4BA
-P 7950 2800
-F 0 "D14" V 7900 2500 50  0000 L CNN
-F 1 "Blue" V 7975 2525 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 2800 50  0001 C CNN
-F 3 "~" H 7950 2800 50  0001 C CNN
-	1    7950 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D15
-U 1 1 6168D01D
-P 7650 2800
-F 0 "D15" V 7700 2575 50  0000 L CNN
-F 1 "Blue" V 7775 2575 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 2800 50  0001 C CNN
-F 3 "~" H 7650 2800 50  0001 C CNN
-	1    7650 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 61690493
-P 7650 3075
-F 0 "#PWR0134" H 7650 2825 50  0001 C CNN
-F 1 "GND" H 7655 2902 50  0000 C CNN
-F 2 "" H 7650 3075 50  0001 C CNN
-F 3 "" H 7650 3075 50  0001 C CNN
-	1    7650 3075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 2575 7950 2650
-Wire Wire Line
-	7950 2950 7950 3075
-Wire Wire Line
-	7950 3075 7650 3075
-Wire Wire Line
-	7650 2950 7650 3075
-Connection ~ 7650 3075
-Wire Wire Line
-	7650 2650 7650 2575
 Text GLabel 8125 1825 2    50   Input ~ 0
 CH4_RX
 Text GLabel 8125 1725 2    50   Output ~ 0
 CH4_TX
-$Comp
-L Device:R R36
-U 1 1 61907565
-P 7650 2425
-F 0 "R36" H 7720 2471 50  0000 L CNN
-F 1 "240" V 7650 2350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 2425 50  0001 C CNN
-F 3 "~" H 7650 2425 50  0001 C CNN
-	1    7650 2425
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R37
-U 1 1 61907863
-P 7950 2425
-F 0 "R37" H 8020 2471 50  0000 L CNN
-F 1 "240" V 7950 2350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7880 2425 50  0001 C CNN
-F 3 "~" H 7950 2425 50  0001 C CNN
-	1    7950 2425
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7650 2200 7650 2275
-Wire Wire Line
-	7950 2200 7950 2275
 $Comp
 L power:GND #PWR0130
 U 1 1 616078BE
@@ -957,17 +811,6 @@ Text Label 5625 2025 0    50   ~ 0
 D2-
 Text Label 5625 2125 0    50   ~ 0
 D2+
-$Comp
-L power:+5V #PWR04
-U 1 1 6191F631
-P 2125 3100
-F 0 "#PWR04" H 2125 2950 50  0001 C CNN
-F 1 "+5V" H 2140 3273 50  0000 C CNN
-F 2 "" H 2125 3100 50  0001 C CNN
-F 3 "" H 2125 3100 50  0001 C CNN
-	1    2125 3100
-	1    0    0    -1  
-$EndComp
 Text GLabel 3175 7600 0    50   Output ~ 0
 NO_Ref
 $Comp
@@ -1270,12 +1113,6 @@ Wire Wire Line
 	2075 1200 2075 900 
 Text GLabel 1975 1400 0    50   Input ~ 0
 O2_RX
-Text GLabel 1975 3550 0    50   Input ~ 0
-NO2_SCL
-Wire Wire Line
-	2175 3550 1975 3550
-Wire Wire Line
-	2175 3650 1975 3650
 $Comp
 L MRDT_Connectors:Molex_SL_04 Conn?
 U 1 1 615E7887
@@ -1356,4 +1193,417 @@ F 3 "" H 2375 2575 60  0001 C CNN
 $EndComp
 Text Notes 6925 6050 0    118  ~ 0
 5V - 3.3V Logic Convert
+Wire Wire Line
+	7200 1725 7650 1725
+Wire Wire Line
+	7650 1725 8125 1725
+Connection ~ 7650 1725
+Wire Wire Line
+	7650 1725 7650 1900
+Wire Wire Line
+	7200 1825 7950 1825
+Wire Wire Line
+	7950 1825 8125 1825
+Connection ~ 7950 1825
+Wire Wire Line
+	7950 1825 7950 1900
+Wire Wire Line
+	7950 2200 7950 2275
+Wire Wire Line
+	7650 2200 7650 2275
+$Comp
+L Device:R R37
+U 1 1 61907863
+P 7950 2425
+F 0 "R37" H 8020 2471 50  0000 L CNN
+F 1 "330" V 7950 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7880 2425 50  0001 C CNN
+F 3 "~" H 7950 2425 50  0001 C CNN
+	1    7950 2425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 61907565
+P 7650 2425
+F 0 "R36" H 7720 2471 50  0000 L CNN
+F 1 "330" V 7650 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 2425 50  0001 C CNN
+F 3 "~" H 7650 2425 50  0001 C CNN
+	1    7650 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 2650 7650 2575
+Wire Wire Line
+	7650 2950 7650 3075
+Wire Wire Line
+	7950 3075 7650 3075
+Wire Wire Line
+	7950 2950 7950 3075
+Wire Wire Line
+	7950 2575 7950 2650
+Connection ~ 7650 3075
+$Comp
+L power:GND #PWR0134
+U 1 1 61690493
+P 7650 3075
+F 0 "#PWR0134" H 7650 2825 50  0001 C CNN
+F 1 "GND" H 7655 2902 50  0000 C CNN
+F 2 "" H 7650 3075 50  0001 C CNN
+F 3 "" H 7650 3075 50  0001 C CNN
+	1    7650 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 6168D01D
+P 7650 2800
+F 0 "D15" V 7700 2575 50  0000 L CNN
+F 1 "Blue" V 7775 2575 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 2800 50  0001 C CNN
+F 3 "~" H 7650 2800 50  0001 C CNN
+	1    7650 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 6168C4BA
+P 7950 2800
+F 0 "D14" V 7900 2500 50  0000 L CNN
+F 1 "Blue" V 7975 2525 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 2800 50  0001 C CNN
+F 3 "~" H 7950 2800 50  0001 C CNN
+	1    7950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 6168BDE5
+P 7650 2050
+F 0 "R29" H 7720 2096 50  0000 L CNN
+F 1 "330" V 7650 1975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 6168B9AC
+P 7950 2050
+F 0 "R28" H 7750 2100 50  0000 L CNN
+F 1 "330" V 7950 1975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7880 2050 50  0001 C CNN
+F 3 "~" H 7950 2050 50  0001 C CNN
+	1    7950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 6229551D
+P 9550 3825
+F 0 "Q1" V 9799 3825 50  0000 C CNN
+F 1 "BSS138" V 9890 3825 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9750 3750 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9550 3825 50  0001 L CNN
+	1    9550 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0124
+U 1 1 62295523
+P 9250 3500
+F 0 "#PWR0124" H 9250 3350 50  0001 C CNN
+F 1 "+3V3" H 9265 3673 50  0000 C CNN
+F 2 "" H 9250 3500 50  0001 C CNN
+F 3 "" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 62295529
+P 9825 3500
+F 0 "#PWR0125" H 9825 3350 50  0001 C CNN
+F 1 "+5V" H 9840 3673 50  0000 C CNN
+F 2 "" H 9825 3500 50  0001 C CNN
+F 3 "" H 9825 3500 50  0001 C CNN
+	1    9825 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3500 9250 3550
+Wire Wire Line
+	9250 3550 9550 3550
+Wire Wire Line
+	9550 3550 9550 3625
+Connection ~ 9250 3550
+Wire Wire Line
+	9250 3550 9250 3575
+Wire Wire Line
+	9250 3875 9250 3925
+Wire Wire Line
+	9250 3925 9350 3925
+Wire Wire Line
+	9750 3925 9825 3925
+Wire Wire Line
+	9825 3925 9825 3875
+Wire Wire Line
+	9825 3575 9825 3500
+Text GLabel 9950 3925 2    50   Output ~ 0
+NO2_MISO
+Text GLabel 9150 3925 0    50   Input ~ 0
+NO2_MISO_TIVA
+Wire Wire Line
+	9150 3925 9250 3925
+Connection ~ 9250 3925
+Wire Wire Line
+	9825 3925 9950 3925
+Connection ~ 9825 3925
+$Comp
+L Device:R R6
+U 1 1 62295535
+P 9250 3725
+F 0 "R6" H 9320 3771 50  0000 L CNN
+F 1 "10K" V 9250 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9180 3725 50  0001 C CNN
+F 3 "~" H 9250 3725 50  0001 C CNN
+	1    9250 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6229552F
+P 9825 3725
+F 0 "R7" H 9895 3771 50  0000 L CNN
+F 1 "10K" V 9825 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9755 3725 50  0001 C CNN
+F 3 "~" H 9825 3725 50  0001 C CNN
+	1    9825 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn3
+U 1 1 622C61F6
+P 2375 3775
+F 0 "Conn3" H 2503 4083 60  0000 L CNN
+F 1 "Molex_SL_05" H 2503 3977 60  0000 L CNN
+F 2 "" H 2375 3775 60  0001 C CNN
+F 3 "" H 2375 3775 60  0001 C CNN
+	1    2375 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0128
+U 1 1 622C7DBF
+P 2100 3125
+F 0 "#PWR0128" H 2100 2975 50  0001 C CNN
+F 1 "+5V" H 2115 3298 50  0000 C CNN
+F 2 "" H 2100 3125 50  0001 C CNN
+F 3 "" H 2100 3125 50  0001 C CNN
+	1    2100 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 3325 2100 3325
+Wire Wire Line
+	2100 3325 2100 3125
+$Comp
+L power:GND #PWR0129
+U 1 1 622D5CA8
+P 875 3125
+F 0 "#PWR0129" H 875 2875 50  0001 C CNN
+F 1 "GND" H 880 2952 50  0000 C CNN
+F 2 "" H 875 3125 50  0001 C CNN
+F 3 "" H 875 3125 50  0001 C CNN
+	1    875  3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 3425 2000 3425
+Wire Wire Line
+	2000 3425 2000 3125
+Wire Wire Line
+	2000 3125 875  3125
+Text GLabel 1975 3525 0    50   Input ~ 0
+NO2_MISO
+Text GLabel 1975 3625 0    50   Input ~ 0
+NO2_CS
+Text GLabel 1975 3725 0    50   Input ~ 0
+NO2_SCK
+Wire Wire Line
+	2175 3525 1975 3525
+Wire Wire Line
+	2175 3625 1975 3625
+Wire Wire Line
+	2175 3725 1975 3725
+$Comp
+L Transistor_FET:BSS138 Q11
+U 1 1 62341B77
+P 10025 2800
+F 0 "Q11" V 10274 2800 50  0000 C CNN
+F 1 "BSS138" V 10365 2800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10225 2725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10025 2800 50  0001 L CNN
+	1    10025 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0136
+U 1 1 62341B7D
+P 9725 2475
+F 0 "#PWR0136" H 9725 2325 50  0001 C CNN
+F 1 "+3V3" H 9740 2648 50  0000 C CNN
+F 2 "" H 9725 2475 50  0001 C CNN
+F 3 "" H 9725 2475 50  0001 C CNN
+	1    9725 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0137
+U 1 1 62341B83
+P 10300 2475
+F 0 "#PWR0137" H 10300 2325 50  0001 C CNN
+F 1 "+5V" H 10315 2648 50  0000 C CNN
+F 2 "" H 10300 2475 50  0001 C CNN
+F 3 "" H 10300 2475 50  0001 C CNN
+	1    10300 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9725 2475 9725 2525
+Wire Wire Line
+	9725 2525 10025 2525
+Wire Wire Line
+	10025 2525 10025 2600
+Connection ~ 9725 2525
+Wire Wire Line
+	9725 2525 9725 2550
+Wire Wire Line
+	9725 2850 9725 2900
+Wire Wire Line
+	9725 2900 9825 2900
+Wire Wire Line
+	10225 2900 10300 2900
+Wire Wire Line
+	10300 2900 10300 2850
+Wire Wire Line
+	10300 2550 10300 2475
+Text GLabel 10425 2900 2    50   Output ~ 0
+NO2_CS
+Text GLabel 9625 2900 0    50   Input ~ 0
+NO2_CS_TIVA
+Wire Wire Line
+	9625 2900 9725 2900
+Connection ~ 9725 2900
+Wire Wire Line
+	10300 2900 10425 2900
+Connection ~ 10300 2900
+$Comp
+L Device:R R9
+U 1 1 62341B99
+P 9725 2700
+F 0 "R9" H 9795 2746 50  0000 L CNN
+F 1 "10K" V 9725 2625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9655 2700 50  0001 C CNN
+F 3 "~" H 9725 2700 50  0001 C CNN
+	1    9725 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 62341B9F
+P 10300 2700
+F 0 "R11" H 10370 2746 50  0000 L CNN
+F 1 "10K" V 10300 2625 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10230 2700 50  0001 C CNN
+F 3 "~" H 10300 2700 50  0001 C CNN
+	1    10300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q10
+U 1 1 6235067F
+P 9975 1675
+F 0 "Q10" V 10224 1675 50  0000 C CNN
+F 1 "BSS138" V 10315 1675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10175 1600 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9975 1675 50  0001 L CNN
+	1    9975 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0138
+U 1 1 62350685
+P 9675 1350
+F 0 "#PWR0138" H 9675 1200 50  0001 C CNN
+F 1 "+3V3" H 9690 1523 50  0000 C CNN
+F 2 "" H 9675 1350 50  0001 C CNN
+F 3 "" H 9675 1350 50  0001 C CNN
+	1    9675 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0139
+U 1 1 6235068B
+P 10250 1350
+F 0 "#PWR0139" H 10250 1200 50  0001 C CNN
+F 1 "+5V" H 10265 1523 50  0000 C CNN
+F 2 "" H 10250 1350 50  0001 C CNN
+F 3 "" H 10250 1350 50  0001 C CNN
+	1    10250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 1350 9675 1400
+Wire Wire Line
+	9675 1400 9975 1400
+Wire Wire Line
+	9975 1400 9975 1475
+Connection ~ 9675 1400
+Wire Wire Line
+	9675 1400 9675 1425
+Wire Wire Line
+	9675 1725 9675 1775
+Wire Wire Line
+	9675 1775 9775 1775
+Wire Wire Line
+	10175 1775 10250 1775
+Wire Wire Line
+	10250 1775 10250 1725
+Wire Wire Line
+	10250 1425 10250 1350
+Text GLabel 10375 1775 2    50   Output ~ 0
+NO2_SCK
+Text GLabel 9575 1775 0    50   Input ~ 0
+NO2_SCK_TIVA
+Wire Wire Line
+	9575 1775 9675 1775
+Connection ~ 9675 1775
+Wire Wire Line
+	10250 1775 10375 1775
+Connection ~ 10250 1775
+$Comp
+L Device:R R8
+U 1 1 623506A1
+P 9675 1575
+F 0 "R8" H 9745 1621 50  0000 L CNN
+F 1 "10K" V 9675 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9605 1575 50  0001 C CNN
+F 3 "~" H 9675 1575 50  0001 C CNN
+	1    9675 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 623506A7
+P 10250 1575
+F 0 "R10" H 10320 1621 50  0000 L CNN
+F 1 "10K" V 10250 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 1575 50  0001 C CNN
+F 3 "~" H 10250 1575 50  0001 C CNN
+	1    10250 1575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
