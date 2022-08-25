@@ -155,7 +155,7 @@ Connection ~ 5150 2125
 Wire Wire Line
 	5150 2125 5275 2125
 $Comp
-L SRA_Sensor_Board-rescue:USB_A-Connector J?
+L Connector:USB_A J?
 U 1 1 61606288
 P 4025 2125
 AR Path="/61606288" Ref="J?"  Part="1" 

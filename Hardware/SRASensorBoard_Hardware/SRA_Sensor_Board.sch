@@ -182,8 +182,13 @@ L Device:R R1
 U 1 1 615EE1B5
 P 10150 5225
 F 0 "R1" V 9943 5225 50  0000 C CNN
+<<<<<<< HEAD
 F 1 "300" V 10034 5225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10080 5225 50  0001 C CNN
+=======
+F 1 "100" V 10034 5225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10080 5225 50  0001 C CNN
+>>>>>>> master
 F 3 "~" H 10150 5225 50  0001 C CNN
 	1    10150 5225
 	0    1    1    0   
