@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Package)(type KiCad)(uri C:/MRDT_KiCAD_Libraries-2021/Package)(options "")(descr ""))
-  (lib (name MRDT_Silkscreens)(type KiCad)(uri C:/MRDT_KiCAD_Libraries-2021/Package/MRDT_Silkscreens.pretty)(options "")(descr ""))
-)
