@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2025 1475 3900 2550
+S 750  750  3900 2550
 U 6320EB63
 F0 "Sensors" 50
 F1 "Sensors.sch" 50
 $EndSheet
 $Sheet
-S 2625 5050 2000 1175
+S 925  4475 3350 2475
 U 6320EC71
 F0 "Teensy" 50
 F1 "Teensy.sch" 50
@@ -28,12 +28,12 @@ $EndSheet
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 63213E71
-P 9650 2275
-F 0 "Conn?" H 9858 2662 60  0000 C CNN
-F 1 "AndersonPP" H 9858 2556 60  0000 C CNN
-F 2 "" H 9500 1725 60  0001 C CNN
-F 3 "" H 9500 1725 60  0001 C CNN
-	1    9650 2275
+P 8575 1525
+F 0 "Conn?" H 8783 1912 60  0000 C CNN
+F 1 "AndersonPP" H 8783 1806 60  0000 C CNN
+F 2 "" H 8425 975 60  0001 C CNN
+F 3 "" H 8425 975 60  0001 C CNN
+	1    8575 1525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -72,12 +72,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6321A263
-P 10300 2175
-F 0 "#PWR?" H 10300 1925 50  0001 C CNN
-F 1 "GND" H 10305 2002 50  0000 C CNN
-F 2 "" H 10300 2175 50  0001 C CNN
-F 3 "" H 10300 2175 50  0001 C CNN
-	1    10300 2175
+P 9225 1425
+F 0 "#PWR?" H 9225 1175 50  0001 C CNN
+F 1 "GND" H 9230 1252 50  0000 C CNN
+F 2 "" H 9225 1425 50  0001 C CNN
+F 3 "" H 9225 1425 50  0001 C CNN
+	1    9225 1425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -92,7 +92,7 @@ F 3 "" H 9500 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10050 2175 10300 2175
+	8975 1425 9225 1425
 Wire Wire Line
 	10300 1500 10050 1500
 $Comp
@@ -331,12 +331,78 @@ F 3 "~" H 10600 5500 50  0001 C CNN
 	1    10600 5500
 	-1   0    0    1   
 $EndComp
-Text Notes 8600 6425 0    197  ~ 39
+Text Notes 8600 6425 0    197  ~ 0
 OKIs
-Text Notes 8500 2950 0    197  ~ 39
+Text Notes 9000 2100 0    197  ~ 0
 Andersons
-Text Notes 3375 4400 0    197  ~ 39
+Text Notes 1900 3800 0    197  ~ 0
 Sensors
-Text Notes 2975 7100 0    197  ~ 39
+Text Notes 1975 7400 0    197  ~ 0
 Teensy
+$Sheet
+S 5125 800  2750 2425
+U 63213561
+F0 "Lasers & Photodiode" 50
+F1 "Lasers & Photodiode.sch" 50
+$EndSheet
+Text Notes 4925 3775 0    197  ~ 0
+Lasers & Photodiode
+Wire Notes Line
+	8250 2350 11200 2350
+Wire Notes Line
+	8250 500  8250 4025
+Wire Notes Line
+	4725 475  4725 7775
+Wire Notes Line
+	4725 7775 4700 7775
+Wire Notes Line
+	11200 4025 11200 4000
+Wire Notes Line
+	475  4025 11200 4025
+$Comp
+L MRDT_Drill_Holes:Via V?
+U 1 1 63219785
+P 9225 2750
+F 0 "V?" H 9453 2808 60  0000 L CNN
+F 1 "Via" H 9453 2702 60  0000 L CNN
+F 2 "" H 9225 2750 60  0001 C CNN
+F 3 "" H 9225 2750 60  0001 C CNN
+	1    9225 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V?
+U 1 1 6321A907
+P 9900 2750
+F 0 "V?" H 10128 2808 60  0000 L CNN
+F 1 "Via" H 10128 2702 60  0000 L CNN
+F 2 "" H 9900 2750 60  0001 C CNN
+F 3 "" H 9900 2750 60  0001 C CNN
+	1    9900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V?
+U 1 1 6321AE96
+P 9225 3050
+F 0 "V?" H 9453 3108 60  0000 L CNN
+F 1 "Via" H 9453 3002 60  0000 L CNN
+F 2 "" H 9225 3050 60  0001 C CNN
+F 3 "" H 9225 3050 60  0001 C CNN
+	1    9225 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via V?
+U 1 1 6321B2F5
+P 9900 3050
+F 0 "V?" H 10128 3108 60  0000 L CNN
+F 1 "Via" H 10128 3002 60  0000 L CNN
+F 2 "" H 9900 3050 60  0001 C CNN
+F 3 "" H 9900 3050 60  0001 C CNN
+	1    9900 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 9325 3825 0    197  ~ 0
+Vias
 $EndSCHEMATC
