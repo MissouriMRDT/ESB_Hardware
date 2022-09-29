@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "ScienceSensor-rescue")(type "Legacy")(uri "${KIPRJMOD}/ScienceSensor-rescue.lib")(options "")(descr ""))
-)
