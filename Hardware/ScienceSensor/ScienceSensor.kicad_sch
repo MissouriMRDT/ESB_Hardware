@@ -812,6 +812,10 @@
     (effects (font (size 5.0038 5.0038)) (justify left bottom))
     (uuid a8307799-dc60-421b-b335-6df690d0293d)
   )
+  (text "Microscope" (at 127 191.77 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid f8175d51-d520-4c58-a9db-cc42906097f7)
+  )
 
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 217.805 38.735 0) (unit 1)
     (in_bom yes) (on_board yes)
@@ -828,11 +832,11 @@
     (property "Datasheet" "" (id 3) (at 213.995 52.705 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de38))
+    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de3a))
     (pin "2" (uuid c1746eb0-8fbb-4c3a-a4d4-eebebc1df767))
     (pin "3" (uuid bbbead48-b70d-4426-85e3-25670456dcb4))
     (pin "4" (uuid d234f1bb-7407-4f45-9185-66ea8e18b2dd))
-    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de38))
+    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de3a))
   )
 
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 245.11 40.64 0) (unit 2)
@@ -850,11 +854,11 @@
     (property "Datasheet" "" (id 3) (at 241.3 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a1bacc02-4720-43e9-9e03-3bf185deb6a2))
+    (pin "1" (uuid a1bacc02-4720-43e9-9e03-3bf185deb6a4))
     (pin "2" (uuid ecf87088-9dd7-4993-9b39-3a122d7953a6))
     (pin "3" (uuid 5f89afa2-4965-4759-a984-53a418304259))
     (pin "4" (uuid 121cbc03-9474-44a0-b91e-ab9426d96656))
-    (pin "1" (uuid a1bacc02-4720-43e9-9e03-3bf185deb6a2))
+    (pin "1" (uuid a1bacc02-4720-43e9-9e03-3bf185deb6a4))
   )
 
   (symbol (lib_id "power:+5V") (at 243.84 116.84 0) (unit 1)
@@ -1293,11 +1297,24 @@
     )
   )
 
+  (sheet (at 125.73 114.3) (size 46.99 64.77) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 65564703-75e1-467a-8fc4-64921d9171f3)
+    (property "Sheet name" "Microscope" (id 0) (at 125.73 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "microscope.kicad_sch" (id 1) (at 125.73 179.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-00006320eb63" (page "2"))
     (path "/00000000-0000-0000-0000-00006320ec71" (page "3"))
     (path "/00000000-0000-0000-0000-000063213561" (page "4"))
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3" (page "5"))
   )
 
   (symbol_instances
@@ -1388,6 +1405,9 @@
     (path "/00000000-0000-0000-0000-00006320eb63/1d63327c-c245-48c9-a47b-8420b3e67fe9"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/2c2b603e-171c-4fea-bb35-1733d6da4820"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006320eb63/2c753200-a209-4b6d-aa8f-a613a5b3decd"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1415,6 +1435,12 @@
     (path "/00000000-0000-0000-0000-00006320eb63/5025beac-e26e-4abf-b832-d96750dfc034"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/541bc36c-7cb7-4c0e-b640-8dc501a76b20"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/55db6873-102e-4cc6-ab96-a1532f617724"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006320eb63/5d1c8aa6-9bd7-464d-9328-cfae91809965"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1436,6 +1462,9 @@
     (path "/00000000-0000-0000-0000-00006320eb63/799a91c3-6031-4cdb-965a-fa1e6c5fdba6"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/7ebad923-b561-4c92-93a2-500d889de82d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006320eb63/7f5acf0f-93d4-42f4-8a63-03ada1631a63"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -1447,6 +1476,9 @@
     )
     (path "/00000000-0000-0000-0000-00006320eb63/83cf84ad-3798-4597-a918-f892fea42a3c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/85c1f72c-1f96-42e4-b159-69381a088266"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006320eb63/a103f583-b944-4021-ad5f-ca2f4caf3b45"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
@@ -1468,6 +1500,9 @@
     )
     (path "/00000000-0000-0000-0000-00006320eb63/e786711c-a86e-413c-845c-4a2771638739"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/e8263411-d421-4416-8832-bb38ba8ecc00"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006320eb63/e85e67dc-c502-481b-a013-cc5b91602a31"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
@@ -1568,6 +1603,12 @@
     (path "/00000000-0000-0000-0000-000063213561/00000000-0000-0000-0000-000063270e9c"
       (reference "Conn?") (unit 1) (value "Molex_SL_02") (footprint "")
     )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/4b265f75-2d55-405f-a369-a6d67fb4e690"
+      (reference "Conn?") (unit 1) (value "Molex_SL_03") (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/ed4807e9-fafd-4a13-92ec-380bd7dde199"
+      (reference "Conn?") (unit 1) (value "Molex_SL_02") (footprint "MRDT_Connectors:MOLEX_SL_02_Vertical")
+    )
     (path "/00000000-0000-0000-0000-000063214fb6"
       (reference "Conn?") (unit 2) (value "AndersonPP") (footprint "")
     )
@@ -1594,6 +1635,9 @@
     )
     (path "/00000000-0000-0000-0000-000063213561/00000000-0000-0000-0000-000063270eb8"
       (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/58e3cb07-8b72-4217-afa9-459762c3c39a"
+      (reference "D?") (unit 1) (value "Yellow") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006320eb63/4019743e-abfb-4451-82ef-f7a09e940ac4"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "")
@@ -1729,6 +1773,12 @@
     )
     (path "/00000000-0000-0000-0000-000063213561/00000000-0000-0000-0000-000063270eb2"
       (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/fdd9348a-0cd5-45bb-9500-cf431cc230e6"
+      (reference "R?") (unit 1) (value "120") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/65564703-75e1-467a-8fc4-64921d9171f3/70b1c626-0964-4d66-9dc7-1d83712554df"
+      (reference "Servo?") (unit 1) (value "Molex_SL_03") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006320eb63/4361c90c-dd26-46c6-b314-bdbe49286a65"
       (reference "U4") (unit 1) (value "FT230XS") (footprint "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm")
