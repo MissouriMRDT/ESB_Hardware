@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\LED Breakout\FluorometerLightSource.kicad_sch</source>
+    <date>10/14/2022 4:11:35 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FluorometerLightSource.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Conn1">
+      <value>Molex_SL_07</value>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_07" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52110cb2-5608-431d-a2bc-c6332c172407</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>UV260</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2738bbfd-5112-4f65-9482-13e7a539d128</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>UV275</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b64cbaa3-3efc-4389-8802-370241ca5fbe</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>UV280</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98df8fa6-a939-42be-9344-874a3277a644</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>UV315</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b4715f-30a5-4530-bec7-c312163ca6c5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>687f57a0-1afc-4cc0-a6d8-2c6ed5c8804c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afac737a-b208-488c-972a-dbd0b47eef92</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d155f428-378d-43a5-bc03-24e7a5f78d18</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74a6e412-cbdd-4280-aafc-77b780e1b204</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bdc2227-bfad-4b09-9a3b-cf441ac658ac</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13fca39a-711d-4460-874c-e2058c5d59ed</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>16</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e30e3b2b-59a6-443f-86ec-c55e04f16be1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>18</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>342fb729-253f-4e0a-9da1-2d1f6ce188fe</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_07">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS214NW">
+      <description>20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS214NW</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="Conn1" pin="1" pintype="input"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Conn1" pin="2" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(Conn1-Pad4)">
+      <node ref="Conn1" pin="4" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(Conn1-Pad5)">
+      <node ref="Conn1" pin="5" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(Conn1-Pad6)">
+      <node ref="Conn1" pin="6" pintype="input"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(Conn1-Pad7)">
+      <node ref="Conn1" pin="7" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(Conn1-Pad3)">
+      <node ref="Conn1" pin="3" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

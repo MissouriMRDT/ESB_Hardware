@@ -1,0 +1,38 @@
+"Source:","C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\LED Breakout\FluorometerLightSource.kicad_sch"
+"Date:","10/14/2022 4:11:35 PM"
+"Tool:","Eeschema (6.0.7)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","13"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","Conn1","Molex_SL_07","MRDT_Connectors:Molex_SL_07","",""
+"","","D1","UV260","Device:LED","","~"
+"","","D2","UV275","Device:LED","","~"
+"","","D3","UV280","Device:LED","","~"
+"","","D4","UV315","Device:LED","","~"
+"","","Q1","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+"","","Q2","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+"","","Q3","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+"","","Q4","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+"","","R1","8","Device:R","","~"
+"","","R2","200","Device:R","","~"
+"","","R3","16","Device:R","","~"
+"","","R4","18","Device:R","","~"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","Conn1","Molex_SL_07","MRDT_Connectors:Molex_SL_07","",""
+"2","1","D1","UV260","Device:LED","","~"
+"3","1","D2","UV275","Device:LED","","~"
+"4","1","D3","UV280","Device:LED","","~"
+"5","1","D4","UV315","Device:LED","","~"
+"6","4","Q1, Q2, Q3, Q4","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+"7","1","R1","8","Device:R","","~"
+"8","1","R2","200","Device:R","","~"
+"9","1","R3","16","Device:R","","~"
+"10","1","R4","18","Device:R","","~"

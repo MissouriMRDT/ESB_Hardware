@@ -649,7 +649,7 @@
     (property "Value" "Molex_SL_07" (id 1) (at 218.44 33.7672 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 215.265 35.56 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Horizontal" (id 2) (at 215.265 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 215.265 35.56 0)
@@ -946,7 +946,7 @@
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/52110cb2-5608-431d-a2bc-c6332c172407"
-      (reference "Conn1") (unit 1) (value "Molex_SL_07") (footprint "")
+      (reference "Conn1") (unit 1) (value "Molex_SL_07") (footprint "MRDT_Connectors:MOLEX_SL_07_Horizontal")
     )
     (path "/2738bbfd-5112-4f65-9482-13e7a539d128"
       (reference "D1") (unit 1) (value "UV260") (footprint "")
