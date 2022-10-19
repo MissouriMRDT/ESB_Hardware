@@ -1,4 +1,4 @@
-20737819505067835
+20744484380569535
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86785,6 +86785,34 @@ igbt diode module
 0
 25
 25
+UVLEDs
+KL26550USMWD
+KL265-50U-SM-WD-1
+LED
+0
+3
+3
+UVLEDs
+SUCULBN1VCAGAY674F4G30R18
+SU CULBN1.VC-AGAY-67-4F4G-30-R18-2
+LED
+0
+3
+3
+UVLEDs
+WS3535C48LF-310
+
+
+0
+2
+2
+UVLEDs
+XBT3535UVA130CD27501
+XBT-3535-UV-A130-CD275-01-3
+LED
+0
+3
+3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
