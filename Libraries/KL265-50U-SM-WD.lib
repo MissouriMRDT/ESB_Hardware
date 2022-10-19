@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model KL265-50U-SM-WD
+#/12337977/979357/2.49/3/3/LED
+DEF KL265-50U-SM-WD LED 0 30 Y Y 1 F N
+F0 "LED" 650 300 50 H V L CNN
+F1 "KL265-50U-SM-WD" 650 200 50 H V L CNN
+F2 "KL26550USMWD" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "KL265-50U-SM-WD Klaran WD Series UVC LEDs" 650 -100 50 H I L CNN "Description"
+F5 "0.61" 650 -200 50 H I L CNN "Height"
+F6 "KLARAN" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KL265-50U-SM-WD" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 650 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 650 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X K 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -200 200 R 50 50 0 0 P
+X EP 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
