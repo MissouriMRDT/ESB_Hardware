@@ -2573,7 +2573,7 @@
 
   (footprint "MRDT_Drill_Holes:4_40_Hole" (layer "F.Cu")
     (tedit 5E263EB1) (tstamp 8f9e156c-f40e-42d4-aecb-24da6ef38825)
-    (at 147.574 66.294)
+    (at 147.32 66.294)
     (property "Sheetfile" "ScienceSensor.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000063219785")
