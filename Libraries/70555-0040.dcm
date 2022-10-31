@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 70555-0040
+D 2.54mm Pitch SL Header, Single Row, Right Angle, 3.05mm Pocket, Shrouded, with Press-fit Plastic Peg, 6 Circuits, 0.38m Gold (Au) Selective Plating, Tin (Sn) PC Tail Plating
+K
+F https://www.molex.com/pdm_docs/sd/705550001_sd.pdf
+$ENDCMP
+#
+#End Doc Library
