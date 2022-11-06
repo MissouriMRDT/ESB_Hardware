@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\LED Breakout\FluorometerLightSource.kicad_sch</source>
-    <date>10/14/2022 4:11:35 PM</date>
+    <date>11/5/2022 7:10:44 PM</date>
     <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,6 +26,7 @@
   <components>
     <comp ref="Conn1">
       <value>Molex_SL_07</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_07_Horizontal</footprint>
       <libsource lib="MRDT_Connectors" part="Molex_SL_07" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -34,6 +35,7 @@
     </comp>
     <comp ref="D1">
       <value>UV260</value>
+      <footprint>UVLEDs:KL26550USMWD</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -42,6 +44,7 @@
     </comp>
     <comp ref="D2">
       <value>UV275</value>
+      <footprint>UVLEDs:SUCULBN1VCAGAY674F4G30R18</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -50,6 +53,7 @@
     </comp>
     <comp ref="D3">
       <value>UV280</value>
+      <footprint>UVLEDs:XBT3535UVA130CD27501</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -58,6 +62,7 @@
     </comp>
     <comp ref="D4">
       <value>UV315</value>
+      <footprint>UVLEDs:WS3535C48LF-310</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -105,15 +110,17 @@
       <tstamps>74a6e412-cbdd-4280-aafc-77b780e1b204</tstamps>
     </comp>
     <comp ref="R1">
-      <value>8</value>
+      <value>16</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7bdc2227-bfad-4b09-9a3b-cf441ac658ac</tstamps>
+      <tstamps>767c1b93-de91-4468-a9e8-f726948c2aa9</tstamps>
     </comp>
     <comp ref="R2">
       <value>200</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -122,6 +129,7 @@
     </comp>
     <comp ref="R3">
       <value>16</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
@@ -130,11 +138,57 @@
     </comp>
     <comp ref="R4">
       <value>18</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>342fb729-253f-4e0a-9da1-2d1f6ce188fe</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>16</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dbc500a-5ffb-4f09-a085-b7c5d2bf958a</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2bebf65-aa26-4019-84ad-d61424889fca</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebcb7a93-3aeb-4d3f-ad60-1c95c4e3e677</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8866f183-99f3-452a-9c4b-da7029d6028d</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerLightSource.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6d29890-400f-413e-8276-4326f6261049</tstamps>
     </comp>
   </components>
   <libparts>
@@ -187,6 +241,15 @@
         <pin num="7" name="" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="BSS214NW">
       <description>20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323</description>
       <docs>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</docs>
@@ -212,6 +275,9 @@
     </library>
     <library logical="MRDT_Connectors">
       <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
@@ -251,6 +317,7 @@
     <net code="7" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -267,6 +334,7 @@
     <net code="11" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="12" name="Net-(Q2-Pad3)">
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
@@ -282,6 +350,18 @@
     </net>
     <net code="15" name="unconnected-(Conn1-Pad3)">
       <node ref="Conn1" pin="3" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
     </net>
   </nets>
 </export>

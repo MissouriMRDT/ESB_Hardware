@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Leebo\OneDrive\Documents\GitHub\ScienceSensors_Hardware\Hardware\Photodiode Breakout\FlurometerDetector.kicad_sch</source>
-    <date>10/17/2022 5:08:21 PM</date>
+    <date>11/5/2022 7:10:28 PM</date>
     <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -42,32 +42,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d7670f7e-1f5f-4edb-82aa-698a714b8a53</tstamps>
     </comp>
-    <comp ref="C3">
-      <value>10 uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ac45a875-ea6f-4aac-989e-fa4ac8ba18be</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>22 uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>03a74b8f-ca0d-4028-8594-ab70c1c4429b</tstamps>
-    </comp>
     <comp ref="Conn1">
-      <value>Molex_SL_04</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_04_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_04" description=""/>
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c43ded2a-19a9-4fae-9854-5b713567d555</tstamps>
+      <tstamps>3a8702dc-7577-49f8-b93b-e2b1e95b9a86</tstamps>
     </comp>
     <comp ref="D1">
       <value>D_Photo</value>
@@ -78,15 +60,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3a965256-e763-47ad-a606-4ab4b3f141f0</tstamps>
     </comp>
-    <comp ref="D2">
-      <value>D_Photo</value>
-      <footprint>Package_TO_SOT_THT:TO-18-2</footprint>
-      <libsource lib="Device" part="D_Photo" description="Photodiode"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>43b061e8-53d4-477b-a745-a2c73433f3a1</tstamps>
-    </comp>
     <comp ref="R1">
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
@@ -96,58 +69,72 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>71395b4f-bbbe-4b5b-9921-09233906f6de</tstamps>
     </comp>
-    <comp ref="R2">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>06d8486d-7366-4b15-94ad-303a496bec5d</tstamps>
-    </comp>
     <comp ref="U1">
-      <value>OPA336</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/sbos068c/sbos068c.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="OPA333xxD" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <value>OPA333xxDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa333.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA333xxDBV" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f7ce3aef-c83c-4988-90fe-5a1f92cb211f</tstamps>
+      <tstamps>b9888bb7-2d93-41d5-95a6-c0fa039b2740</tstamps>
     </comp>
-    <comp ref="U2">
-      <value>OPA336</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/sbos068c/sbos068c.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="OPA333xxD" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f52dfc5e-2b6a-4955-95bd-1557bd215278</tstamps>
+      <tstamps>752d59e6-914b-40e9-8d9d-483e855b8b52</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea8469c4-e106-4a6e-a980-53f6c9b5cdb9</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f41a2da-fca3-442a-ad32-5d58a0b3b5ca</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FlurometerDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7cfcd30-d70d-4ffe-bf8e-5b47b83b5891</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Amplifier_Operational" part="OPA333xxD">
-      <description>Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8</description>
+    <libpart lib="Amplifier_Operational" part="OPA333xxDBV">
+      <description>Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5</description>
       <docs>http://www.ti.com/lit/ds/symlink/opa333.pdf</docs>
       <footprints>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OPA333xxD</field>
-        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Value">OPA333xxDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa333.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="NC" type="no_connect"/>
-        <pin num="2" name="-" type="input"/>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
         <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="NC" type="no_connect"/>
-        <pin num="6" name="" type="output"/>
-        <pin num="7" name="V+" type="power_in"/>
-        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -195,16 +182,24 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRDT_Connectors" part="Molex_SL_04">
+    <libpart lib="MRDT_Connectors" part="Molex_SL_03">
       <fields>
         <field name="Reference">Conn</field>
-        <field name="Value">Molex_SL_04</field>
+        <field name="Value">Molex_SL_03</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
         <pin num="2" name="" type="input"/>
         <pin num="3" name="" type="input"/>
-        <pin num="4" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
       </pins>
     </libpart>
   </libparts>
@@ -218,67 +213,46 @@
     <library logical="MRDT_Connectors">
       <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
     </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:\Users\Leebo\OneDrive\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+5V">
       <node ref="Conn1" pin="1" pintype="input"/>
-      <node ref="U1" pin="7" pinfunction="V+" pintype="power_in"/>
-      <node ref="U2" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="2" name="GND">
       <node ref="Conn1" pin="2" pintype="input"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="V-" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="3" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="-" pintype="input"/>
     </net>
     <net code="4" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="Conn1" pin="3" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U1" pin="6" pintype="output"/>
+      <node ref="U1" pin="1" pintype="output"/>
     </net>
-    <net code="5" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    <net code="5" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
     </net>
-    <net code="6" name="Net-(C3-Pad2)">
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="Conn1" pin="4" pintype="input"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U2" pin="6" pintype="output"/>
+    <net code="6" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
     </net>
-    <net code="7" name="unconnected-(U1-Pad1)">
-      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    <net code="7" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
     </net>
-    <net code="8" name="unconnected-(U1-Pad5)">
-      <node ref="U1" pin="5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="9" name="unconnected-(U1-Pad8)">
-      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="10" name="unconnected-(U2-Pad1)">
-      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="11" name="unconnected-(U2-Pad5)">
-      <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="12" name="unconnected-(U2-Pad8)">
-      <node ref="U2" pin="8" pinfunction="NC" pintype="no_connect"/>
+    <net code="8" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
     </net>
   </nets>
 </export>
