@@ -1860,6 +1860,7 @@
   )
 
   (no_connect (at 37.465 240.03) (uuid 0afa7373-7952-48a0-b345-e2f15e407d68))
+  (no_connect (at 78.105 255.27) (uuid 0d9d1164-0b93-4349-a342-0d85d27c2386))
   (no_connect (at 78.105 229.87) (uuid 15e80e07-c937-4ebf-a940-da6b08bfff38))
   (no_connect (at 94.615 168.91) (uuid 1a20aad6-db61-4267-9950-56ece3ec9b39))
   (no_connect (at 37.465 247.65) (uuid 254362d5-9e32-4459-9170-ce4050e04c1b))
@@ -2385,7 +2386,7 @@
     (uuid 6788bdef-5d18-4c9e-a68a-b7ba32164620)
   )
 
-  (wire (pts (xy 78.105 255.27) (xy 83.185 255.27))
+  (wire (pts (xy 78.105 267.97) (xy 83.185 267.97))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 69b34814-236a-4eba-9f55-ffa2b47c093e)
   )
@@ -3226,10 +3227,10 @@
       (effects (font (size 1 1)) (justify left) hide)
     )
   )
-  (global_label "Micro_Servo2" (shape output) (at 83.185 255.27 0) (fields_autoplaced)
+  (global_label "Micro_Servo2" (shape output) (at 83.185 267.97 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left))
     (uuid 35cb2cb7-38f2-4d18-86a4-9caff26b5405)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 94.8245 255.2075 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 94.8245 267.9075 0)
       (effects (font (size 1 1)) (justify left) hide)
     )
   )
@@ -3592,11 +3593,11 @@
     (property "Datasheet" "" (id 3) (at 13.335 48.895 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de5a))
+    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de5c))
     (pin "2" (uuid c1746eb0-8fbb-4c3a-a4d4-eebebc1df767))
     (pin "3" (uuid bbbead48-b70d-4426-85e3-25670456dcb4))
     (pin "4" (uuid d234f1bb-7407-4f45-9185-66ea8e18b2dd))
-    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de5a))
+    (pin "1" (uuid d9f84265-2b73-4354-83a3-d6bb8800de5c))
   )
 
   (symbol (lib_id "power:+5V") (at 73.66 85.725 0) (unit 1)
@@ -4401,7 +4402,7 @@
   (symbol (lib_id "MRDT_Connectors:Molex_SL_03") (at 147.955 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 35f3c6b6-46ab-4b07-9dc5-fca0ff70b9e9)
-    (property "Reference" "Conn?" (id 0) (at 151.13 42.8388 0)
+    (property "Reference" "Conn2" (id 0) (at 151.13 42.8388 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "Molex_SL_03" (id 1) (at 151.13 45.8322 0)
@@ -4768,7 +4769,7 @@
   (symbol (lib_id "Molex_SL_06:Molex_SL_06") (at 271.78 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b5caef2-e1fb-43d2-90ee-f19eab3f6b8f)
-    (property "Reference" "Conn?" (id 0) (at 274.955 93.6388 0)
+    (property "Reference" "Conn5" (id 0) (at 274.955 93.6388 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "Molex_SL_06" (id 1) (at 274.955 96.6322 0)
@@ -4869,11 +4870,11 @@
     (property "Datasheet" "" (id 3) (at 40.64 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 8c1c5d84-3308-4337-94c5-52a48c1763f8))
+    (pin "1" (uuid 8c1c5d84-3308-4337-94c5-52a48c1763fa))
     (pin "2" (uuid 5c5852a7-dd58-4589-befc-5764e8192b0f))
     (pin "3" (uuid abcf443c-2c60-4188-8949-d85acc5ddd62))
     (pin "4" (uuid 75fce18b-ba42-4023-af6a-43ea4e025146))
-    (pin "1" (uuid 8c1c5d84-3308-4337-94c5-52a48c1763f8))
+    (pin "1" (uuid 8c1c5d84-3308-4337-94c5-52a48c1763fa))
   )
 
   (symbol (lib_id "power:+5V") (at 81.28 179.07 0) (unit 1)
@@ -4895,7 +4896,7 @@
   (symbol (lib_id "power:+3V3") (at 260.35 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7307226a-1726-450c-b33f-9ca1bcfb5b4e)
-    (property "Reference" "#PWR?" (id 0) (at 260.35 92.075 0)
+    (property "Reference" "#PWR037" (id 0) (at 260.35 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 260.35 84.6892 0))
@@ -5129,7 +5130,7 @@
   (symbol (lib_id "power:+5V") (at 136.525 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a03c9a29-5797-44f0-99be-b60513c119e6)
-    (property "Reference" "#PWR?" (id 0) (at 136.525 45.085 0)
+    (property "Reference" "#PWR022" (id 0) (at 136.525 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 136.525 37.6992 0))
@@ -5802,7 +5803,7 @@
   (symbol (lib_id "power:GND") (at 125.095 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f84a6be2-e53a-41ef-8d50-c4ba4a360cf2)
-    (property "Reference" "#PWR?" (id 0) (at 125.095 50.165 0)
+    (property "Reference" "#PWR014" (id 0) (at 125.095 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 125.095 48.895 0))
@@ -5890,6 +5891,9 @@
     (path "/365d32f4-a281-4365-93f6-50958f8c0439"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f84a6be2-e53a-41ef-8d50-c4ba4a360cf2"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a3a1a4c2-7b43-4b66-b2fa-00336742ef9e"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
@@ -5910,6 +5914,9 @@
     )
     (path "/d925f1cd-5b63-4993-b916-4cf8e9aa109c"
       (reference "#PWR021") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/a03c9a29-5797-44f0-99be-b60513c119e6"
+      (reference "#PWR022") (unit 1) (value "+5V") (footprint "")
     )
     (path "/f13257ce-1afa-4210-ae15-48a4a0e8767c"
       (reference "#PWR023") (unit 1) (value "+5V") (footprint "")
@@ -5952,6 +5959,9 @@
     )
     (path "/9de1dfe3-9a99-406a-9b83-5a9014e01e92"
       (reference "#PWR036") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/7307226a-1726-450c-b33f-9ca1bcfb5b4e"
+      (reference "#PWR037") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/1e719a26-9494-4397-9f3e-0963257a6af1"
       (reference "#PWR040") (unit 1) (value "+5V") (footprint "")
@@ -6010,15 +6020,6 @@
     (path "/2d2a7c47-f9d1-43ec-bc75-c45831b72bf3"
       (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/7307226a-1726-450c-b33f-9ca1bcfb5b4e"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/a03c9a29-5797-44f0-99be-b60513c119e6"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/f84a6be2-e53a-41ef-8d50-c4ba4a360cf2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7becaed6-99a4-49f3-99dd-3fce229dac4a"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -6034,11 +6035,17 @@
     (path "/7095feda-30c9-4bfd-9ce4-1857ac5357e8"
       (reference "Conn1") (unit 2) (value "AndersonPP") (footprint "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side")
     )
+    (path "/35f3c6b6-46ab-4b07-9dc5-fca0ff70b9e9"
+      (reference "Conn2") (unit 1) (value "Molex_SL_03") (footprint "MRDT_Connectors:MOLEX_SL_03_Horizontal")
+    )
     (path "/362043ba-7077-4355-842f-ed4e21c764a7"
       (reference "Conn3") (unit 1) (value "Molex_SL_02") (footprint "MRDT_Connectors:MOLEX_SL_02_Horizontal")
     )
     (path "/e8ba4c58-43c8-4e60-828b-fab781a9437e"
       (reference "Conn4") (unit 1) (value "Molex_SL_06") (footprint "UVLEDs:705550040")
+    )
+    (path "/6b5caef2-e1fb-43d2-90ee-f19eab3f6b8f"
+      (reference "Conn5") (unit 1) (value "Molex_SL_06") (footprint "UVLEDs:705550040")
     )
     (path "/6a2e2e5d-609f-433a-995e-8e1ddb8bf56f"
       (reference "Conn8") (unit 1) (value "Molex_SL_04") (footprint "MRDT_Connectors:MOLEX_SL_04_Horizontal")
@@ -6057,12 +6064,6 @@
     )
     (path "/6e4603fe-e079-4657-9b84-fcd8115a1681"
       (reference "Conn13") (unit 1) (value "Molex_SL_04") (footprint "MRDT_Connectors:MOLEX_SL_04_Horizontal")
-    )
-    (path "/35f3c6b6-46ab-4b07-9dc5-fca0ff70b9e9"
-      (reference "Conn?") (unit 1) (value "Molex_SL_03") (footprint "MRDT_Connectors:MOLEX_SL_03_Horizontal")
-    )
-    (path "/6b5caef2-e1fb-43d2-90ee-f19eab3f6b8f"
-      (reference "Conn?") (unit 1) (value "Molex_SL_06") (footprint "UVLEDs:705550040")
     )
     (path "/00000000-0000-0000-0000-000063231caf"
       (reference "D1") (unit 1) (value "Green") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
