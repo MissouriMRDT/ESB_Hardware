@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCD1304AP
+D CCD LINEAR IMAGE SENSOR CCD(Charge Coupled Device)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-311/116180.pdf
+$ENDCMP
+#
+#End Doc Library
