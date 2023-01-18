@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Leebo\Documents\GitHub\ScienceSensors_Hardware\Hardware\TCD1304AP Breakout\FluorometerDetector (1)\FluorometerDetector (1).kicad_sch</source>
+    <date>1/17/2023 8:14:23 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FluorometerDetector (1).kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Conn1">
+      <value>Molex_SL_06</value>
+      <footprint>UVLEDs:705550040</footprint>
+      <libsource lib="Molex_SL_06" part="Molex_SL_06" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa5d2e23-cb22-43d6-9b2d-b288e81d34e5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0e93359-de99-4c71-ac67-db20d611c11c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20c3997f-a880-4703-a101-975f605b5a7a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61832704-2bff-4f44-a800-6bbaa7131809</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a549ebc-0bd7-4aa3-acd3-5012f87e0a6b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4177187-9a75-41e9-8f6d-e8a0e9b3a2dd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TCD1304</value>
+      <footprint>UVLEDs:DIP1016W62P254L4160H372Q22N</footprint>
+      <libsource lib="MRDT_Sensors" part="TCD1304" description="Linear CCD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b7d6c50-0f51-4d1e-926c-e78a7fc8517e</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8448a02-52d5-4c3d-af6b-5aafb20d0ba8</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5b7c782-cf63-47dc-977a-1b1642105cf0</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3887484-36c9-43c6-abaa-061b5af9ad62</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FluorometerDetector (1).kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cb6e741-ce8b-4009-88d6-fabbcea3336d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Q_PNP_BCE">
+      <description>PNP transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Sensors" part="TCD1304">
+      <description>Linear CCD</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCD1304</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="VAD" type="input"/>
+        <pin num="3" name="ICG" type="input"/>
+        <pin num="4" name="M" type="input"/>
+        <pin num="5" name="SH" type="input"/>
+        <pin num="21" name="OS" type="input"/>
+        <pin num="22" name="SS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Molex_SL_06" part="Molex_SL_06">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:\Users\Leebo\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Sensors">
+      <uri>C:\Users\Leebo\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Sensors.kicad_sym</uri>
+    </library>
+    <library logical="Molex_SL_06">
+      <uri>C:\Users\Leebo\Documents\GitHub\ScienceSensors_Hardware/Libraries/Molex_SL_06.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="Conn1" pin="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="VAD" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Conn1" pin="2" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="SS" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(Conn1-Pad3)">
+      <node ref="Conn1" pin="3" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="M" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(Conn1-Pad4)">
+      <node ref="Conn1" pin="4" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="SH" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(Conn1-Pad5)">
+      <node ref="Conn1" pin="5" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="ICG" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(Conn1-Pad6)">
+      <node ref="Conn1" pin="6" pintype="input"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(R2-Pad1)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="OS" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
+    </net>
+  </nets>
+</export>

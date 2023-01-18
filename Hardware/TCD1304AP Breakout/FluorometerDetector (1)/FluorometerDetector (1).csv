@@ -1,0 +1,33 @@
+"Source:","C:\Users\Leebo\Documents\GitHub\ScienceSensors_Hardware\Hardware\TCD1304AP Breakout\FluorometerDetector (1)\FluorometerDetector (1).kicad_sch"
+"Date:","1/17/2023 8:14:23 PM"
+"Tool:","Eeschema (6.0.7)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","Conn1","Molex_SL_06","Molex_SL_06:Molex_SL_06","UVLEDs:705550040",""
+"","","Q1","Q_PNP_BCE","Device:Q_PNP_BCE","Package_TO_SOT_THT:TO-92","~"
+"","","R1","1.2k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"","","R2","1k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"","","R3","150","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"","","R4","150","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"","","U1","TCD1304","MRDT_Sensors:TCD1304","UVLEDs:DIP1016W62P254L4160H372Q22N",""
+"","","V1","Via","MRDT_Drill_Holes:Via","MRDT_Drill_Holes:4_40_Hole",""
+"","","V2","Via","MRDT_Drill_Holes:Via","MRDT_Drill_Holes:4_40_Hole",""
+"","","V3","Via","MRDT_Drill_Holes:Via","MRDT_Drill_Holes:4_40_Hole",""
+"","","V4","Via","MRDT_Drill_Holes:Via","MRDT_Drill_Holes:4_40_Hole",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","Conn1","Molex_SL_06","Molex_SL_06:Molex_SL_06","UVLEDs:705550040",""
+"2","1","Q1","Q_PNP_BCE","Device:Q_PNP_BCE","Package_TO_SOT_THT:TO-92","~"
+"3","1","R1","1.2k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"4","1","R2","1k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"5","2","R3, R4","150","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
+"6","1","U1","TCD1304","MRDT_Sensors:TCD1304","UVLEDs:DIP1016W62P254L4160H372Q22N",""
+"7","4","V1, V2, V3, V4","Via","MRDT_Drill_Holes:Via","MRDT_Drill_Holes:4_40_Hole",""
